@@ -509,6 +509,7 @@ class ManipulatorRobot:
                 "ManipulatorRobot is not connected. You need to run `robot.connect()`."
             )
 
+        input("Entering teleop_step(), Press Enter to continue...")
         # Prepare to assign the position of the leader to the follower
         leader_pos = {}
         for name in self.leader_arms:
@@ -516,7 +517,8 @@ class ManipulatorRobot:
             leader_pos[name] = self.leader_arms[name].read("Present_Position")
             leader_pos[name] = torch.from_numpy(leader_pos[name])
             self.logs[f"read_leader_{name}_pos_dt_s"] = time.perf_counter() - before_lread_t
-
+        print(f"leader_pos is {leader_pos}")
+        input(" About to read pos from follower...Press Enter to continue...")
         # Send goal position to the follower
         follower_goal_pos = {}
         for name in self.follower_arms:
@@ -528,12 +530,16 @@ class ManipulatorRobot:
             if self.config.max_relative_target is not None:
                 present_pos = self.follower_arms[name].read("Present_Position")
                 present_pos = torch.from_numpy(present_pos)
+                print(f"present_pos for self.follower_arms[name] is {present_pos}")
                 goal_pos = ensure_safe_goal_position(goal_pos, present_pos, self.config.max_relative_target)
+                print(f"after ensure_safe_goal_position(), goal_pos for self.follower_arms[name] is {goal_pos}")
 
             # Used when record_data=True
             follower_goal_pos[name] = goal_pos
 
             goal_pos = goal_pos.numpy().astype(np.int32)
+            print(f"final follower Goal_Position for {self.follower_arms[name]} is {goal_pos}")
+            input(" About to write pos to follower {self.follower_arms[name] ...Press Enter to continue...")
             self.follower_arms[name].write("Goal_Position", goal_pos)
             self.logs[f"write_follower_{name}_goal_pos_dt_s"] = time.perf_counter() - before_fwrite_t
 

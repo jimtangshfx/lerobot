@@ -436,7 +436,10 @@ def run_arm_manual_calibration(arm: MotorsBus, robot_type: str, arm_name: str, a
 
     # Compute homing offset so that `present_position + homing_offset ~= target_position`.
     zero_pos = arm.read("Present_Position")
+    print(f"current arm zero position is {zero_pos}")
+    print(f"target arm zero position is {zero_target_pos}")
     homing_offset = zero_target_pos - zero_pos
+    print(f"offset of arm zero position is {homing_offset}")
 
     # The rotated target position corresponds to a rotation of a quarter turn from the zero position.
     # This allows to identify the rotation direction of each motor.
@@ -455,10 +458,15 @@ def run_arm_manual_calibration(arm: MotorsBus, robot_type: str, arm_name: str, a
     # Drive mode indicates if the motor rotation direction should be inverted (=1) or not (=0).
     rotated_pos = arm.read("Present_Position")
     drive_mode = (rotated_pos < zero_pos).astype(np.int32)
+    print(f"current arm rotated position is {rotated_pos}")
+    print(f"target arm rotated position is {rotated_target_pos}")
+    print(f"drive_mode is {drive_mode}")
 
     # Re-compute homing offset to take into account drive mode
     rotated_drived_pos = apply_drive_mode(rotated_pos, drive_mode)
+    print(f"arm rotated position after applying drive mode  is {rotated_drived_pos}")
     homing_offset = rotated_target_pos - rotated_drived_pos
+    print(f"new offset of arm rotated position is {homing_offset}")
 
     print("\nMove arm to rest position")
     print("See: " + URL_TEMPLATE.format(robot=robot_type, arm=arm_type, position="rest"))
@@ -481,4 +489,5 @@ def run_arm_manual_calibration(arm: MotorsBus, robot_type: str, arm_name: str, a
         "calib_mode": calib_modes,
         "motor_names": arm.motor_names,
     }
+    print(calib_dict)
     return calib_dict
