@@ -530,7 +530,7 @@ class ManipulatorRobot:
             if self.config.max_relative_target is not None:
                 present_pos = self.follower_arms[name].read("Present_Position")
                 present_pos = torch.from_numpy(present_pos)
-                print(f"present_pos for self.follower_arms[name] is {present_pos}")
+                print(f"present_pos for self.follower_arms[name]} is {present_pos}")
                 goal_pos = ensure_safe_goal_position(goal_pos, present_pos, self.config.max_relative_target)
                 print(f"after ensure_safe_goal_position(), goal_pos for self.follower_arms[name] is {goal_pos}")
 
