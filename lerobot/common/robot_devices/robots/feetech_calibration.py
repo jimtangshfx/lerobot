@@ -441,37 +441,40 @@ def run_arm_manual_calibration(arm: MotorsBus, robot_type: str, arm_name: str, a
     homing_offset = zero_target_pos - zero_pos
     print(f"offset of arm zero position is {homing_offset}")
 
-    # The rotated target position corresponds to a rotation of a quarter turn from the zero position.
-    # This allows to identify the rotation direction of each motor.
-    # For instance, if the motor rotates 90 degree, and its value is -90 after applying the homing offset, then we know its rotation direction
-    # is inverted. However, for the calibration being successful, we need everyone to follow the same target position.
-    # Sometimes, there is only one possible rotation direction. For instance, if the gripper is closed, there is only one direction which
-    # corresponds to opening the gripper. When the rotation direction is ambiguous, we arbitrarely rotate clockwise from the point of view
-    # of the previous motor in the kinetic chain.
-    print("\nMove arm to rotated target position")
-    print("See: " + URL_TEMPLATE.format(robot=robot_type, arm=arm_type, position="rotated"))
-    input("Press Enter to continue...")
+    while True:
+        # The rotated target position corresponds to a rotation of a quarter turn from the zero position.
+        # This allows to identify the rotation direction of each motor.
+        # For instance, if the motor rotates 90 degree, and its value is -90 after applying the homing offset, then we know its rotation direction
+        # is inverted. However, for the calibration being successful, we need everyone to follow the same target position.
+        # Sometimes, there is only one possible rotation direction. For instance, if the gripper is closed, there is only one direction which
+        # corresponds to opening the gripper. When the rotation direction is ambiguous, we arbitrarely rotate clockwise from the point of view
+        # of the previous motor in the kinetic chain.
+        print("\nMove arm to rotated target position")
+        print("See: " + URL_TEMPLATE.format(robot=robot_type, arm=arm_type, position="rotated"))
+        input("Press Enter to continue...")
 
-    rotated_target_pos = convert_degrees_to_steps(ROTATED_POSITION_DEGREE, arm.motor_models)
+        rotated_target_pos = convert_degrees_to_steps(ROTATED_POSITION_DEGREE, arm.motor_models)
 
-    # Find drive mode by rotating each motor by a quarter of a turn.
-    # Drive mode indicates if the motor rotation direction should be inverted (=1) or not (=0).
-    rotated_pos = arm.read("Present_Position")
-    drive_mode = (rotated_pos < zero_pos).astype(np.int32)
-    print(f"current arm rotated position is {rotated_pos}")
-    print(f"target arm rotated position is {rotated_target_pos}")
-    print(f"drive_mode is {drive_mode}")
+        # Find drive mode by rotating each motor by a quarter of a turn.
+        # Drive mode indicates if the motor rotation direction should be inverted (=1) or not (=0).
+        rotated_pos = arm.read("Present_Position")
+        drive_mode = (rotated_pos < zero_pos).astype(np.int32)
+        print(f"current arm rotated position is {rotated_pos}")
+        print(f"target arm rotated position is {rotated_target_pos}")
+        print(f"drive_mode is {drive_mode}")
 
-    # Re-compute homing offset to take into account drive mode
-    rotated_drived_pos = apply_drive_mode(rotated_pos, drive_mode)
-    print(f"arm rotated position after applying drive mode  is {rotated_drived_pos}")
-    homing_offset = rotated_target_pos - rotated_drived_pos
-    print(f"new offset of arm rotated position is {homing_offset}")
+        # Re-compute homing offset to take into account drive mode
+        rotated_drived_pos = apply_drive_mode(rotated_pos, drive_mode)
+        print(f"arm rotated position after applying drive mode  is {rotated_drived_pos}")
+        homing_offset = rotated_target_pos - rotated_drived_pos
+        print(f"new offset of arm rotated position is {homing_offset}")
 
-    print("\nMove arm to rest position")
-    print("See: " + URL_TEMPLATE.format(robot=robot_type, arm=arm_type, position="rest"))
-    input("Press Enter to continue...")
-    print()
+        print("\nMove arm to rest position")
+        print("See: " + URL_TEMPLATE.format(robot=robot_type, arm=arm_type, position="rest"))
+        user_input = input("Press Enter to continue or y to stop...")
+        if user_input.lower() == 'y':
+            print("Stopping the loop.")
+            break
 
     # Joints with rotational motions are expressed in degrees in nominal range of [-180, 180]
     calib_modes = []

@@ -1,0 +1,1640 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACT	lerobot/common/policies/act/modeling_act.py	/^class ACT(nn.Module):$/;"	c
+ACTConfig	lerobot/common/policies/act/configuration_act.py	/^class ACTConfig:$/;"	c
+ACTDecoder	lerobot/common/policies/act/modeling_act.py	/^class ACTDecoder(nn.Module):$/;"	c
+ACTDecoderLayer	lerobot/common/policies/act/modeling_act.py	/^class ACTDecoderLayer(nn.Module):$/;"	c
+ACTEncoder	lerobot/common/policies/act/modeling_act.py	/^class ACTEncoder(nn.Module):$/;"	c
+ACTEncoderLayer	lerobot/common/policies/act/modeling_act.py	/^class ACTEncoderLayer(nn.Module):$/;"	c
+ACTPolicy	lerobot/common/policies/act/modeling_act.py	/^):$/;"	c
+ACTSinusoidalPositionEmbedding2d	lerobot/common/policies/act/modeling_act.py	/^class ACTSinusoidalPositionEmbedding2d(nn.Module):$/;"	c
+ACTTemporalEnsembler	lerobot/common/policies/act/modeling_act.py	/^class ACTTemporalEnsembler:$/;"	c
+ALOHA_CONFIG	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^ALOHA_CONFIG = Path("lerobot\/configs\/robot\/aloha.yaml")$/;"	v
+ALOHA_MOBILE_INFO	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^ALOHA_MOBILE_INFO = {$/;"	v
+ALOHA_STATIC_INFO	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^ALOHA_STATIC_INFO = {$/;"	v
+ARTIFACT_DIR	tests/test_image_transforms.py	/^ARTIFACT_DIR = Path("tests\/data\/save_image_transforms_to_safetensors")$/;"	v
+AVAILABLE_RAW_REPO_IDS	lerobot/common/datasets/push_dataset_to_hub/_download_raw.py	/^AVAILABLE_RAW_REPO_IDS = {$/;"	v
+AsyncImageWriter	lerobot/common/datasets/image_writer.py	/^class AsyncImageWriter:$/;"	c
+BASE_ENCODING	benchmarks/video/run_video_benchmark.py	/^BASE_ENCODING = OrderedDict($/;"	v
+BAUDRATE	lerobot/common/robot_devices/motors/dynamixel.py	/^BAUDRATE = 1_000_000$/;"	v
+BAUDRATE	lerobot/common/robot_devices/motors/feetech.py	/^BAUDRATE = 1_000_000$/;"	v
+BackwardCompatibilityError	lerobot/common/datasets/utils.py	/^class BackwardCompatibilityError(Exception):$/;"	c
+Block	lerobot/common/policies/vqbet/vqbet_utils.py	/^class Block(nn.Module):$/;"	c
+CALIBRATION_REQUIRED	lerobot/common/robot_devices/motors/dynamixel.py	/^CALIBRATION_REQUIRED = ["Goal_Position", "Present_Position"]$/;"	v
+CALIBRATION_REQUIRED	lerobot/common/robot_devices/motors/feetech.py	/^CALIBRATION_REQUIRED = ["Goal_Position", "Present_Position"]$/;"	v
+CAP_PROP_FPS	tests/mock_cv2.py	/^CAP_PROP_FPS = 5$/;"	v
+CAP_PROP_FRAME_HEIGHT	tests/mock_cv2.py	/^CAP_PROP_FRAME_HEIGHT = 4$/;"	v
+CAP_PROP_FRAME_WIDTH	tests/mock_cv2.py	/^CAP_PROP_FRAME_WIDTH = 3$/;"	v
+CODEBASE_VERSION	lerobot/common/datasets/lerobot_dataset.py	/^CODEBASE_VERSION = "v2.0"$/;"	v
+COLOR_BGR2RGB	tests/mock_cv2.py	/^COLOR_BGR2RGB = 4$/;"	v
+COLOR_RGB2BGR	tests/mock_cv2.py	/^COLOR_RGB2BGR = 4$/;"	v
+COMM_SUCCESS	tests/mock_dynamixel_sdk.py	/^COMM_SUCCESS = 0  # tx or rx packet communication success$/;"	v
+COMM_SUCCESS	tests/mock_scservo_sdk.py	/^COMM_SUCCESS = 0  # tx or rx packet communication success$/;"	v
+CONVERT_UINT32_TO_INT32_REQUIRED	lerobot/common/robot_devices/motors/dynamixel.py	/^CONVERT_UINT32_TO_INT32_REQUIRED = ["Goal_Position", "Present_Position"]$/;"	v
+CONVERT_UINT32_TO_INT32_REQUIRED	lerobot/common/robot_devices/motors/feetech.py	/^CONVERT_UINT32_TO_INT32_REQUIRED = ["Goal_Position", "Present_Position"]$/;"	v
+CalibrationMode	lerobot/common/robot_devices/motors/dynamixel.py	/^class CalibrationMode(enum.Enum):$/;"	c
+CalibrationMode	lerobot/common/robot_devices/motors/feetech.py	/^class CalibrationMode(enum.Enum):$/;"	c
+Camera	lerobot/common/robot_devices/cameras/utils.py	/^class Camera(Protocol):$/;"	c
+CausalSelfAttention	lerobot/common/policies/vqbet/vqbet_utils.py	/^class CausalSelfAttention(nn.Module):$/;"	c
+DATASETS	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^DATASETS = {$/;"	v
+DATASET_REPO_ID	tests/test_image_transforms.py	/^DATASET_REPO_ID = "lerobot\/aloha_mobile_shrimp"$/;"	v
+DEFAULT_BAUDRATE	tests/mock_dynamixel_sdk.py	/^DEFAULT_BAUDRATE = 9_600$/;"	v
+DEFAULT_BAUDRATE	tests/mock_scservo_sdk.py	/^DEFAULT_BAUDRATE = 1_000_000$/;"	v
+DEFAULT_CHUNK_SIZE	lerobot/common/datasets/utils.py	/^DEFAULT_CHUNK_SIZE = 1000  # Max number of episodes per chunk$/;"	v
+DEFAULT_CONFIG_PATH	tests/utils.py	/^DEFAULT_CONFIG_PATH = "lerobot\/configs\/default.yaml"$/;"	v
+DEFAULT_FEATURES	lerobot/common/datasets/utils.py	/^DEFAULT_FEATURES = {$/;"	v
+DEFAULT_FEATURES	lerobot/scripts/control_sim_robot.py	/^DEFAULT_FEATURES = {$/;"	v
+DEFAULT_FPS	tests/fixtures/constants.py	/^DEFAULT_FPS = 30$/;"	v
+DEFAULT_IMAGE_PATH	lerobot/common/datasets/utils.py	/^DEFAULT_IMAGE_PATH = "images\/{image_key}\/episode_{episode_index:06d}\/frame_{frame_index:06d}.png"$/;"	v
+DEFAULT_PARQUET_PATH	lerobot/common/datasets/utils.py	/^DEFAULT_PARQUET_PATH = "data\/chunk-{episode_chunk:03d}\/episode_{episode_index:06d}.parquet"$/;"	v
+DEFAULT_VIDEO_PATH	lerobot/common/datasets/utils.py	/^DEFAULT_VIDEO_PATH = "videos\/chunk-{episode_chunk:03d}\/{video_key}\/episode_{episode_index:06d}.mp4"$/;"	v
+DEGREE	lerobot/common/robot_devices/motors/dynamixel.py	/^    DEGREE = 0$/;"	v	class:CalibrationMode
+DEGREE	lerobot/common/robot_devices/motors/feetech.py	/^    DEGREE = 0$/;"	v	class:CalibrationMode
+DEVICE	Makefile	/^DEVICE ?= cpu$/;"	m
+DEVICE	tests/utils.py	/^DEVICE = "cuda" if torch.cuda.is_available() else "cpu"$/;"	v
+DISABLED	lerobot/common/robot_devices/motors/dynamixel.py	/^    DISABLED = 0$/;"	v	class:TorqueMode
+DISABLED	lerobot/common/robot_devices/motors/feetech.py	/^    DISABLED = 0$/;"	v	class:TorqueMode
+DUMMY_CAMERA_FEATURES	tests/fixtures/constants.py	/^DUMMY_CAMERA_FEATURES = {$/;"	v
+DUMMY_IMAGE	tests/test_image_writer.py	/^DUMMY_IMAGE = "test_image.png"$/;"	v
+DUMMY_MOTOR_FEATURES	tests/fixtures/constants.py	/^DUMMY_MOTOR_FEATURES = {$/;"	v
+DUMMY_REPO_ID	tests/fixtures/constants.py	/^DUMMY_REPO_ID = "dummy\/repo"$/;"	v
+DUMMY_ROBOT_TYPE	tests/fixtures/constants.py	/^DUMMY_ROBOT_TYPE = "dummy_robot"$/;"	v
+DUMMY_VIDEO_INFO	tests/fixtures/constants.py	/^DUMMY_VIDEO_INFO = {$/;"	v
+DYNAMIXEL_MOTORS	tests/utils.py	/^DYNAMIXEL_MOTORS = {$/;"	v
+DYNAMIXEL_PORT	tests/utils.py	/^DYNAMIXEL_PORT = os.environ.get("LEROBOT_TEST_DYNAMIXEL_PORT", "\/dev\/tty.usbmodem575E0032081")$/;"	v
+DiffusionConditionalResidualBlock1d	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class DiffusionConditionalResidualBlock1d(nn.Module):$/;"	c
+DiffusionConditionalUnet1d	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class DiffusionConditionalUnet1d(nn.Module):$/;"	c
+DiffusionConfig	lerobot/common/policies/diffusion/configuration_diffusion.py	/^class DiffusionConfig:$/;"	c
+DiffusionConv1dBlock	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class DiffusionConv1dBlock(nn.Module):$/;"	c
+DiffusionModel	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class DiffusionModel(nn.Module):$/;"	c
+DiffusionPolicy	lerobot/common/policies/diffusion/modeling_diffusion.py	/^):$/;"	c
+DiffusionRgbEncoder	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class DiffusionRgbEncoder(nn.Module):$/;"	c
+DiffusionSinusoidalPosEmb	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class DiffusionSinusoidalPosEmb(nn.Module):$/;"	c
+DriveMode	lerobot/common/robot_devices/motors/dynamixel.py	/^class DriveMode(enum.Enum):$/;"	c
+DriveMode	lerobot/common/robot_devices/motors/feetech.py	/^class DriveMode(enum.Enum):$/;"	c
+DynamixelMotorsBus	lerobot/common/robot_devices/motors/dynamixel.py	/^class DynamixelMotorsBus:$/;"	c
+ENABLED	lerobot/common/robot_devices/motors/dynamixel.py	/^    ENABLED = 1$/;"	v	class:TorqueMode
+ENABLED	lerobot/common/robot_devices/motors/feetech.py	/^    ENABLED = 1$/;"	v	class:TorqueMode
+EPISODES_PATH	lerobot/common/datasets/utils.py	/^EPISODES_PATH = "meta\/episodes.jsonl"$/;"	v
+EPISODE_INDEX_KEY	lerobot/common/datasets/online_buffer.py	/^    EPISODE_INDEX_KEY = "episode_index"$/;"	v	class:OnlineBuffer
+EpisodeAwareSampler	lerobot/common/datasets/sampler.py	/^class EpisodeAwareSampler:$/;"	c
+EpisodeSampler	lerobot/scripts/visualize_dataset.py	/^class EpisodeSampler(torch.utils.data.Sampler):$/;"	c
+EuclideanCodebook	lerobot/common/policies/vqbet/vqbet_utils.py	/^class EuclideanCodebook(nn.Module):$/;"	c
+FEETECH_MOTORS	tests/utils.py	/^FEETECH_MOTORS = {$/;"	v
+FEETECH_PORT	tests/utils.py	/^FEETECH_PORT = os.environ.get("LEROBOT_TEST_FEETECH_PORT", "\/dev\/tty.usbmodem585A0080971")$/;"	v
+FRAME_INDEX_KEY	lerobot/common/datasets/online_buffer.py	/^    FRAME_INDEX_KEY = "frame_index"$/;"	v	class:OnlineBuffer
+FeetechMotorsBus	lerobot/common/robot_devices/motors/feetech.py	/^class FeetechMotorsBus:$/;"	c
+FocalLoss	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class FocalLoss(nn.Module):$/;"	c
+GITATTRIBUTES_REF	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^GITATTRIBUTES_REF = "aliberts\/gitattributes_reference"$/;"	v
+GPT	lerobot/common/policies/vqbet/vqbet_utils.py	/^class GPT(nn.Module):$/;"	c
+GroupSyncRead	tests/mock_dynamixel_sdk.py	/^class GroupSyncRead:$/;"	c
+GroupSyncRead	tests/mock_scservo_sdk.py	/^class GroupSyncRead:$/;"	c
+GroupSyncWrite	tests/mock_dynamixel_sdk.py	/^class GroupSyncWrite:$/;"	c
+GroupSyncWrite	tests/mock_scservo_sdk.py	/^class GroupSyncWrite:$/;"	c
+HALF_TURN_DEGREE	lerobot/common/robot_devices/motors/dynamixel.py	/^HALF_TURN_DEGREE = 180$/;"	v
+HALF_TURN_DEGREE	lerobot/common/robot_devices/motors/feetech.py	/^HALF_TURN_DEGREE = 180$/;"	v
+HAS_HF_DATASETS	lerobot/scripts/display_sys_info.py	/^    HAS_HF_DATASETS = False$/;"	v
+HAS_HF_DATASETS	lerobot/scripts/display_sys_info.py	/^HAS_HF_DATASETS = True$/;"	v
+HAS_HF_HUB	lerobot/scripts/display_sys_info.py	/^    HAS_HF_HUB = False$/;"	v
+HAS_HF_HUB	lerobot/scripts/display_sys_info.py	/^HAS_HF_HUB = True$/;"	v
+HAS_LEROBOT	lerobot/scripts/display_sys_info.py	/^    HAS_LEROBOT = False$/;"	v
+HAS_LEROBOT	lerobot/scripts/display_sys_info.py	/^HAS_LEROBOT = True$/;"	v
+HAS_NP	lerobot/scripts/display_sys_info.py	/^    HAS_NP = False$/;"	v
+HAS_NP	lerobot/scripts/display_sys_info.py	/^HAS_NP = True$/;"	v
+HAS_TORCH	lerobot/scripts/display_sys_info.py	/^    HAS_TORCH = False$/;"	v
+HAS_TORCH	lerobot/scripts/display_sys_info.py	/^HAS_TORCH = True$/;"	v
+INDEX_KEY	lerobot/common/datasets/online_buffer.py	/^    INDEX_KEY = "index"$/;"	v	class:OnlineBuffer
+INFO_PATH	lerobot/common/datasets/utils.py	/^INFO_PATH = "meta\/info.json"$/;"	v
+INTELREALSENSE_CAMERA_INDEX	tests/utils.py	/^INTELREALSENSE_CAMERA_INDEX = int(os.environ.get("LEROBOT_TEST_INTELREALSENSE_CAMERA_INDEX", 128422271614))$/;"	v
+INVERTED	lerobot/common/robot_devices/motors/dynamixel.py	/^    INVERTED = 1$/;"	v	class:DriveMode
+INVERTED	lerobot/common/robot_devices/motors/feetech.py	/^    INVERTED = 1$/;"	v	class:DriveMode
+IS_PAD_POSTFIX	lerobot/common/datasets/online_buffer.py	/^    IS_PAD_POSTFIX = "_is_pad"$/;"	v	class:OnlineBuffer
+IntelRealSenseCamera	lerobot/common/robot_devices/cameras/intelrealsense.py	/^class IntelRealSenseCamera:$/;"	c
+IntelRealSenseCameraConfig	lerobot/common/robot_devices/cameras/intelrealsense.py	/^class IntelRealSenseCameraConfig:$/;"	c
+IterableNamespace	lerobot/common/datasets/utils.py	/^class IterableNamespace(SimpleNamespace):$/;"	c
+JointOutOfRangeError	lerobot/common/robot_devices/motors/dynamixel.py	/^class JointOutOfRangeError(Exception):$/;"	c
+JointOutOfRangeError	lerobot/common/robot_devices/motors/feetech.py	/^class JointOutOfRangeError(Exception):$/;"	c
+Jpeg2k	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^class Jpeg2k(Codec):$/;"	c
+JpegXl	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^class JpegXl(Codec):$/;"	c
+LEROBOT_HOME	lerobot/common/datasets/lerobot_dataset.py	/^LEROBOT_HOME = Path(os.getenv("LEROBOT_HOME", "~\/.cache\/huggingface\/lerobot")).expanduser()$/;"	v
+LEROBOT_TEST_DIR	tests/fixtures/constants.py	/^LEROBOT_TEST_DIR = LEROBOT_HOME \/ "_testing"$/;"	v
+LINEAR	lerobot/common/robot_devices/motors/dynamixel.py	/^    LINEAR = 1$/;"	v	class:CalibrationMode
+LINEAR	lerobot/common/robot_devices/motors/feetech.py	/^    LINEAR = 1$/;"	v	class:CalibrationMode
+LOCAL_DIR	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^LOCAL_DIR = Path("data\/")$/;"	v
+LOWER_BOUND_DEGREE	lerobot/common/robot_devices/motors/dynamixel.py	/^LOWER_BOUND_DEGREE = -270$/;"	v
+LOWER_BOUND_DEGREE	lerobot/common/robot_devices/motors/feetech.py	/^LOWER_BOUND_DEGREE = -270$/;"	v
+LOWER_BOUND_LINEAR	lerobot/common/robot_devices/motors/dynamixel.py	/^LOWER_BOUND_LINEAR = -10$/;"	v
+LOWER_BOUND_LINEAR	lerobot/common/robot_devices/motors/feetech.py	/^LOWER_BOUND_LINEAR = -10$/;"	v
+LeRobotDataset	lerobot/common/datasets/lerobot_dataset.py	/^class LeRobotDataset(torch.utils.data.Dataset):$/;"	c
+LeRobotDatasetMetadata	lerobot/common/datasets/lerobot_dataset.py	/^class LeRobotDatasetMetadata:$/;"	c
+Logger	lerobot/common/logger.py	/^class Logger:$/;"	c
+MAX_ID_RANGE	lerobot/common/robot_devices/motors/dynamixel.py	/^MAX_ID_RANGE = 252$/;"	v
+MAX_ID_RANGE	lerobot/common/robot_devices/motors/feetech.py	/^MAX_ID_RANGE = 252$/;"	v
+MAX_OPENCV_INDEX	lerobot/common/robot_devices/cameras/opencv.py	/^MAX_OPENCV_INDEX = 60$/;"	v
+MAX_PIXEL_DIFFERENCE	tests/test_cameras.py	/^MAX_PIXEL_DIFFERENCE = 25$/;"	v
+MLP	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class MLP(torch.nn.Sequential):$/;"	c
+MODEL_BAUDRATE_TABLE	lerobot/common/robot_devices/motors/dynamixel.py	/^MODEL_BAUDRATE_TABLE = {$/;"	v
+MODEL_BAUDRATE_TABLE	lerobot/common/robot_devices/motors/feetech.py	/^MODEL_BAUDRATE_TABLE = {$/;"	v
+MODEL_CONTROL_TABLE	lerobot/common/robot_devices/motors/dynamixel.py	/^MODEL_CONTROL_TABLE = {$/;"	v
+MODEL_CONTROL_TABLE	lerobot/common/robot_devices/motors/feetech.py	/^MODEL_CONTROL_TABLE = {$/;"	v
+MODEL_RESOLUTION	lerobot/common/robot_devices/motors/dynamixel.py	/^MODEL_RESOLUTION = {$/;"	v
+MODEL_RESOLUTION	lerobot/common/robot_devices/motors/feetech.py	/^MODEL_RESOLUTION = {$/;"	v
+ManipulatorRobot	lerobot/common/robot_devices/robots/manipulator.py	/^class ManipulatorRobot:$/;"	c
+ManipulatorRobotConfig	lerobot/common/robot_devices/robots/manipulator.py	/^class ManipulatorRobotConfig:$/;"	c
+MockDataset	tests/test_image_writer.py	/^    class MockDataset:$/;"	c	function:test_safe_stop_image_writer_decorator
+MotorsBus	lerobot/common/robot_devices/motors/utils.py	/^class MotorsBus(Protocol):$/;"	c
+MultiLeRobotDataset	lerobot/common/datasets/lerobot_dataset.py	/^class MultiLeRobotDataset(torch.utils.data.Dataset):$/;"	c
+NEXT_INDEX_KEY	lerobot/common/datasets/online_buffer.py	/^    NEXT_INDEX_KEY = "_next_index"$/;"	v	class:OnlineBuffer
+NON_INVERTED	lerobot/common/robot_devices/motors/dynamixel.py	/^    NON_INVERTED = 0$/;"	v	class:DriveMode
+NON_INVERTED	lerobot/common/robot_devices/motors/feetech.py	/^    NON_INVERTED = 0$/;"	v	class:DriveMode
+NUM_READ_RETRY	lerobot/common/robot_devices/motors/dynamixel.py	/^NUM_READ_RETRY = 10$/;"	v
+NUM_READ_RETRY	lerobot/common/robot_devices/motors/feetech.py	/^NUM_READ_RETRY = 20$/;"	v
+NUM_WRITE_RETRY	lerobot/common/robot_devices/motors/dynamixel.py	/^NUM_WRITE_RETRY = 10$/;"	v
+NUM_WRITE_RETRY	lerobot/common/robot_devices/motors/feetech.py	/^NUM_WRITE_RETRY = 20$/;"	v
+Normalize	lerobot/common/policies/normalize.py	/^class Normalize(nn.Module):$/;"	c
+OBS_TYPES	tests/test_envs.py	/^OBS_TYPES = ["state", "pixels", "pixels_agent_pos"]$/;"	v
+OCCUPANCY_MASK_KEY	lerobot/common/datasets/online_buffer.py	/^    OCCUPANCY_MASK_KEY = "_occupancy_mask"$/;"	v	class:OnlineBuffer
+OPENCV_CAMERA_INDEX	tests/utils.py	/^OPENCV_CAMERA_INDEX = int(os.environ.get("LEROBOT_TEST_OPENCV_CAMERA_INDEX", 0))$/;"	v
+OUTPUT_DIR	lerobot/scripts/visualize_image_transforms.py	/^OUTPUT_DIR = Path("outputs\/image_transforms")$/;"	v
+OnlineBuffer	lerobot/common/datasets/online_buffer.py	/^class OnlineBuffer(torch.utils.data.Dataset):$/;"	c
+OpenCVCamera	lerobot/common/robot_devices/cameras/opencv.py	/^class OpenCVCamera:$/;"	c
+OpenCVCameraConfig	lerobot/common/robot_devices/cameras/opencv.py	/^class OpenCVCameraConfig:$/;"	c
+PATH	Makefile	/^export PATH := $(dir $(PYTHON_PATH)):$(PATH)$/;"	m
+POETRY_CHECK	Makefile	/^POETRY_CHECK := $(shell command -v poetry)$/;"	m
+PROTOCOL_VERSION	lerobot/common/robot_devices/motors/dynamixel.py	/^PROTOCOL_VERSION = 2.0$/;"	v
+PROTOCOL_VERSION	lerobot/common/robot_devices/motors/feetech.py	/^PROTOCOL_VERSION = 0$/;"	v
+PUSHT_FEATURES	examples/port_datasets/pusht_zarr.py	/^PUSHT_FEATURES = {$/;"	v
+PUSHT_INFO	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^PUSHT_INFO = {$/;"	v
+PUSHT_TASK	examples/port_datasets/pusht_zarr.py	/^PUSHT_TASK = "Push the T-shaped blue block onto the T-shaped green target surface."$/;"	v
+PYTHON_PATH	Makefile	/^	PYTHON_PATH := $(shell poetry run which python)$/;"	m
+PYTHON_PATH	Makefile	/^PYTHON_PATH := $(shell which python)$/;"	m
+PacketHandler	tests/mock_dynamixel_sdk.py	/^class PacketHandler:$/;"	c
+PacketHandler	tests/mock_scservo_sdk.py	/^class PacketHandler:$/;"	c
+Policy	lerobot/common/policies/policy_protocol.py	/^class Policy(Protocol):$/;"	c
+PolicyWithUpdate	lerobot/common/policies/policy_protocol.py	/^class PolicyWithUpdate(Policy, Protocol):$/;"	c
+PortHandler	tests/mock_dynamixel_sdk.py	/^class PortHandler:$/;"	c
+PortHandler	tests/mock_scservo_sdk.py	/^class PortHandler:$/;"	c
+Qs	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def Qs(self, z: Tensor, a: Tensor, return_min: bool = False) -> Tensor:  # noqa: N802$/;"	m	class:TDMPCTOLD
+ROBOT_CONFIG_PATH_TEMPLATE	tests/utils.py	/^ROBOT_CONFIG_PATH_TEMPLATE = "lerobot\/configs\/robot\/{robot}.yaml"$/;"	v
+ROTATED_POSITION_DEGREE	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^ROTATED_POSITION_DEGREE = 90$/;"	v
+ROTATED_POSITION_DEGREE	lerobot/common/robot_devices/robots/feetech_calibration.py	/^ROTATED_POSITION_DEGREE = 90$/;"	v
+ROTATE_180	tests/mock_cv2.py	/^ROTATE_180 = 1$/;"	v
+ROTATE_90_CLOCKWISE	tests/mock_cv2.py	/^ROTATE_90_CLOCKWISE = 0$/;"	v
+ROTATE_90_COUNTERCLOCKWISE	tests/mock_cv2.py	/^ROTATE_90_COUNTERCLOCKWISE = 2$/;"	v
+RSColorFrame	tests/mock_pyrealsense2.py	/^class RSColorFrame:$/;"	c
+RSColorProfile	tests/mock_pyrealsense2.py	/^class RSColorProfile:$/;"	c
+RSColorStream	tests/mock_pyrealsense2.py	/^class RSColorStream:$/;"	c
+RSDepthFrame	tests/mock_pyrealsense2.py	/^class RSDepthFrame:$/;"	c
+RSDevice	tests/mock_pyrealsense2.py	/^class RSDevice:$/;"	c
+RSFrames	tests/mock_pyrealsense2.py	/^class RSFrames:$/;"	c
+RSProfile	tests/mock_pyrealsense2.py	/^class RSProfile:$/;"	c
+RandomSubsetApply	lerobot/common/datasets/transforms.py	/^class RandomSubsetApply(Transform):$/;"	c
+ReplayBuffer	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^class ReplayBuffer:$/;"	c
+ResidualVQ	lerobot/common/policies/vqbet/vqbet_utils.py	/^class ResidualVQ(nn.Module):$/;"	c
+Robot	lerobot/common/robot_devices/robots/utils.py	/^class Robot(Protocol):$/;"	c
+RobotDeviceAlreadyConnectedError	lerobot/common/robot_devices/utils.py	/^class RobotDeviceAlreadyConnectedError(Exception):$/;"	c
+RobotDeviceNotConnectedError	lerobot/common/robot_devices/utils.py	/^class RobotDeviceNotConnectedError(Exception):$/;"	c
+SCS_SERIES_BAUDRATE_TABLE	lerobot/common/robot_devices/motors/feetech.py	/^SCS_SERIES_BAUDRATE_TABLE = {$/;"	v
+SCS_SERIES_CONTROL_TABLE	lerobot/common/robot_devices/motors/feetech.py	/^SCS_SERIES_CONTROL_TABLE = {$/;"	v
+SERIAL_NUMBER_INDEX	lerobot/common/robot_devices/cameras/intelrealsense.py	/^SERIAL_NUMBER_INDEX = 1$/;"	v
+STATS_PATH	lerobot/common/datasets/utils.py	/^STATS_PATH = "meta\/stats.json"$/;"	v
+SharpnessJitter	lerobot/common/datasets/transforms.py	/^class SharpnessJitter(Transform):$/;"	c
+SpatialSoftmax	lerobot/common/policies/diffusion/modeling_diffusion.py	/^class SpatialSoftmax(nn.Module):$/;"	c
+SpatialSoftmax	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class SpatialSoftmax(nn.Module):$/;"	c
+StretchRobot	lerobot/common/robot_devices/robots/stretch.py	/^class StretchRobot(StretchAPI):$/;"	c
+StretchRobotConfig	lerobot/common/robot_devices/robots/stretch.py	/^class StretchRobotConfig:$/;"	c
+TASKS_PATH	lerobot/common/datasets/utils.py	/^TASKS_PATH = "meta\/tasks.jsonl"$/;"	v
+TDMPCConfig	lerobot/common/policies/tdmpc/configuration_tdmpc.py	/^class TDMPCConfig:$/;"	c
+TDMPCObservationEncoder	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^class TDMPCObservationEncoder(nn.Module):$/;"	c
+TDMPCPolicy	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^):$/;"	c
+TDMPCTOLD	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^class TDMPCTOLD(nn.Module):$/;"	c
+TEST_CAMERA_TYPES	tests/utils.py	/^TEST_CAMERA_TYPES = []$/;"	v
+TEST_MOTOR_TYPES	tests/utils.py	/^TEST_MOTOR_TYPES = []$/;"	v
+TEST_ROBOT_TYPES	tests/utils.py	/^TEST_ROBOT_TYPES = []$/;"	v
+TIMEOUT_MS	lerobot/common/robot_devices/motors/dynamixel.py	/^TIMEOUT_MS = 1000$/;"	v
+TIMEOUT_MS	lerobot/common/robot_devices/motors/feetech.py	/^TIMEOUT_MS = 1000$/;"	v
+TIMESTAMP_KEY	lerobot/common/datasets/online_buffer.py	/^    TIMESTAMP_KEY = "timestamp"$/;"	v	class:OnlineBuffer
+TimeBenchmark	lerobot/common/utils/benchmark.py	/^class TimeBenchmark(ContextDecorator):$/;"	c
+TorqueMode	lerobot/common/robot_devices/motors/dynamixel.py	/^class TorqueMode(enum.Enum):$/;"	c
+TorqueMode	lerobot/common/robot_devices/motors/feetech.py	/^class TorqueMode(enum.Enum):$/;"	c
+UNITREEH_INFO	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^UNITREEH_INFO = {$/;"	v
+UPPER_BOUND_DEGREE	lerobot/common/robot_devices/motors/dynamixel.py	/^UPPER_BOUND_DEGREE = 270$/;"	v
+UPPER_BOUND_DEGREE	lerobot/common/robot_devices/motors/feetech.py	/^UPPER_BOUND_DEGREE = 270$/;"	v
+UPPER_BOUND_LINEAR	lerobot/common/robot_devices/motors/dynamixel.py	/^UPPER_BOUND_LINEAR = 110$/;"	v
+UPPER_BOUND_LINEAR	lerobot/common/robot_devices/motors/feetech.py	/^UPPER_BOUND_LINEAR = 110$/;"	v
+URL_TEMPLATE	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^URL_TEMPLATE = ($/;"	v
+URL_TEMPLATE	lerobot/common/robot_devices/robots/feetech_calibration.py	/^URL_TEMPLATE = ($/;"	v
+Unnormalize	lerobot/common/policies/normalize.py	/^class Unnormalize(nn.Module):$/;"	c
+V	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def V(self, z: Tensor) -> Tensor:  # noqa: N802$/;"	m	class:TDMPCTOLD
+V16	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^V16 = "v1.6"$/;"	v
+V1_INFO_PATH	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^V1_INFO_PATH = "meta_data\/info.json"$/;"	v
+V1_STATS_PATH	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^V1_STATS_PATH = "meta_data\/stats.safetensors"$/;"	v
+V1_VIDEO_FILE	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^V1_VIDEO_FILE = "{video_key}_episode_{episode_index:06d}.mp4"$/;"	v
+V20	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^V20 = "v2.0"$/;"	v
+VQBeTConfig	lerobot/common/policies/vqbet/configuration_vqbet.py	/^class VQBeTConfig:$/;"	c
+VQBeTHead	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class VQBeTHead(nn.Module):$/;"	c
+VQBeTModel	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class VQBeTModel(nn.Module):$/;"	c
+VQBeTOptimizer	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class VQBeTOptimizer(torch.optim.Adam):$/;"	c
+VQBeTPolicy	lerobot/common/policies/vqbet/modeling_vqbet.py	/^):$/;"	c
+VQBeTRgbEncoder	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class VQBeTRgbEncoder(nn.Module):$/;"	c
+VQBeTScheduler	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class VQBeTScheduler(nn.Module):$/;"	c
+VectorQuantize	lerobot/common/policies/vqbet/vqbet_utils.py	/^class VectorQuantize(nn.Module):$/;"	c
+VideoCapture	tests/mock_cv2.py	/^class VideoCapture:$/;"	c
+VideoFrame	lerobot/common/datasets/video_utils.py	/^class VideoFrame:$/;"	c
+VqVae	lerobot/common/policies/vqbet/modeling_vqbet.py	/^class VqVae(nn.Module):$/;"	c
+XARM_INFO	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^XARM_INFO = {$/;"	v
+X_SERIES_BAUDRATE_TABLE	lerobot/common/robot_devices/motors/dynamixel.py	/^X_SERIES_BAUDRATE_TABLE = {$/;"	v
+X_SERIES_CONTROL_TABLE	lerobot/common/robot_devices/motors/dynamixel.py	/^X_SERIES_CONTROL_TABLE = {$/;"	v
+ZERO_POSITION_DEGREE	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^ZERO_POSITION_DEGREE = 0$/;"	v
+ZERO_POSITION_DEGREE	lerobot/common/robot_devices/robots/feetech_calibration.py	/^ZERO_POSITION_DEGREE = 0$/;"	v
+__all__	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^__all__ = ("register_codecs",)$/;"	v
+__call__	lerobot/common/datasets/video_utils.py	/^    def __call__(self):$/;"	m	class:VideoFrame	file:
+__contains__	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def __contains__(self, key):$/;"	m	class:ReplayBuffer	file:
+__del__	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def __del__(self):$/;"	m	class:IntelRealSenseCamera	file:
+__del__	lerobot/common/robot_devices/cameras/opencv.py	/^    def __del__(self):$/;"	m	class:OpenCVCamera	file:
+__del__	lerobot/common/robot_devices/motors/dynamixel.py	/^    def __del__(self):$/;"	m	class:DynamixelMotorsBus	file:
+__del__	lerobot/common/robot_devices/motors/feetech.py	/^    def __del__(self):$/;"	m	class:FeetechMotorsBus	file:
+__del__	lerobot/common/robot_devices/robots/manipulator.py	/^    def __del__(self):$/;"	m	class:ManipulatorRobot	file:
+__del__	lerobot/common/robot_devices/robots/stretch.py	/^    def __del__(self):$/;"	m	class:StretchRobot	file:
+__del__	tests/mock_cv2.py	/^    def __del__(self):$/;"	m	class:VideoCapture	file:
+__enter__	lerobot/common/utils/benchmark.py	/^    def __enter__(self):$/;"	m	class:TimeBenchmark	file:
+__exit__	lerobot/common/utils/benchmark.py	/^    def __exit__(self, *exc):$/;"	m	class:TimeBenchmark	file:
+__getitem__	lerobot/common/datasets/lerobot_dataset.py	/^    def __getitem__(self, idx) -> dict:$/;"	m	class:LeRobotDataset	file:
+__getitem__	lerobot/common/datasets/lerobot_dataset.py	/^    def __getitem__(self, idx: int) -> dict[str, torch.Tensor]:$/;"	m	class:MultiLeRobotDataset	file:
+__getitem__	lerobot/common/datasets/online_buffer.py	/^    def __getitem__(self, idx: int) -> dict[str, torch.Tensor]:$/;"	m	class:OnlineBuffer	file:
+__getitem__	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def __getitem__(self, key):$/;"	m	class:ReplayBuffer	file:
+__getitem__	lerobot/common/datasets/utils.py	/^    def __getitem__(self, key: str) -> Any:$/;"	m	class:IterableNamespace	file:
+__init__	lerobot/common/datasets/image_writer.py	/^    def __init__(self, num_processes: int = 0, num_threads: int = 1):$/;"	m	class:AsyncImageWriter
+__init__	lerobot/common/datasets/lerobot_dataset.py	/^    def __init__($/;"	m	class:LeRobotDataset
+__init__	lerobot/common/datasets/lerobot_dataset.py	/^    def __init__($/;"	m	class:LeRobotDatasetMetadata
+__init__	lerobot/common/datasets/lerobot_dataset.py	/^    def __init__($/;"	m	class:MultiLeRobotDataset
+__init__	lerobot/common/datasets/online_buffer.py	/^    def __init__($/;"	m	class:OnlineBuffer
+__init__	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def __init__(self, root: zarr.Group | dict[str, dict]):$/;"	m	class:ReplayBuffer
+__init__	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    def __init__($/;"	m	class:Jpeg2k
+__init__	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    def __init__($/;"	m	class:JpegXl
+__init__	lerobot/common/datasets/sampler.py	/^    def __init__($/;"	m	class:EpisodeAwareSampler
+__init__	lerobot/common/datasets/transforms.py	/^    def __init__($/;"	m	class:RandomSubsetApply
+__init__	lerobot/common/datasets/transforms.py	/^    def __init__(self, sharpness: float | Sequence[float]) -> None:$/;"	m	class:SharpnessJitter
+__init__	lerobot/common/datasets/utils.py	/^    def __init__(self, dictionary: dict[str, Any] = None, **kwargs):$/;"	m	class:IterableNamespace
+__init__	lerobot/common/datasets/utils.py	/^    def __init__(self, repo_id, version):$/;"	m	class:BackwardCompatibilityError
+__init__	lerobot/common/logger.py	/^    def __init__(self, cfg: DictConfig, log_dir: str, wandb_job_name: str | None = None):$/;"	m	class:Logger
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__($/;"	m	class:ACTPolicy
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, config: ACTConfig):$/;"	m	class:ACT
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, config: ACTConfig):$/;"	m	class:ACTDecoder
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, config: ACTConfig):$/;"	m	class:ACTDecoderLayer
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, config: ACTConfig):$/;"	m	class:ACTEncoderLayer
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, config: ACTConfig, is_vae_encoder: bool = False):$/;"	m	class:ACTEncoder
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, dimension: int):$/;"	m	class:ACTSinusoidalPositionEmbedding2d
+__init__	lerobot/common/policies/act/modeling_act.py	/^    def __init__(self, temporal_ensemble_coeff: float, chunk_size: int) -> None:$/;"	m	class:ACTTemporalEnsembler
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__($/;"	m	class:DiffusionConditionalResidualBlock1d
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__($/;"	m	class:DiffusionPolicy
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__(self, config: DiffusionConfig):$/;"	m	class:DiffusionModel
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__(self, config: DiffusionConfig):$/;"	m	class:DiffusionRgbEncoder
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__(self, config: DiffusionConfig, global_cond_dim: int):$/;"	m	class:DiffusionConditionalUnet1d
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__(self, dim: int):$/;"	m	class:DiffusionSinusoidalPosEmb
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__(self, inp_channels, out_channels, kernel_size, n_groups=8):$/;"	m	class:DiffusionConv1dBlock
+__init__	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def __init__(self, input_shape, num_kp=None):$/;"	m	class:SpatialSoftmax
+__init__	lerobot/common/policies/normalize.py	/^    def __init__($/;"	m	class:Normalize
+__init__	lerobot/common/policies/normalize.py	/^    def __init__($/;"	m	class:Unnormalize
+__init__	lerobot/common/policies/policy_protocol.py	/^    def __init__(self, cfg, dataset_stats: dict[str, dict[str, Tensor]] | None = None):$/;"	m	class:Policy
+__init__	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def __init__($/;"	m	class:TDMPCPolicy
+__init__	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def __init__(self, config: TDMPCConfig):$/;"	m	class:TDMPCObservationEncoder
+__init__	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def __init__(self, config: TDMPCConfig):$/;"	m	class:TDMPCTOLD
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__($/;"	m	class:MLP
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__($/;"	m	class:VQBeTPolicy
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__($/;"	m	class:VqVae
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, config: VQBeTConfig):$/;"	m	class:VQBeTHead
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, config: VQBeTConfig):$/;"	m	class:VQBeTModel
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, config: VQBeTConfig):$/;"	m	class:VQBeTRgbEncoder
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, gamma: float = 0, size_average: bool = True):$/;"	m	class:FocalLoss
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, input_shape, num_kp=None):$/;"	m	class:SpatialSoftmax
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, optimizer, cfg):$/;"	m	class:VQBeTScheduler
+__init__	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def __init__(self, policy, cfg):$/;"	m	class:VQBeTOptimizer
+__init__	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def __init__($/;"	m	class:EuclideanCodebook
+__init__	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def __init__($/;"	m	class:ResidualVQ
+__init__	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def __init__($/;"	m	class:VectorQuantize
+__init__	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def __init__(self, config):$/;"	m	class:Block
+__init__	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def __init__(self, config):$/;"	m	class:CausalSelfAttention
+__init__	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def __init__(self, config: VQBeTConfig):$/;"	m	class:GPT
+__init__	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def __init__($/;"	m	class:IntelRealSenseCamera
+__init__	lerobot/common/robot_devices/cameras/opencv.py	/^    def __init__(self, camera_index: int | str, config: OpenCVCameraConfig | None = None, **kwargs):$/;"	m	class:OpenCVCamera
+__init__	lerobot/common/robot_devices/motors/dynamixel.py	/^    def __init__($/;"	m	class:DynamixelMotorsBus
+__init__	lerobot/common/robot_devices/motors/dynamixel.py	/^    def __init__(self, message="Joint is out of range"):$/;"	m	class:JointOutOfRangeError
+__init__	lerobot/common/robot_devices/motors/feetech.py	/^    def __init__($/;"	m	class:FeetechMotorsBus
+__init__	lerobot/common/robot_devices/motors/feetech.py	/^    def __init__(self, message="Joint is out of range"):$/;"	m	class:JointOutOfRangeError
+__init__	lerobot/common/robot_devices/robots/manipulator.py	/^    def __init__($/;"	m	class:ManipulatorRobot
+__init__	lerobot/common/robot_devices/robots/stretch.py	/^    def __init__(self, config: StretchRobotConfig | None = None, **kwargs):$/;"	m	class:StretchRobot
+__init__	lerobot/common/robot_devices/utils.py	/^    def __init__($/;"	m	class:RobotDeviceAlreadyConnectedError
+__init__	lerobot/common/robot_devices/utils.py	/^    def __init__($/;"	m	class:RobotDeviceNotConnectedError
+__init__	lerobot/common/utils/benchmark.py	/^    def __init__(self, print=False):$/;"	m	class:TimeBenchmark
+__init__	lerobot/scripts/visualize_dataset.py	/^    def __init__(self, dataset: LeRobotDataset, episode_index: int):$/;"	m	class:EpisodeSampler
+__init__	tests/mock_cv2.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:VideoCapture
+__init__	tests/mock_dynamixel_sdk.py	/^    def __init__(self, port):$/;"	m	class:PortHandler
+__init__	tests/mock_dynamixel_sdk.py	/^    def __init__(self, port_handler, packet_handler, address, bytes):$/;"	m	class:GroupSyncRead
+__init__	tests/mock_dynamixel_sdk.py	/^    def __init__(self, port_handler, packet_handler, address, bytes):$/;"	m	class:GroupSyncWrite
+__init__	tests/mock_dynamixel_sdk.py	/^    def __init__(self, protocol_version):$/;"	m	class:PacketHandler
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self):$/;"	m	class:RSDevice
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self):$/;"	m	class:context
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self):$/;"	m	class:pipeline
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, config):$/;"	m	class:RSColorFrame
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, config):$/;"	m	class:RSColorProfile
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, config):$/;"	m	class:RSColorStream
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, config):$/;"	m	class:RSDepthFrame
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, config):$/;"	m	class:RSFrames
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, config):$/;"	m	class:RSProfile
+__init__	tests/mock_pyrealsense2.py	/^    def __init__(self, serial_number):$/;"	m	class:camera_info
+__init__	tests/mock_scservo_sdk.py	/^    def __init__(self, port):$/;"	m	class:PortHandler
+__init__	tests/mock_scservo_sdk.py	/^    def __init__(self, port_handler, packet_handler, address, bytes):$/;"	m	class:GroupSyncRead
+__init__	tests/mock_scservo_sdk.py	/^    def __init__(self, port_handler, packet_handler, address, bytes):$/;"	m	class:GroupSyncWrite
+__init__	tests/mock_scservo_sdk.py	/^    def __init__(self, protocol_version):$/;"	m	class:PacketHandler
+__init__	tests/test_image_writer.py	/^        def __init__(self):$/;"	m	class:test_safe_stop_image_writer_decorator.MockDataset
+__iter__	lerobot/common/datasets/sampler.py	/^    def __iter__(self) -> Iterator[int]:$/;"	m	class:EpisodeAwareSampler	file:
+__iter__	lerobot/common/datasets/utils.py	/^    def __iter__(self) -> Iterator[str]:$/;"	m	class:IterableNamespace	file:
+__iter__	lerobot/scripts/visualize_dataset.py	/^    def __iter__(self) -> Iterator:$/;"	m	class:EpisodeSampler	file:
+__len__	lerobot/common/datasets/lerobot_dataset.py	/^    def __len__(self):$/;"	m	class:LeRobotDataset	file:
+__len__	lerobot/common/datasets/lerobot_dataset.py	/^    def __len__(self):$/;"	m	class:MultiLeRobotDataset	file:
+__len__	lerobot/common/datasets/online_buffer.py	/^    def __len__(self):$/;"	m	class:OnlineBuffer	file:
+__len__	lerobot/common/datasets/sampler.py	/^    def __len__(self) -> int:$/;"	m	class:EpisodeAwareSampler	file:
+__len__	lerobot/scripts/visualize_dataset.py	/^    def __len__(self) -> int:$/;"	m	class:EpisodeSampler	file:
+__post_init__	lerobot/common/policies/act/configuration_act.py	/^    def __post_init__(self):$/;"	m	class:ACTConfig	file:
+__post_init__	lerobot/common/policies/diffusion/configuration_diffusion.py	/^    def __post_init__(self):$/;"	m	class:DiffusionConfig	file:
+__post_init__	lerobot/common/policies/tdmpc/configuration_tdmpc.py	/^    def __post_init__(self):$/;"	m	class:TDMPCConfig	file:
+__post_init__	lerobot/common/policies/vqbet/configuration_vqbet.py	/^    def __post_init__(self):$/;"	m	class:VQBeTConfig	file:
+__post_init__	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def __post_init__(self):$/;"	m	class:IntelRealSenseCameraConfig	file:
+__post_init__	lerobot/common/robot_devices/cameras/opencv.py	/^    def __post_init__(self):$/;"	m	class:OpenCVCameraConfig	file:
+__post_init__	lerobot/common/robot_devices/robots/manipulator.py	/^    def __post_init__(self):$/;"	m	class:ManipulatorRobotConfig	file:
+__repr__	lerobot/common/datasets/lerobot_dataset.py	/^    def __repr__(self):$/;"	m	class:LeRobotDataset	file:
+__repr__	lerobot/common/datasets/lerobot_dataset.py	/^    def __repr__(self):$/;"	m	class:LeRobotDatasetMetadata	file:
+__repr__	lerobot/common/datasets/lerobot_dataset.py	/^    def __repr__(self):$/;"	m	class:MultiLeRobotDataset	file:
+__repr__	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def __repr__(self) -> str:$/;"	m	class:ReplayBuffer	file:
+__setattr__	lerobot/common/robot_devices/robots/manipulator.py	/^    def __setattr__(self, prop: str, val):$/;"	m	class:ManipulatorRobotConfig	file:
+__version__	lerobot/__version__.py	/^    __version__ = "unknown"$/;"	v
+__version__	lerobot/__version__.py	/^    __version__ = version("lerobot")$/;"	v
+__version__	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^__version__ = "2022.9.26"$/;"	v
+_add_padding_keys	lerobot/common/datasets/lerobot_dataset.py	/^    def _add_padding_keys(self, item: dict, padding: dict[str, list[bool]]) -> dict:$/;"	m	class:LeRobotDataset
+_apply_fn	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^        def _apply_fn(m):$/;"	f	function:TDMPCTOLD._init_weights
+_broadcast_metadata_rlds	lerobot/common/datasets/push_dataset_to_hub/openx_rlds_format.py	/^def _broadcast_metadata_rlds(i: tf.Tensor, traj: dict) -> dict:$/;"	f
+_check_input	lerobot/common/datasets/transforms.py	/^    def _check_input(self, sharpness):$/;"	m	class:SharpnessJitter
+_compile_episode_data	lerobot/scripts/eval.py	/^def _compile_episode_data($/;"	f
+_create_episodes	tests/fixtures/dataset_factories.py	/^    def _create_episodes($/;"	f	function:episodes_factory
+_create_episodes_jsonl_file	tests/fixtures/files.py	/^    def _create_episodes_jsonl_file(dir: Path, episodes: list | None = None) -> Path:$/;"	f	function:episode_path
+_create_features	tests/fixtures/dataset_factories.py	/^    def _create_features($/;"	f	function:features_factory
+_create_hf_dataset	tests/fixtures/dataset_factories.py	/^    def _create_hf_dataset($/;"	f	function:hf_dataset_factory
+_create_img	tests/fixtures/dataset_factories.py	/^    def _create_img(height=100, width=100) -> PIL.Image.Image:$/;"	f	function:img_factory
+_create_img_array	tests/fixtures/dataset_factories.py	/^    def _create_img_array(height=100, width=100, channels=3, dtype=np.uint8) -> np.ndarray:$/;"	f	function:img_array_factory
+_create_img_tensor	tests/fixtures/dataset_factories.py	/^    def _create_img_tensor(height=100, width=100, channels=3, dtype=torch.float32) -> torch.Tensor:$/;"	f	function:img_tensor_factory
+_create_info	tests/fixtures/dataset_factories.py	/^    def _create_info($/;"	f	function:info_factory
+_create_info_json_file	tests/fixtures/files.py	/^    def _create_info_json_file(dir: Path, info: dict | None = None) -> Path:$/;"	f	function:info_path
+_create_invalid_delta_timestamps	tests/test_delta_timestamps.py	/^    def _create_invalid_delta_timestamps($/;"	f	function:invalid_delta_timestamps_factory
+_create_lerobot_dataset	tests/fixtures/dataset_factories.py	/^    def _create_lerobot_dataset($/;"	f	function:lerobot_dataset_factory
+_create_lerobot_dataset_metadata	tests/fixtures/dataset_factories.py	/^    def _create_lerobot_dataset_metadata($/;"	f	function:lerobot_dataset_metadata_factory
+_create_multi_episode_parquet	tests/fixtures/files.py	/^    def _create_multi_episode_parquet($/;"	f	function:multi_episode_parquet_path
+_create_single_episode_parquet	tests/fixtures/files.py	/^    def _create_single_episode_parquet($/;"	f	function:single_episode_parquet_path
+_create_slightly_off_delta_timestamps	tests/test_delta_timestamps.py	/^    def _create_slightly_off_delta_timestamps($/;"	f	function:slightly_off_delta_timestamps_factory
+_create_slightly_off_hf_dataset	tests/test_delta_timestamps.py	/^    def _create_slightly_off_hf_dataset(fps: int = 30, tolerance_s: float = 1e-4) -> Dataset:$/;"	f	function:slightly_off_hf_dataset_factory
+_create_stats	tests/fixtures/dataset_factories.py	/^    def _create_stats($/;"	f	function:stats_factory
+_create_stats_json_file	tests/fixtures/files.py	/^    def _create_stats_json_file(dir: Path, stats: dict | None = None) -> Path:$/;"	f	function:stats_path
+_create_synced_hf_dataset	tests/test_delta_timestamps.py	/^    def _create_synced_hf_dataset(fps: int = 30) -> Dataset:$/;"	f	function:synced_hf_dataset_factory
+_create_tasks	tests/fixtures/dataset_factories.py	/^    def _create_tasks(total_tasks: int = 3) -> int:$/;"	f	function:tasks_factory
+_create_tasks_jsonl_file	tests/fixtures/files.py	/^    def _create_tasks_jsonl_file(dir: Path, tasks: list | None = None) -> Path:$/;"	f	function:tasks_path
+_create_unsynced_hf_dataset	tests/test_delta_timestamps.py	/^    def _create_unsynced_hf_dataset(fps: int = 30, tolerance_s: float = 1e-4) -> Dataset:$/;"	f	function:unsynced_hf_dataset_factory
+_create_valid_delta_timestamps	tests/test_delta_timestamps.py	/^    def _create_valid_delta_timestamps(fps: int = 30, keys: list = DUMMY_MOTOR_FEATURES) -> dict:$/;"	f	function:valid_delta_timestamps_factory
+_extract_episode_index_from_path	tests/fixtures/hub.py	/^        def _extract_episode_index_from_path(fpath: str) -> int:$/;"	f	function:mock_snapshot_download_factory._mock_snapshot_download_func
+_find_and_replace	tests/test_examples.py	/^def _find_and_replace(text: str, finds_and_replaces: list[tuple[str, str]]) -> str:$/;"	f
+_find_cameras	lerobot/common/robot_devices/cameras/opencv.py	/^def _find_cameras($/;"	f
+_flat	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^def _flat(out):$/;"	f
+_generate_image	tests/mock_cv2.py	/^def _generate_image(width: int, height: int):$/;"	f
+_generate_value	lerobot/common/datasets/transforms.py	/^    def _generate_value(self, left: float, right: float) -> float:$/;"	m	class:SharpnessJitter
+_get_episode_idxs	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^        def _get_episode_idxs(episode_ends):$/;"	f	function:ReplayBuffer.get_episode_idxs
+_get_image_file_path	lerobot/common/datasets/lerobot_dataset.py	/^    def _get_image_file_path(self, episode_index: int, image_key: str, frame_index: int) -> Path:$/;"	m	class:LeRobotDataset
+_get_lfs_untracked_videos	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def _get_lfs_untracked_videos(work_dir: Path, video_files: list[str]) -> list[str]:$/;"	f
+_get_major_minor	lerobot/common/datasets/utils.py	/^def _get_major_minor(version: str) -> tuple[int]:$/;"	f
+_get_query_indices	lerobot/common/datasets/lerobot_dataset.py	/^    def _get_query_indices(self, idx: int, ep_idx: int) -> tuple[dict[str, list[int | bool]]]:$/;"	m	class:LeRobotDataset
+_get_query_timestamps	lerobot/common/datasets/lerobot_dataset.py	/^    def _get_query_timestamps($/;"	m	class:LeRobotDataset
+_gym_aloha_available	lerobot/common/utils/import_utils.py	/^_gym_aloha_available = is_package_available("gym_aloha")$/;"	v
+_gym_pusht_available	lerobot/common/utils/import_utils.py	/^_gym_pusht_available = is_package_available("gym_pusht")$/;"	v
+_gym_xarm_available	lerobot/common/utils/import_utils.py	/^_gym_xarm_available = is_package_available("gym_xarm")$/;"	v
+_hub_version	lerobot/common/datasets/lerobot_dataset.py	/^    def _hub_version(self) -> str | None:$/;"	m	class:LeRobotDatasetMetadata
+_init_weights	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def _init_weights(self):$/;"	m	class:TDMPCTOLD
+_init_weights	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def _init_weights(self, module):$/;"	m	class:GPT
+_item_to_tensors	lerobot/common/datasets/online_buffer.py	/^    def _item_to_tensors(self, item: dict) -> dict:$/;"	m	class:OnlineBuffer
+_lfs_clone	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def _lfs_clone(repo_id: str, work_dir: Path, branch: str) -> None:$/;"	f
+_make_data_spec	lerobot/common/datasets/online_buffer.py	/^    def _make_data_spec(self, data_spec: dict[str, Any], buffer_capacity: int) -> dict[str, dict[str, Any]]:$/;"	m	class:OnlineBuffer
+_make_memmap_safe	lerobot/common/datasets/online_buffer.py	/^def _make_memmap_safe(**kwargs) -> np.memmap:$/;"	f
+_make_noise_scheduler	lerobot/common/policies/diffusion/modeling_diffusion.py	/^def _make_noise_scheduler(name: str, **kwargs: dict) -> DDPMScheduler | DDIMScheduler:$/;"	f
+_mock_download_raw	tests/test_push_dataset_to_hub.py	/^def _mock_download_raw(raw_dir, repo_id):$/;"	f
+_mock_download_raw_aloha	tests/test_push_dataset_to_hub.py	/^def _mock_download_raw_aloha(raw_dir, num_frames=6, num_episodes=3):$/;"	f
+_mock_download_raw_dora	tests/test_push_dataset_to_hub.py	/^def _mock_download_raw_dora(raw_dir, num_frames=6, num_episodes=3, fps=30):$/;"	f
+_mock_download_raw_pusht	tests/test_push_dataset_to_hub.py	/^def _mock_download_raw_pusht(raw_dir, num_frames=4, num_episodes=3):$/;"	f
+_mock_download_raw_umi	tests/test_push_dataset_to_hub.py	/^def _mock_download_raw_umi(raw_dir, num_frames=4, num_episodes=3):$/;"	f
+_mock_download_raw_xarm	tests/test_push_dataset_to_hub.py	/^def _mock_download_raw_xarm(raw_dir, num_frames=4):$/;"	f
+_mock_snapshot_download	tests/fixtures/hub.py	/^        def _mock_snapshot_download($/;"	f	function:mock_snapshot_download_factory._mock_snapshot_download_func
+_mock_snapshot_download_func	tests/fixtures/hub.py	/^    def _mock_snapshot_download_func($/;"	f	function:mock_snapshot_download_factory
+_no_stats_error_str	lerobot/common/policies/normalize.py	/^def _no_stats_error_str(name: str) -> str:$/;"	f
+_policy_cfg_from_hydra_cfg	lerobot/common/policies/factory.py	/^def _policy_cfg_from_hydra_cfg(policy_cfg_class, hydra_cfg):$/;"	f
+_prepare_global_conditioning	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def _prepare_global_conditioning(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:DiffusionModel
+_query_hf_dataset	lerobot/common/datasets/lerobot_dataset.py	/^    def _query_hf_dataset(self, query_indices: dict[str, list[int]]) -> dict:$/;"	m	class:LeRobotDataset
+_query_videos	lerobot/common/datasets/lerobot_dataset.py	/^    def _query_videos(self, query_timestamps: dict[str, list[float]], ep_idx: int) -> dict:$/;"	m	class:LeRobotDataset
+_read_file	tests/test_examples.py	/^def _read_file(path):$/;"	f
+_relative_path_between	lerobot/common/utils/utils.py	/^def _relative_path_between(path1: Path, path2: Path) -> Path:$/;"	f
+_replace_submodules	lerobot/common/policies/diffusion/modeling_diffusion.py	/^def _replace_submodules($/;"	f
+_replace_submodules	lerobot/common/policies/vqbet/modeling_vqbet.py	/^def _replace_submodules($/;"	f
+_reset_parameters	lerobot/common/policies/act/modeling_act.py	/^    def _reset_parameters(self):$/;"	m	class:ACT
+_resolve_array_chunks	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def _resolve_array_chunks(cls, chunks: dict | tuple, key, array):$/;"	m	class:ReplayBuffer
+_resolve_array_compressor	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def _resolve_array_compressor(cls, compressors: dict | str | numcodecs.abc.Codec, key, array):$/;"	m	class:ReplayBuffer
+_run_script	tests/test_examples.py	/^def _run_script(path):$/;"	f
+_save_episode_table	lerobot/common/datasets/lerobot_dataset.py	/^    def _save_episode_table(self, episode_buffer: dict, episode_index: int) -> None:$/;"	m	class:LeRobotDataset
+_save_image	lerobot/common/datasets/lerobot_dataset.py	/^    def _save_image(self, image: torch.Tensor | np.ndarray | PIL.Image.Image, fpath: Path) -> None:$/;"	m	class:LeRobotDataset
+_transform	lerobot/common/datasets/transforms.py	/^    def _transform(self, inpt: Any, params: Dict[str, Any]) -> Any:$/;"	m	class:SharpnessJitter
+_version	lerobot/common/datasets/lerobot_dataset.py	/^    def _version(self) -> str:$/;"	m	class:LeRobotDatasetMetadata
+_wait_image_writer	lerobot/common/datasets/lerobot_dataset.py	/^    def _wait_image_writer(self) -> None:$/;"	m	class:LeRobotDataset
+action	examples/2_evaluate_pretrained_policy.py	/^        action = policy.select_action(observation)$/;"	v
+action	lerobot/common/robot_devices/control_utils.py	/^                action = robot.send_action(pred_action)$/;"	v
+action	lerobot/common/robot_devices/control_utils.py	/^                action = {"action": action}$/;"	v
+activate_calibration	lerobot/common/robot_devices/robots/manipulator.py	/^    def activate_calibration(self):$/;"	m	class:ManipulatorRobot
+addParam	tests/mock_dynamixel_sdk.py	/^    def addParam(self, index, data):  # noqa: N802$/;"	m	class:GroupSyncWrite
+addParam	tests/mock_dynamixel_sdk.py	/^    def addParam(self, motor_index):  # noqa: N802$/;"	m	class:GroupSyncRead
+addParam	tests/mock_scservo_sdk.py	/^    def addParam(self, index, data):  # noqa: N802$/;"	m	class:GroupSyncWrite
+addParam	tests/mock_scservo_sdk.py	/^    def addParam(self, motor_index):  # noqa: N802$/;"	m	class:GroupSyncRead
+add_data	lerobot/common/datasets/online_buffer.py	/^    def add_data(self, data: dict[str, np.ndarray]):$/;"	m	class:OnlineBuffer
+add_episode	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def add_episode($/;"	m	class:ReplayBuffer
+add_frame	lerobot/common/datasets/lerobot_dataset.py	/^    def add_frame(self, frame: dict) -> None:$/;"	m	class:LeRobotDataset
+add_task_index_by_episodes	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def add_task_index_by_episodes(dataset: Dataset, tasks_by_episodes: dict) -> tuple[Dataset, list[str]]:$/;"	f
+add_task_index_from_tasks_col	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def add_task_index_from_tasks_col($/;"	f
+aggregate_stats	lerobot/common/datasets/compute_stats.py	/^def aggregate_stats(ls_datasets) -> dict[str, torch.Tensor]:$/;"	f
+all_gather_sizes	lerobot/common/policies/vqbet/vqbet_utils.py	/^def all_gather_sizes(x, dim):$/;"	f
+all_gather_variably_sized	lerobot/common/policies/vqbet/vqbet_utils.py	/^def all_gather_variably_sized(x, sizes, dim=0):$/;"	f
+append_jsonlines	lerobot/common/datasets/utils.py	/^def append_jsonlines(data: dict, fpath: Path) -> None:$/;"	f
+apply_calibration	lerobot/common/robot_devices/motors/dynamixel.py	/^    def apply_calibration(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:DynamixelMotorsBus
+apply_calibration	lerobot/common/robot_devices/motors/feetech.py	/^    def apply_calibration(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:FeetechMotorsBus
+apply_calibration	lerobot/common/robot_devices/motors/utils.py	/^    def apply_calibration(self): ...$/;"	m	class:MotorsBus
+apply_calibration_autocorrect	lerobot/common/robot_devices/motors/dynamixel.py	/^    def apply_calibration_autocorrect(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:DynamixelMotorsBus
+apply_calibration_autocorrect	lerobot/common/robot_devices/motors/feetech.py	/^    def apply_calibration_autocorrect(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:FeetechMotorsBus
+apply_drive_mode	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^def apply_drive_mode(position, drive_mode):$/;"	f
+apply_drive_mode	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def apply_drive_mode(position, drive_mode):$/;"	f
+apply_offset	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def apply_offset(calib, offset):$/;"	f
+are_motors_configured	lerobot/common/robot_devices/motors/dynamixel.py	/^    def are_motors_configured(self):$/;"	m	class:DynamixelMotorsBus
+are_motors_configured	lerobot/common/robot_devices/motors/feetech.py	/^    def are_motors_configured(self):$/;"	m	class:FeetechMotorsBus
+args	benchmarks/video/capture_camera_feed.py	/^    args = parser.parse_args()$/;"	v
+args	benchmarks/video/run_video_benchmark.py	/^    args = parser.parse_args()$/;"	v
+args	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    args = parser.parse_args()$/;"	v
+args	lerobot/common/robot_devices/cameras/opencv.py	/^    args = parser.parse_args()$/;"	v
+args	lerobot/scripts/configure_motor.py	/^    args = parser.parse_args()$/;"	v
+args	lerobot/scripts/control_robot.py	/^    args = parser.parse_args()$/;"	v
+args	lerobot/scripts/control_sim_robot.py	/^    args = parser.parse_args()$/;"	v
+args	lerobot/scripts/eval.py	/^    args = parser.parse_args()$/;"	v
+as_video_stream_profile	tests/mock_pyrealsense2.py	/^    def as_video_stream_profile(self):$/;"	m	class:RSColorStream
+assert_drive_mode	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^def assert_drive_mode(drive_mode):$/;"	f
+assert_drive_mode	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def assert_drive_mode(drive_mode):$/;"	f
+assert_same_address	lerobot/common/robot_devices/motors/dynamixel.py	/^def assert_same_address(model_ctrl_table, motor_models, data_name):$/;"	f
+assert_same_address	lerobot/common/robot_devices/motors/feetech.py	/^def assert_same_address(model_ctrl_table, motor_models, data_name):$/;"	f
+async_read	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def async_read(self):$/;"	m	class:IntelRealSenseCamera
+async_read	lerobot/common/robot_devices/cameras/opencv.py	/^    def async_read(self):$/;"	m	class:OpenCVCamera
+async_read	lerobot/common/robot_devices/cameras/utils.py	/^    def async_read(self) -> np.ndarray: ...$/;"	m	class:Camera
+autocorrect_calibration	lerobot/common/robot_devices/motors/dynamixel.py	/^    def autocorrect_calibration(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:DynamixelMotorsBus
+autocorrect_calibration	lerobot/common/robot_devices/motors/feetech.py	/^    def autocorrect_calibration(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:FeetechMotorsBus
+available_arms	lerobot/common/robot_devices/robots/manipulator.py	/^    def available_arms(self):$/;"	m	class:ManipulatorRobot
+available_cameras	lerobot/__init__.py	/^available_cameras = [$/;"	v
+available_datasets	lerobot/__init__.py	/^available_datasets = sorted($/;"	v
+available_datasets_per_env	lerobot/__init__.py	/^available_datasets_per_env = {$/;"	v
+available_envs	lerobot/__init__.py	/^available_envs = list(available_tasks_per_env.keys())$/;"	v
+available_motors	lerobot/__init__.py	/^available_motors = [$/;"	v
+available_policies	lerobot/__init__.py	/^available_policies = [$/;"	v
+available_policies_per_env	lerobot/__init__.py	/^available_policies_per_env = {$/;"	v
+available_real_world_datasets	lerobot/__init__.py	/^available_real_world_datasets = [$/;"	v
+available_robots	lerobot/__init__.py	/^available_robots = [$/;"	v
+available_tasks_per_env	lerobot/__init__.py	/^available_tasks_per_env = {$/;"	v
+average_loss	examples/advanced/2_calculate_validation_loss.py	/^average_loss = loss_cumsum \/ n_examples_evaluated$/;"	v
+avoid_rotation_reset	lerobot/common/robot_devices/motors/feetech.py	/^    def avoid_rotation_reset(self, values, motor_names, data_name):$/;"	m	class:FeetechMotorsBus
+backend	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def backend(self):$/;"	m	class:ReplayBuffer
+base_parser	lerobot/scripts/control_robot.py	/^    base_parser = argparse.ArgumentParser(add_help=False)$/;"	v
+base_parser	lerobot/scripts/control_sim_robot.py	/^    base_parser = argparse.ArgumentParser(add_help=False)$/;"	v
+batch	examples/3_train_policy.py	/^        batch = {k: v.to(device, non_blocking=True) for k, v in batch.items()}$/;"	v
+batch	examples/advanced/2_calculate_validation_loss.py	/^    batch = {k: v.to(device, non_blocking=True) for k, v in batch.items()}$/;"	v
+batch_convert	lerobot/common/datasets/v2/batch_convert_dataset_v1_to_v2.py	/^def batch_convert():$/;"	f
+batch_size	examples/1_load_lerobot_dataset.py	/^    batch_size=32,$/;"	v
+batch_size	examples/3_train_policy.py	/^    batch_size=64,$/;"	v
+batch_size	examples/advanced/2_calculate_validation_loss.py	/^    batch_size=64,$/;"	v
+batched_bincount	lerobot/common/policies/vqbet/vqbet_utils.py	/^def batched_bincount(x, *, minlength):$/;"	f
+batched_embedding	lerobot/common/policies/vqbet/vqbet_utils.py	/^def batched_embedding(indices, embeds):$/;"	f
+batched_sample_vectors	lerobot/common/policies/vqbet/vqbet_utils.py	/^def batched_sample_vectors(samples, num):$/;"	f
+benchmark_decoding	benchmarks/video/run_video_benchmark.py	/^def benchmark_decoding($/;"	f
+benchmark_encoding_decoding	benchmarks/video/run_video_benchmark.py	/^def benchmark_encoding_decoding($/;"	f
+bgr_converted_image	lerobot/common/robot_devices/cameras/intelrealsense.py	/^                    bgr_converted_image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)$/;"	v
+bins	lerobot/common/policies/vqbet/vqbet_utils.py	/^        bins = batched_bincount(buckets, minlength=num_clusters)$/;"	v
+bins_min_clamped	lerobot/common/policies/vqbet/vqbet_utils.py	/^        bins_min_clamped = bins.masked_fill(zero_mask, 1)$/;"	v
+buckets	lerobot/common/policies/vqbet/vqbet_utils.py	/^        buckets = torch.argmax(dists, dim=-1)$/;"	v
+buffer_capacity	tests/test_online_buffer.py	/^buffer_capacity = 100$/;"	v
+build_features	examples/port_datasets/pusht_zarr.py	/^def build_features(mode: str) -> dict:$/;"	f
+busy_wait	lerobot/common/robot_devices/utils.py	/^def busy_wait(seconds):$/;"	f
+calculate_ce_loss	lerobot/common/policies/vqbet/vqbet_utils.py	/^        def calculate_ce_loss(codes):$/;"	f	function:VectorQuantize.forward
+calculate_coverage	examples/port_datasets/pusht_zarr.py	/^def calculate_coverage(zarr_data):$/;"	f
+calculate_episode_data_index	lerobot/common/datasets/push_dataset_to_hub/utils.py	/^def calculate_episode_data_index(hf_dataset: datasets.Dataset) -> Dict[str, torch.Tensor]:$/;"	f
+calculate_episode_data_index	lerobot/common/datasets/utils.py	/^def calculate_episode_data_index(hf_dataset: datasets.Dataset) -> dict[str, torch.Tensor]:$/;"	f
+calculate_reward	examples/port_datasets/pusht_zarr.py	/^def calculate_reward(coverage: float, success_threshold: float):$/;"	f
+calculate_success	examples/port_datasets/pusht_zarr.py	/^def calculate_success(coverage: float, success_threshold: float):$/;"	f
+calculate_total_episode	lerobot/common/datasets/utils.py	/^def calculate_total_episode($/;"	f
+calib_data	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    calib_data = {$/;"	v
+calibrate	lerobot/scripts/control_robot.py	/^def calibrate(robot: Robot, arms: list[str] | None):$/;"	f
+camera	lerobot/common/robot_devices/cameras/intelrealsense.py	/^        camera = IntelRealSenseCamera(cam_sn, fps=fps, width=width, height=height, mock=mock)$/;"	v
+camera	lerobot/common/robot_devices/cameras/opencv.py	/^        camera = OpenCVCamera(cam_idx, fps=fps, width=width, height=height, mock=mock)$/;"	v
+camera_features	lerobot/common/robot_devices/robots/manipulator.py	/^    def camera_features(self) -> dict:$/;"	m	class:ManipulatorRobot
+camera_ids	lerobot/common/robot_devices/cameras/opencv.py	/^        camera_ids = [cam["index"] for cam in camera_infos]$/;"	v
+camera_info	tests/mock_pyrealsense2.py	/^class camera_info:  # noqa: N801$/;"	c
+camera_infos	lerobot/common/robot_devices/cameras/intelrealsense.py	/^        camera_infos = find_cameras(mock=mock)$/;"	v
+camera_infos	lerobot/common/robot_devices/cameras/opencv.py	/^        camera_infos = find_cameras(mock=mock)$/;"	v
+camera_key	examples/1_load_lerobot_dataset.py	/^camera_key = dataset.meta.camera_keys[0]$/;"	v
+camera_keys	lerobot/common/datasets/lerobot_dataset.py	/^    def camera_keys(self) -> list[str]:$/;"	m	class:LeRobotDatasetMetadata
+camera_keys	lerobot/common/datasets/lerobot_dataset.py	/^    def camera_keys(self) -> list[str]:$/;"	m	class:MultiLeRobotDataset
+cameras	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    cameras = []$/;"	v
+cameras	lerobot/common/robot_devices/cameras/opencv.py	/^    cameras = []$/;"	v
+capture_observation	lerobot/common/robot_devices/robots/manipulator.py	/^    def capture_observation(self):$/;"	m	class:ManipulatorRobot
+capture_observation	lerobot/common/robot_devices/robots/stretch.py	/^    def capture_observation(self) -> dict:$/;"	m	class:StretchRobot
+capture_observation	lerobot/common/robot_devices/robots/utils.py	/^    def capture_observation(self): ...$/;"	m	class:Robot
+capture_timestamp_utc	lerobot/common/utils/utils.py	/^def capture_timestamp_utc():$/;"	f
+cdist	lerobot/common/policies/vqbet/vqbet_utils.py	/^def cdist(x, y):$/;"	f
+cfg	examples/3_train_policy.py	/^cfg = DiffusionConfig()$/;"	v
+cfg_to_group	lerobot/common/logger.py	/^def cfg_to_group(cfg: DictConfig, return_list: bool = False) -> list[str] | str:$/;"	f
+changeParam	tests/mock_dynamixel_sdk.py	/^    def changeParam(self, index, data):  # noqa: N802$/;"	m	class:GroupSyncWrite
+changeParam	tests/mock_scservo_sdk.py	/^    def changeParam(self, index, data):  # noqa: N802$/;"	m	class:GroupSyncWrite
+check_chunks_compatible	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^def check_chunks_compatible(chunks: tuple, shape: tuple):$/;"	f
+check_datasets_formats	benchmarks/video/run_video_benchmark.py	/^def check_datasets_formats(repo_ids: list) -> None:$/;"	f
+check_delta_timestamps	lerobot/common/datasets/utils.py	/^def check_delta_timestamps($/;"	f
+check_format	lerobot/common/datasets/push_dataset_to_hub/aloha_hdf5_format.py	/^def check_format(raw_dir) -> bool:$/;"	f
+check_format	lerobot/common/datasets/push_dataset_to_hub/cam_png_format.py	/^def check_format(raw_dir: Path) -> bool:$/;"	f
+check_format	lerobot/common/datasets/push_dataset_to_hub/dora_parquet_format.py	/^def check_format(raw_dir) -> bool:$/;"	f
+check_format	lerobot/common/datasets/push_dataset_to_hub/pusht_zarr_format.py	/^def check_format(raw_dir):$/;"	f
+check_format	lerobot/common/datasets/push_dataset_to_hub/umi_zarr_format.py	/^def check_format(raw_dir) -> bool:$/;"	f
+check_format	lerobot/common/datasets/push_dataset_to_hub/xarm_pkl_format.py	/^def check_format(raw_dir):$/;"	f
+check_repo_id	lerobot/common/datasets/push_dataset_to_hub/utils.py	/^def check_repo_id(repo_id: str) -> None:$/;"	f
+check_same_items	tests/test_push_dataset_to_hub.py	/^    def check_same_items(item1, item2):$/;"	f	function:test_push_dataset_to_hub_pusht_backward_compatibility
+check_timestamps_sync	lerobot/common/datasets/utils.py	/^def check_timestamps_sync($/;"	f
+check_value	lerobot/common/datasets/transforms.py	/^    def check_value(name, weight, min_max):$/;"	f	function:get_image_transforms
+check_version_compatibility	lerobot/common/datasets/utils.py	/^def check_version_compatibility($/;"	f
+chunk_size	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def chunk_size(self):$/;"	m	class:ReplayBuffer
+chunks_size	lerobot/common/datasets/lerobot_dataset.py	/^    def chunks_size(self) -> int:$/;"	m	class:LeRobotDatasetMetadata
+clear_episode_buffer	lerobot/common/datasets/lerobot_dataset.py	/^    def clear_episode_buffer(self) -> None:$/;"	m	class:LeRobotDataset
+closePort	tests/mock_dynamixel_sdk.py	/^    def closePort(self):  # noqa: N802$/;"	m	class:PortHandler
+closePort	tests/mock_scservo_sdk.py	/^    def closePort(self):  # noqa: N802$/;"	m	class:PortHandler
+codebook	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def codebook(self):$/;"	m	class:VectorQuantize
+codebook	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def codebook(self, codes):$/;"	m	class:VectorQuantize
+codebooks	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def codebooks(self):$/;"	m	class:ResidualVQ
+codec_id	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    codec_id = "imagecodecs_jpeg2k"$/;"	v	class:Jpeg2k
+codec_id	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    codec_id = "imagecodecs_jpegxl"$/;"	v	class:JpegXl
+color	tests/mock_pyrealsense2.py	/^    color = 0$/;"	v	class:stream
+color_jitters	tests/test_image_transforms.py	/^def color_jitters():$/;"	f
+compute_loss	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def compute_loss(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:DiffusionModel
+compute_max_pixel_difference	tests/test_cameras.py	/^def compute_max_pixel_difference(first_image, second_image):$/;"	f
+compute_nearest_rounded_position	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^def compute_nearest_rounded_position(position, models):$/;"	f
+compute_sampler_weights	lerobot/common/datasets/online_buffer.py	/^def compute_sampler_weights($/;"	f
+compute_stats	lerobot/common/datasets/compute_stats.py	/^def compute_stats(dataset, batch_size=8, num_workers=8, max_num_samples=None):$/;"	f
+concatenate_episodes	lerobot/common/datasets/push_dataset_to_hub/utils.py	/^def concatenate_episodes(ep_dicts):$/;"	f
+conditional_sample	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def conditional_sample($/;"	m	class:DiffusionModel
+config	tests/mock_pyrealsense2.py	/^class config:  # noqa: N801$/;"	c
+config_overrides	lerobot/scripts/eval.py	/^            config_overrides=args.overrides,$/;"	v
+configure_motor	lerobot/scripts/configure_motor.py	/^def configure_motor(port, brand, model, motor_idx_des, baudrate_des):$/;"	f
+configure_parameters	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def configure_parameters(self):$/;"	m	class:GPT
+connect	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def connect(self):$/;"	m	class:IntelRealSenseCamera
+connect	lerobot/common/robot_devices/cameras/opencv.py	/^    def connect(self):$/;"	m	class:OpenCVCamera
+connect	lerobot/common/robot_devices/cameras/utils.py	/^    def connect(self): ...$/;"	m	class:Camera
+connect	lerobot/common/robot_devices/motors/dynamixel.py	/^    def connect(self):$/;"	m	class:DynamixelMotorsBus
+connect	lerobot/common/robot_devices/motors/feetech.py	/^    def connect(self):$/;"	m	class:FeetechMotorsBus
+connect	lerobot/common/robot_devices/robots/manipulator.py	/^    def connect(self):$/;"	m	class:ManipulatorRobot
+connect	lerobot/common/robot_devices/robots/stretch.py	/^    def connect(self) -> None:$/;"	m	class:StretchRobot
+connect	lerobot/common/robot_devices/robots/utils.py	/^    def connect(self): ...$/;"	m	class:Robot
+consolidate	lerobot/common/datasets/lerobot_dataset.py	/^    def consolidate(self, run_compute_stats: bool = True, keep_image_files: bool = False) -> None:$/;"	m	class:LeRobotDataset
+context	tests/mock_pyrealsense2.py	/^class context:  # noqa: N801$/;"	c
+control_loop	lerobot/common/robot_devices/control_utils.py	/^def control_loop($/;"	f
+control_mode	lerobot/scripts/control_robot.py	/^    control_mode = args.mode$/;"	v
+control_mode	lerobot/scripts/control_sim_robot.py	/^    control_mode = args.mode$/;"	v
+control_time_s	lerobot/common/robot_devices/control_utils.py	/^        control_time_s = float("inf")$/;"	v
+convert_dataset	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def convert_dataset($/;"	f
+convert_degrees_to_steps	lerobot/common/robot_devices/motors/dynamixel.py	/^def convert_degrees_to_steps(degrees: float | np.ndarray, models: str | list[str]) -> np.ndarray:$/;"	f
+convert_degrees_to_steps	lerobot/common/robot_devices/motors/feetech.py	/^def convert_degrees_to_steps(degrees: float | np.ndarray, models: str | list[str]) -> np.ndarray:$/;"	f
+convert_stats_to_json	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def convert_stats_to_json(v1_dir: Path, v2_dir: Path) -> None:$/;"	f
+convert_to_bytes	lerobot/common/robot_devices/motors/dynamixel.py	/^def convert_to_bytes(value, bytes, mock=False):$/;"	f
+convert_to_bytes	lerobot/common/robot_devices/motors/feetech.py	/^def convert_to_bytes(value, bytes, mock=False):$/;"	f
+convert_to_bytes	tests/mock_dynamixel_sdk.py	/^def convert_to_bytes(value, bytes):$/;"	f
+convert_to_bytes	tests/mock_scservo_sdk.py	/^def convert_to_bytes(value, bytes):$/;"	f
+copy_from_path	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def copy_from_path($/;"	m	class:ReplayBuffer
+copy_from_store	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def copy_from_store($/;"	m	class:ReplayBuffer
+create	lerobot/common/datasets/lerobot_dataset.py	/^    def create($/;"	m	class:LeRobotDataset
+create	lerobot/common/datasets/lerobot_dataset.py	/^    def create($/;"	m	class:LeRobotDatasetMetadata
+createAlpineData	lerobot/templates/visualize_dataset_template.html	/^        function createAlpineData() {$/;"	f
+create_branch	lerobot/common/datasets/utils.py	/^def create_branch(repo_id, *, branch: str, repo_type: str | None = None) -> None:$/;"	f
+create_empty_dataset_info	lerobot/common/datasets/utils.py	/^def create_empty_dataset_info($/;"	f
+create_empty_numpy	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def create_empty_numpy(cls):$/;"	m	class:ReplayBuffer
+create_empty_zarr	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def create_empty_zarr(cls, storage=None, root=None):$/;"	m	class:ReplayBuffer
+create_episode_buffer	lerobot/common/datasets/lerobot_dataset.py	/^    def create_episode_buffer(self, episode_index: int | None = None) -> dict:$/;"	m	class:LeRobotDataset
+create_from_group	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def create_from_group(cls, group, **kwargs):$/;"	m	class:ReplayBuffer
+create_from_path	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def create_from_path(cls, zarr_path, mode="r", **kwargs):$/;"	m	class:ReplayBuffer
+create_lerobot_dataset_card	lerobot/common/datasets/utils.py	/^def create_lerobot_dataset_card($/;"	f
+create_seeded_dataloader	lerobot/common/datasets/compute_stats.py	/^    def create_seeded_dataloader(dataset, batch_size, seed):$/;"	f	function:compute_stats
+create_sinusoidal_pos_embedding	lerobot/common/policies/act/modeling_act.py	/^def create_sinusoidal_pos_embedding(num_positions: int, dimension: int) -> Tensor:$/;"	f
+create_stats_buffers	lerobot/common/policies/normalize.py	/^def create_stats_buffers($/;"	f
+crop_block_size	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def crop_block_size(self, gpt_block_size):$/;"	m	class:GPT
+cuda_version	lerobot/scripts/display_sys_info.py	/^cuda_version = torch._C._cuda_getCompiledVersion() if HAS_TORCH and torch.version.cuda is not None else "N\/A"$/;"	v
+custom_format	lerobot/common/utils/utils.py	/^    def custom_format(record):$/;"	f	function:init_logging
+cvtColor	tests/mock_cv2.py	/^def cvtColor(color_image, color_convertion):  # noqa: N802$/;"	f
+cycle	lerobot/common/datasets/utils.py	/^def cycle(iterable):$/;"	f
+data	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def data(self):$/;"	m	class:ReplayBuffer
+data_key	tests/test_online_buffer.py	/^data_key = "data"$/;"	v
+data_keys	lerobot/common/datasets/online_buffer.py	/^    def data_keys(self) -> list[str]:$/;"	m	class:OnlineBuffer
+data_path	lerobot/common/datasets/lerobot_dataset.py	/^    def data_path(self) -> str:$/;"	m	class:LeRobotDatasetMetadata
+data_shape	tests/test_online_buffer.py	/^data_shape = (2, 3)  # just some arbitrary > 1D shape$/;"	v
+dataloader	examples/1_load_lerobot_dataset.py	/^dataloader = torch.utils.data.DataLoader($/;"	v
+dataloader	examples/3_train_policy.py	/^dataloader = torch.utils.data.DataLoader($/;"	v
+dataset	examples/1_load_lerobot_dataset.py	/^dataset = LeRobotDataset(repo_id)$/;"	v
+dataset	examples/1_load_lerobot_dataset.py	/^dataset = LeRobotDataset(repo_id, delta_timestamps=delta_timestamps)$/;"	v
+dataset	examples/1_load_lerobot_dataset.py	/^dataset = LeRobotDataset(repo_id, episodes=[0, 10, 11, 23])$/;"	v
+dataset	examples/3_train_policy.py	/^dataset = LeRobotDataset("lerobot\/pusht", delta_timestamps=delta_timestamps)$/;"	v
+dataset	examples/6_add_image_transforms.py	/^dataset = LeRobotDataset(dataset_repo_id, episodes=[0])$/;"	v
+dataset_metadata	examples/advanced/2_calculate_validation_loss.py	/^dataset_metadata = LeRobotDatasetMetadata("lerobot\/pusht")$/;"	v
+dataset_repo_id	examples/6_add_image_transforms.py	/^dataset_repo_id = "lerobot\/aloha_static_screw_driver"$/;"	v
+decode	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    def decode(self, buf, out=None):$/;"	m	class:Jpeg2k
+decode	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    def decode(self, buf, out=None):$/;"	m	class:JpegXl
+decode_video_frames	benchmarks/video/run_video_benchmark.py	/^def decode_video_frames($/;"	f
+decode_video_frames_torchvision	lerobot/common/datasets/video_utils.py	/^def decode_video_frames_torchvision($/;"	f
+decorator	tests/utils.py	/^    def decorator(func):$/;"	f	function:require_package
+default	benchmarks/video/capture_camera_feed.py	/^        default=1280,$/;"	v
+default	benchmarks/video/capture_camera_feed.py	/^        default=30,$/;"	v
+default	benchmarks/video/capture_camera_feed.py	/^        default=720,$/;"	v
+default	benchmarks/video/capture_camera_feed.py	/^        default=Path("outputs\/cam_capture\/"),$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=0,$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=10,$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=50,$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=Path("outputs\/video_benchmark"),$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=["libx264", "libx265", "libsvtav1"],$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=["pyav", "video_reader"],$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=["yuv444p", "yuv420p"],$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=[$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=[0, 5, 10, 15, 20, 25, 30, 40, 50, None],$/;"	v
+default	benchmarks/video/run_video_benchmark.py	/^        default=[1, 2, 3, 4, 5, 6, 10, 15, 20, 40, 100, None],$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default="lerobot\/configs\/robot\/koch.yaml",$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default="lerobot\/test",$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default=0,$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default=1,$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default=10,$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default=4,$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default=60,$/;"	v
+default	lerobot/scripts/control_robot.py	/^        default=None,$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default="lerobot\/configs\/robot\/koch.yaml",$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default="lerobot\/test",$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default=0,$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default=1,$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default=4,$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default=60,$/;"	v
+default	lerobot/scripts/control_sim_robot.py	/^        default=None,$/;"	v
+default_factory	lerobot/common/policies/act/configuration_act.py	/^        default_factory=lambda: {$/;"	v	class:ACTConfig
+default_factory	lerobot/common/policies/diffusion/configuration_diffusion.py	/^        default_factory=lambda: {$/;"	v	class:DiffusionConfig
+default_factory	lerobot/common/policies/tdmpc/configuration_tdmpc.py	/^        default_factory=lambda: {"action": "min_max"},$/;"	v	class:TDMPCConfig
+default_factory	lerobot/common/policies/tdmpc/configuration_tdmpc.py	/^        default_factory=lambda: {$/;"	v	class:TDMPCConfig
+default_factory	lerobot/common/policies/vqbet/configuration_vqbet.py	/^        default_factory=lambda: {$/;"	v	class:VQBeTConfig
+default_transforms	tests/test_image_transforms.py	/^def default_transforms():$/;"	f
+delta_indices	tests/test_delta_timestamps.py	/^def delta_indices(keys: list = DUMMY_MOTOR_FEATURES) -> dict:$/;"	f
+delta_timestamps	examples/1_load_lerobot_dataset.py	/^delta_timestamps = {$/;"	v
+delta_timestamps	examples/3_train_policy.py	/^delta_timestamps = {$/;"	v
+delta_timestamps	examples/advanced/2_calculate_validation_loss.py	/^delta_timestamps = {$/;"	v
+delta_timestamps	lerobot/common/datasets/online_buffer.py	/^    def delta_timestamps(self) -> dict[str, np.ndarray] | None:$/;"	m	class:OnlineBuffer
+depth	tests/mock_pyrealsense2.py	/^    depth = 1$/;"	v	class:stream
+device	examples/2_evaluate_pretrained_policy.py	/^    device = torch.device("cpu")$/;"	v
+device	examples/2_evaluate_pretrained_policy.py	/^    device = torch.device("cuda")$/;"	v
+device	examples/3_train_policy.py	/^device = torch.device("cuda")$/;"	v
+device	examples/advanced/2_calculate_validation_loss.py	/^device = torch.device("cuda")$/;"	v
+device	lerobot/scripts/train.py	/^    device = get_device_from_parameters(policy)$/;"	v
+disconnect	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def disconnect(self):$/;"	m	class:IntelRealSenseCamera
+disconnect	lerobot/common/robot_devices/cameras/opencv.py	/^    def disconnect(self):$/;"	m	class:OpenCVCamera
+disconnect	lerobot/common/robot_devices/cameras/utils.py	/^    def disconnect(self): ...$/;"	m	class:Camera
+disconnect	lerobot/common/robot_devices/motors/dynamixel.py	/^    def disconnect(self):$/;"	m	class:DynamixelMotorsBus
+disconnect	lerobot/common/robot_devices/motors/feetech.py	/^    def disconnect(self):$/;"	m	class:FeetechMotorsBus
+disconnect	lerobot/common/robot_devices/robots/manipulator.py	/^    def disconnect(self):$/;"	m	class:ManipulatorRobot
+disconnect	lerobot/common/robot_devices/robots/stretch.py	/^    def disconnect(self) -> None:$/;"	m	class:StretchRobot
+disconnect	lerobot/common/robot_devices/robots/utils.py	/^    def disconnect(self): ...$/;"	m	class:Robot
+discretize	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def discretize(self, n_vqvae_training_steps, actions):$/;"	m	class:VQBeTHead
+display_and_save_video_stream	benchmarks/video/capture_camera_feed.py	/^def display_and_save_video_stream(output_dir: Path, fps: int, width: int, height: int):$/;"	f
+display_sys_info	lerobot/scripts/display_sys_info.py	/^def display_sys_info() -> dict:$/;"	f
+dists	lerobot/common/policies/vqbet/vqbet_utils.py	/^        dists = -torch.cdist(samples, means, p=2)$/;"	v
+done	examples/2_evaluate_pretrained_policy.py	/^    done = terminated | truncated | done$/;"	v
+done	examples/2_evaluate_pretrained_policy.py	/^done = False$/;"	v
+done	examples/3_train_policy.py	/^            done = True$/;"	v
+done	examples/3_train_policy.py	/^done = False$/;"	v
+download_all_raw_datasets	lerobot/common/datasets/push_dataset_to_hub/_download_raw.py	/^def download_all_raw_datasets(data_dir: Path | None = None):$/;"	f
+download_episodes	lerobot/common/datasets/lerobot_dataset.py	/^    def download_episodes(self, download_videos: bool = True) -> None:$/;"	m	class:LeRobotDataset
+download_raw	lerobot/common/datasets/push_dataset_to_hub/_download_raw.py	/^def download_raw(raw_dir: Path, repo_id: str):$/;"	f
+drop_episode	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def drop_episode(self):$/;"	m	class:ReplayBuffer
+drop_last	examples/3_train_policy.py	/^    drop_last=True,$/;"	v
+drop_last	examples/advanced/2_calculate_validation_loss.py	/^    drop_last=False,$/;"	v
+ds_meta	examples/1_load_lerobot_dataset.py	/^ds_meta = LeRobotDatasetMetadata(repo_id)$/;"	v
+dt_s	lerobot/common/robot_devices/cameras/intelrealsense.py	/^                    dt_s = time.perf_counter() - now$/;"	v
+dt_s	lerobot/common/robot_devices/cameras/opencv.py	/^                dt_s = time.perf_counter() - now$/;"	v
+dt_s	lerobot/common/robot_devices/control_utils.py	/^            dt_s = time.perf_counter() - start_loop_t$/;"	v
+dt_s	lerobot/common/robot_devices/control_utils.py	/^        dt_s = time.perf_counter() - start_loop_t$/;"	v
+ema_inplace	lerobot/common/policies/vqbet/vqbet_utils.py	/^def ema_inplace(old, new, decay):$/;"	f
+enable_device	tests/mock_pyrealsense2.py	/^    def enable_device(self, device_id: str):$/;"	m	class:config
+enable_stream	tests/mock_pyrealsense2.py	/^    def enable_stream(self, stream_type: stream, width=None, height=None, color_format=None, fps=None):$/;"	m	class:config
+encode	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    def encode(self, buf):$/;"	m	class:Jpeg2k
+encode	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^    def encode(self, buf):$/;"	m	class:JpegXl
+encode	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def encode(self, obs: dict[str, Tensor]) -> Tensor:$/;"	m	class:TDMPCTOLD
+encode_datasets	lerobot/common/datasets/push_dataset_to_hub/_encode_datasets.py	/^def encode_datasets($/;"	f
+encode_episode_videos	lerobot/common/datasets/lerobot_dataset.py	/^    def encode_episode_videos(self, episode_index: int) -> dict:$/;"	m	class:LeRobotDataset
+encode_video_frames	lerobot/common/datasets/video_utils.py	/^def encode_video_frames($/;"	f
+encode_videos	lerobot/common/datasets/lerobot_dataset.py	/^    def encode_videos(self) -> None:$/;"	m	class:LeRobotDataset
+ensure_safe_goal_position	lerobot/common/robot_devices/robots/manipulator.py	/^def ensure_safe_goal_position($/;"	f
+env	examples/2_evaluate_pretrained_policy.py	/^env = gym.make($/;"	v
+env_cfg	lerobot/scripts/control_sim_robot.py	/^    env_cfg = init_hydra_config(env_config_path)$/;"	v
+env_config_path	lerobot/scripts/control_sim_robot.py	/^    env_config_path = args.sim_config$/;"	v
+env_constructor	lerobot/scripts/control_sim_robot.py	/^    def env_constructor():$/;"	f
+env_dataset_pairs	lerobot/__init__.py	/^env_dataset_pairs = [$/;"	v
+env_dataset_policy_triplets	lerobot/__init__.py	/^env_dataset_policy_triplets = [$/;"	v
+env_policies	tests/scripts/save_policy_to_safetensors.py	/^    env_policies = [$/;"	v
+env_task_pairs	lerobot/__init__.py	/^env_task_pairs = [(env, task) for env, tasks in available_tasks_per_env.items() for task in tasks]$/;"	v
+episode_ends	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def episode_ends(self):$/;"	m	class:ReplayBuffer
+episode_index	examples/1_load_lerobot_dataset.py	/^episode_index = 0$/;"	v
+episode_lengths	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def episode_lengths(self):$/;"	m	class:ReplayBuffer
+episode_path	tests/fixtures/files.py	/^def episode_path(episodes_factory):$/;"	f
+episodes	examples/advanced/2_calculate_validation_loss.py	/^episodes = list(range(dataset_metadata.total_episodes))$/;"	v
+episodes_factory	tests/fixtures/dataset_factories.py	/^def episodes_factory(tasks_factory):$/;"	f
+error_if_nonfinite	lerobot/scripts/train.py	/^        error_if_nonfinite=False,$/;"	v
+estimate_value	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def estimate_value(self, z: Tensor, actions: Tensor):$/;"	m	class:TDMPCPolicy
+eval_policy	lerobot/scripts/eval.py	/^def eval_policy($/;"	f
+evaluate_and_checkpoint_if_needed	lerobot/scripts/train.py	/^    def evaluate_and_checkpoint_if_needed(step, is_online):$/;"	f	function:train
+events	lerobot/common/robot_devices/control_utils.py	/^        events = {"exit_early": False}$/;"	v
+expire_codes_	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def expire_codes_(self, batch_samples):$/;"	m	class:EuclideanCodebook
+extend	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def extend(self, data):$/;"	m	class:ReplayBuffer
+extra_repr	lerobot/common/datasets/transforms.py	/^    def extra_repr(self) -> str:$/;"	m	class:RandomSubsetApply
+features	lerobot/common/datasets/lerobot_dataset.py	/^    def features(self) -> datasets.Features:$/;"	m	class:MultiLeRobotDataset
+features	lerobot/common/datasets/lerobot_dataset.py	/^    def features(self) -> dict[str, dict]:$/;"	m	class:LeRobotDataset
+features	lerobot/common/datasets/lerobot_dataset.py	/^    def features(self) -> dict[str, dict]:$/;"	m	class:LeRobotDatasetMetadata
+features	lerobot/common/robot_devices/robots/manipulator.py	/^    def features(self):$/;"	m	class:ManipulatorRobot
+features_factory	tests/fixtures/dataset_factories.py	/^def features_factory():$/;"	f
+find_available_ports	lerobot/scripts/find_motors_bus_port.py	/^def find_available_ports():$/;"	f
+find_cameras	lerobot/common/robot_devices/cameras/intelrealsense.py	/^def find_cameras(raise_when_empty=True, mock=False) -> list[dict]:$/;"	f
+find_cameras	lerobot/common/robot_devices/cameras/opencv.py	/^def find_cameras(raise_when_empty=False, max_index_search_range=MAX_OPENCV_INDEX, mock=False) -> list[dict]:$/;"	f
+find_motor_indices	lerobot/common/robot_devices/motors/dynamixel.py	/^    def find_motor_indices(self, possible_ids=None, num_retry=2):$/;"	m	class:DynamixelMotorsBus
+find_motor_indices	lerobot/common/robot_devices/motors/feetech.py	/^    def find_motor_indices(self, possible_ids=None, num_retry=2):$/;"	m	class:FeetechMotorsBus
+find_port	lerobot/scripts/find_motors_bus_port.py	/^def find_port():$/;"	f
+first_idx	examples/6_add_image_transforms.py	/^first_idx = dataset.episode_data_index["from"][0].item()$/;"	v
+fix_gitattributes	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def fix_gitattributes(work_dir: Path, current_gittatributes: Path, clean_gittatributes: Path) -> None:$/;"	f
+fix_lfs_video_files_tracking	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def fix_lfs_video_files_tracking(work_dir: Path, lfs_untracked_videos: list[str]) -> None:$/;"	f
+flatten_dict	lerobot/common/datasets/utils.py	/^def flatten_dict(d: dict, parent_key: str = "", sep: str = "\/") -> dict:$/;"	f
+flatten_forward_unflatten	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^def flatten_forward_unflatten(fn: Callable[[Tensor], Tensor], image_tensor: Tensor) -> Tensor:$/;"	f
+format	tests/mock_pyrealsense2.py	/^class format(enum.Enum):  # noqa: N801$/;"	c
+format_big_number	lerobot/common/utils/utils.py	/^def format_big_number(num, precision=0):$/;"	f
+format_dict	lerobot/scripts/display_sys_info.py	/^def format_dict(d: dict) -> str:$/;"	f
+forward	lerobot/common/datasets/transforms.py	/^    def forward(self, *inputs: Any) -> Any:$/;"	m	class:RandomSubsetApply
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward($/;"	m	class:ACTDecoder
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward($/;"	m	class:ACTDecoderLayer
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward($/;"	m	class:ACTEncoder
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict[str, Tensor]:$/;"	m	class:ACTPolicy
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward(self, batch: dict[str, Tensor]) -> tuple[Tensor, tuple[Tensor, Tensor] | tuple[None, None]]:$/;"	m	class:ACT
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward(self, x, pos_embed: Tensor | None = None, key_padding_mask: Tensor | None = None) -> Tensor:$/;"	m	class:ACTEncoderLayer
+forward	lerobot/common/policies/act/modeling_act.py	/^    def forward(self, x: Tensor) -> Tensor:$/;"	m	class:ACTSinusoidalPositionEmbedding2d
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict[str, Tensor]:$/;"	m	class:DiffusionPolicy
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, features: Tensor) -> Tensor:$/;"	m	class:SpatialSoftmax
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, x):$/;"	m	class:DiffusionConv1dBlock
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, x: Tensor) -> Tensor:$/;"	m	class:DiffusionRgbEncoder
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, x: Tensor) -> Tensor:$/;"	m	class:DiffusionSinusoidalPosEmb
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, x: Tensor, cond: Tensor) -> Tensor:$/;"	m	class:DiffusionConditionalResidualBlock1d
+forward	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def forward(self, x: Tensor, timestep: Tensor | int, global_cond=None) -> Tensor:$/;"	m	class:DiffusionConditionalUnet1d
+forward	lerobot/common/policies/normalize.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict[str, Tensor]:$/;"	m	class:Normalize
+forward	lerobot/common/policies/normalize.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict[str, Tensor]:$/;"	m	class:Unnormalize
+forward	lerobot/common/policies/policy_protocol.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict:$/;"	m	class:Policy
+forward	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict[str, Tensor | float]:$/;"	m	class:TDMPCPolicy
+forward	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def forward(self, obs_dict: dict[str, Tensor]) -> Tensor:$/;"	m	class:TDMPCObservationEncoder
+forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def forward(self, batch: dict[str, Tensor]) -> dict[str, Tensor]:$/;"	m	class:VQBeTPolicy
+forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def forward(self, batch: dict[str, Tensor], rollout: bool) -> Tensor:$/;"	m	class:VQBeTModel
+forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def forward(self, features: Tensor) -> Tensor:$/;"	m	class:SpatialSoftmax
+forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def forward(self, input, target):$/;"	m	class:FocalLoss
+forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def forward(self, x, **kwargs):$/;"	m	class:VQBeTHead
+forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def forward(self, x: Tensor) -> Tensor:$/;"	m	class:VQBeTRgbEncoder
+forward	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def forward($/;"	m	class:VectorQuantize
+forward	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def forward(self, input, targets=None):$/;"	m	class:GPT
+forward	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def forward(self, x):$/;"	m	class:Block
+forward	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def forward(self, x):$/;"	m	class:CausalSelfAttention
+forward	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def forward(self, x, indices=None, return_all_codes=False, sample_codebook_temp=None):$/;"	m	class:ResidualVQ
+forward	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def forward(self, x, sample_codebook_temp=None, mask=None, freeze_codebook=False):$/;"	m	class:EuclideanCodebook
+fps	examples/2_evaluate_pretrained_policy.py	/^fps = env.metadata["render_fps"]$/;"	v
+fps	lerobot/common/datasets/lerobot_dataset.py	/^    def fps(self) -> int:$/;"	m	class:LeRobotDataset
+fps	lerobot/common/datasets/lerobot_dataset.py	/^    def fps(self) -> int:$/;"	m	class:LeRobotDatasetMetadata
+fps	lerobot/common/datasets/lerobot_dataset.py	/^    def fps(self) -> int:$/;"	m	class:MultiLeRobotDataset
+fps	lerobot/common/datasets/online_buffer.py	/^    def fps(self) -> float | None:$/;"	m	class:OnlineBuffer
+fps	tests/mock_pyrealsense2.py	/^    def fps(self):$/;"	m	class:RSColorProfile
+fps	tests/test_online_buffer.py	/^fps = 10$/;"	v
+frame	examples/6_add_image_transforms.py	/^frame = dataset[first_idx][dataset.meta.camera_keys[0]]$/;"	v
+frame	lerobot/common/robot_devices/control_utils.py	/^            frame = {**observation, **action}$/;"	v
+frame_index	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    frame_index = 0$/;"	v
+frame_index	lerobot/common/robot_devices/cameras/opencv.py	/^    frame_index = 0$/;"	v
+frames	examples/1_load_lerobot_dataset.py	/^frames = [dataset[idx][camera_key] for idx in range(from_idx, to_idx)]$/;"	v
+frames	examples/2_evaluate_pretrained_policy.py	/^frames = []$/;"	v
+from_idx	examples/1_load_lerobot_dataset.py	/^from_idx = dataset.episode_data_index["from"][episode_index].item()$/;"	v
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/aloha_hdf5_format.py	/^def from_raw_to_lerobot_format($/;"	f
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/cam_png_format.py	/^def from_raw_to_lerobot_format($/;"	f
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/dora_parquet_format.py	/^def from_raw_to_lerobot_format($/;"	f
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/openx_rlds_format.py	/^def from_raw_to_lerobot_format($/;"	f
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/pusht_zarr_format.py	/^def from_raw_to_lerobot_format($/;"	f
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/umi_zarr_format.py	/^def from_raw_to_lerobot_format($/;"	f
+from_raw_to_lerobot_format	lerobot/common/datasets/push_dataset_to_hub/xarm_pkl_format.py	/^def from_raw_to_lerobot_format($/;"	f
+function_that_raises_exception	tests/test_image_writer.py	/^    def function_that_raises_exception(dataset=None):$/;"	f	function:test_safe_stop_image_writer_decorator
+generate_actions	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def generate_actions(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:DiffusionModel
+get	tests/mock_cv2.py	/^    def get(self, propId: int) -> float:  # noqa: N803$/;"	m	class:VideoCapture
+getBaudRate	tests/mock_dynamixel_sdk.py	/^    def getBaudRate(self):  # noqa: N802$/;"	m	class:PortHandler
+getBaudRate	tests/mock_scservo_sdk.py	/^    def getBaudRate(self):  # noqa: N802$/;"	m	class:PortHandler
+getData	tests/mock_dynamixel_sdk.py	/^    def getData(self, index, address, bytes):  # noqa: N802$/;"	m	class:GroupSyncRead
+getData	tests/mock_scservo_sdk.py	/^    def getData(self, index, address, bytes):  # noqa: N802$/;"	m	class:GroupSyncRead
+get_action_from_latent	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def get_action_from_latent(self, latent):$/;"	m	class:VqVae
+get_activation_fn	lerobot/common/policies/act/modeling_act.py	/^def get_activation_fn(activation: str) -> Callable:$/;"	f
+get_arm_id	lerobot/common/robot_devices/robots/utils.py	/^def get_arm_id(name, arm_type):$/;"	f
+get_audio_info	lerobot/common/datasets/video_utils.py	/^def get_audio_info(video_path: Path | str) -> dict:$/;"	f
+get_camera_index_from_unix_port	lerobot/common/robot_devices/cameras/opencv.py	/^def get_camera_index_from_unix_port(port: Path) -> int:$/;"	f
+get_cameras	lerobot/common/datasets/push_dataset_to_hub/aloha_hdf5_format.py	/^def get_cameras(hdf5_data):$/;"	f
+get_checkpoints_dir	lerobot/common/logger.py	/^    def get_checkpoints_dir(cls, log_dir: str | Path) -> Path:$/;"	m	class:Logger
+get_chunks	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def get_chunks(self) -> dict:$/;"	m	class:ReplayBuffer
+get_code	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def get_code(self, state):$/;"	m	class:VqVae
+get_codebook_vector_from_indices	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def get_codebook_vector_from_indices(self, indices):$/;"	m	class:ResidualVQ
+get_codebook_vector_from_indices	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def get_codebook_vector_from_indices(self, indices):$/;"	m	class:VectorQuantize
+get_color_frame	tests/mock_pyrealsense2.py	/^    def get_color_frame(self):$/;"	m	class:RSFrames
+get_compressors	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def get_compressors(self) -> dict:$/;"	m	class:ReplayBuffer
+get_data	tests/mock_pyrealsense2.py	/^    def get_data(self):$/;"	m	class:RSColorFrame
+get_data	tests/mock_pyrealsense2.py	/^    def get_data(self):$/;"	m	class:RSDepthFrame
+get_data_by_key	lerobot/common/datasets/online_buffer.py	/^    def get_data_by_key(self, key: str) -> torch.Tensor:$/;"	m	class:OnlineBuffer
+get_data_file_path	lerobot/common/datasets/lerobot_dataset.py	/^    def get_data_file_path(self, ep_index: int) -> Path:$/;"	m	class:LeRobotDatasetMetadata
+get_dataset_info	lerobot/scripts/visualize_dataset_html.py	/^def get_dataset_info(repo_id: str) -> IterableNamespace:$/;"	f
+get_default_encoding	lerobot/common/datasets/push_dataset_to_hub/utils.py	/^def get_default_encoding() -> dict:$/;"	f
+get_default_image_compressor	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^def get_default_image_compressor(**kwargs):$/;"	f
+get_default_motor_values	tests/mock_dynamixel_sdk.py	/^def get_default_motor_values(motor_index):$/;"	f
+get_default_motor_values	tests/mock_scservo_sdk.py	/^def get_default_motor_values(motor_index):$/;"	f
+get_delta_indices	lerobot/common/datasets/utils.py	/^def get_delta_indices(delta_timestamps: dict[str, list[float]], fps: int) -> dict[str, list[int]]:$/;"	f
+get_depth_frame	tests/mock_pyrealsense2.py	/^    def get_depth_frame(self):$/;"	m	class:RSFrames
+get_device_from_parameters	lerobot/common/policies/utils.py	/^def get_device_from_parameters(module: nn.Module) -> torch.device:$/;"	f
+get_directory_size	benchmarks/video/run_video_benchmark.py	/^def get_directory_size(directory: Path) -> int:$/;"	f
+get_dtype_from_parameters	lerobot/common/policies/utils.py	/^def get_dtype_from_parameters(module: nn.Module) -> torch.dtype:$/;"	f
+get_embeddings_from_code	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def get_embeddings_from_code(self, encoding_indices):$/;"	m	class:VqVae
+get_ep_csv_fname	lerobot/scripts/visualize_dataset_html.py	/^def get_ep_csv_fname(episode_id: int):$/;"	f
+get_episode	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def get_episode(self, idx, copy=False):$/;"	m	class:ReplayBuffer
+get_episode_chunk	lerobot/common/datasets/lerobot_dataset.py	/^    def get_episode_chunk(self, ep_index: int) -> int:$/;"	m	class:LeRobotDatasetMetadata
+get_episode_data	lerobot/scripts/visualize_dataset_html.py	/^def get_episode_data(dataset: LeRobotDataset | IterableNamespace, episode_index):$/;"	f
+get_episode_data_index	lerobot/common/datasets/utils.py	/^def get_episode_data_index($/;"	f
+get_episode_idxs	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def get_episode_idxs(self):$/;"	m	class:ReplayBuffer
+get_episode_index	lerobot/common/datasets/push_dataset_to_hub/dora_parquet_format.py	/^    def get_episode_index(row):$/;"	f	function:load_from_raw
+get_episode_language_instruction	lerobot/scripts/visualize_dataset_html.py	/^def get_episode_language_instruction(dataset: LeRobotDataset, ep_index: int) -> list[str]:$/;"	f
+get_episode_slice	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def get_episode_slice(self, idx):$/;"	m	class:ReplayBuffer
+get_episode_video_paths	lerobot/scripts/visualize_dataset_html.py	/^def get_episode_video_paths(dataset: LeRobotDataset, ep_index: int) -> list[str]:$/;"	f
+get_features_from_hf_dataset	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def get_features_from_hf_dataset(dataset: Dataset, robot_config: dict | None = None) -> dict[str, list]:$/;"	f
+get_features_from_robot	lerobot/common/datasets/utils.py	/^def get_features_from_robot(robot: Robot, use_videos: bool = True) -> dict:$/;"	f
+get_from_raw_to_lerobot_format_fn	lerobot/scripts/push_dataset_to_hub.py	/^def get_from_raw_to_lerobot_format_fn(raw_format: str):$/;"	f
+get_global_random_state	lerobot/common/utils/utils.py	/^def get_global_random_state() -> dict[str, Any]:$/;"	f
+get_group_sync_key	lerobot/common/robot_devices/motors/dynamixel.py	/^def get_group_sync_key(data_name, motor_names):$/;"	f
+get_group_sync_key	lerobot/common/robot_devices/motors/feetech.py	/^def get_group_sync_key(data_name, motor_names):$/;"	f
+get_hf_features_from_features	lerobot/common/datasets/utils.py	/^def get_hf_features_from_features(features: dict) -> datasets.Features:$/;"	f
+get_hub_safe_version	lerobot/common/datasets/utils.py	/^def get_hub_safe_version(repo_id: str, version: str) -> str:$/;"	f
+get_image_pixel_channels	lerobot/common/datasets/video_utils.py	/^def get_image_pixel_channels(image: Image):$/;"	f
+get_image_transforms	lerobot/common/datasets/transforms.py	/^def get_image_transforms($/;"	f
+get_info	tests/mock_pyrealsense2.py	/^    def get_info(self, camera_info) -> str:$/;"	m	class:RSDevice
+get_last_checkpoint_dir	lerobot/common/logger.py	/^    def get_last_checkpoint_dir(cls, log_dir: str | Path) -> Path:$/;"	m	class:Logger
+get_last_pretrained_model_dir	lerobot/common/logger.py	/^    def get_last_pretrained_model_dir(cls, log_dir: str | Path) -> Path:$/;"	m	class:Logger
+get_log_name	lerobot/common/robot_devices/motors/dynamixel.py	/^def get_log_name(var_name, fn_name, data_name, motor_names):$/;"	f
+get_log_name	lerobot/common/robot_devices/motors/feetech.py	/^def get_log_name(var_name, fn_name, data_name, motor_names):$/;"	f
+get_motor_names	lerobot/common/robot_devices/robots/manipulator.py	/^    def get_motor_names(self, arm: dict[str, MotorsBus]) -> list:$/;"	m	class:ManipulatorRobot
+get_optimal_chunks	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^def get_optimal_chunks(shape, dtype, target_chunk_bytes=2e6, max_chunk_length=None):$/;"	f
+get_policy_and_config_classes	lerobot/common/policies/factory.py	/^def get_policy_and_config_classes(name: str) -> tuple[Policy, object]:$/;"	f
+get_policy_stats	tests/scripts/save_policy_to_safetensors.py	/^def get_policy_stats(env_name, policy_name, extra_overrides):$/;"	f
+get_position_angle_vec	lerobot/common/policies/act/modeling_act.py	/^    def get_position_angle_vec(position):$/;"	f	function:create_sinusoidal_pos_embedding
+get_pretrained_policy_path	lerobot/scripts/eval.py	/^def get_pretrained_policy_path(pretrained_policy_name_or_path, revision=None):$/;"	f
+get_push_repo_id_from_raw	lerobot/common/datasets/push_dataset_to_hub/_encode_datasets.py	/^def get_push_repo_id_from_raw(raw_repo_id: str, push_repo: str) -> str:$/;"	f
+get_queue_name	lerobot/common/robot_devices/motors/dynamixel.py	/^def get_queue_name(fn_name, data_name, motor_names):$/;"	f
+get_queue_name	lerobot/common/robot_devices/motors/feetech.py	/^def get_queue_name(fn_name, data_name, motor_names):$/;"	f
+get_result_name	lerobot/common/robot_devices/motors/dynamixel.py	/^def get_result_name(fn_name, data_name, motor_names):$/;"	f
+get_result_name	lerobot/common/robot_devices/motors/feetech.py	/^def get_result_name(fn_name, data_name, motor_names):$/;"	f
+get_safe_torch_device	lerobot/common/utils/utils.py	/^def get_safe_torch_device(cfg_device: str, log: bool = False) -> torch.device:$/;"	f
+get_state	lerobot/common/robot_devices/robots/stretch.py	/^    def get_state(self) -> dict:$/;"	m	class:StretchRobot
+get_stats_einops_patterns	lerobot/common/datasets/compute_stats.py	/^def get_stats_einops_patterns(dataset, num_workers=0):$/;"	f
+get_steps_slice	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def get_steps_slice(self, start, stop, step=None, copy=False):$/;"	m	class:ReplayBuffer
+get_stream	tests/mock_pyrealsense2.py	/^    def get_stream(self, color_format):$/;"	m	class:RSProfile
+get_task_index	lerobot/common/datasets/lerobot_dataset.py	/^    def get_task_index(self, task: str) -> int:$/;"	m	class:LeRobotDatasetMetadata
+get_task_index	tests/fixtures/dataset_factories.py	/^def get_task_index(task_dicts: dict, task: str) -> int:$/;"	f
+get_video_file_path	lerobot/common/datasets/lerobot_dataset.py	/^    def get_video_file_path(self, ep_index: int, vid_key: str) -> Path:$/;"	m	class:LeRobotDatasetMetadata
+get_video_info	lerobot/common/datasets/video_utils.py	/^def get_video_info(video_path: Path | str) -> dict:$/;"	f
+get_video_pixel_channels	lerobot/common/datasets/video_utils.py	/^def get_video_pixel_channels(pix_fmt: str) -> int:$/;"	f
+get_videos_info	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def get_videos_info(repo_id: str, local_dir: Path, video_keys: list[str], branch: str) -> dict:$/;"	f
+get_wandb_run_id_from_filesystem	lerobot/common/logger.py	/^def get_wandb_run_id_from_filesystem(checkpoint_dir: Path) -> str:$/;"	f
+grad_norm	lerobot/scripts/train.py	/^    grad_norm = torch.nn.utils.clip_grad_norm_($/;"	v
+group	lerobot/scripts/eval.py	/^    group = parser.add_mutually_exclusive_group(required=True)$/;"	v
+gumbel_noise	lerobot/common/policies/vqbet/vqbet_utils.py	/^def gumbel_noise(t):$/;"	f
+gumbel_sample	lerobot/common/policies/vqbet/vqbet_utils.py	/^def gumbel_sample($/;"	f
+has_camera	lerobot/common/robot_devices/robots/manipulator.py	/^    def has_camera(self):$/;"	m	class:ManipulatorRobot
+has_method	lerobot/common/robot_devices/control_utils.py	/^def has_method(_object: object, method_name: str):$/;"	f
+height	tests/mock_pyrealsense2.py	/^    def height(self):$/;"	m	class:RSColorProfile
+help	benchmarks/video/capture_camera_feed.py	/^        help="Directory where the capture images are written. A subfolder named with the current date & time will be created inside it for each capture.",$/;"	v
+help	benchmarks/video/capture_camera_feed.py	/^        help="Frames Per Second of the capture.",$/;"	v
+help	benchmarks/video/capture_camera_feed.py	/^        help="Height of the captured images.",$/;"	v
+help	benchmarks/video/capture_camera_feed.py	/^        help="Width of the captured images.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Constant rate factors to be tested.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Datasets repo-ids to test against. First episodes only are used. Must be images.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Directory where the video benchmark outputs are written.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Group of pictures sizes to be tested.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Number of processes for parallelized sample processing.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Number of samples for each encoding x decoding config.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Pixel formats (chroma subsampling) to be tested",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Timestamps scenarios to be tested.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Torchvision decoding backend to be tested.",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Video codecs to be tested",$/;"	v
+help	benchmarks/video/run_video_benchmark.py	/^        help="Whether to save decoded frames or not. Enter a non-zero number for true.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="A short but accurate description of the task performed during the recording.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Add tags to your dataset on the hub.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="By default, run the computation of the data statistics at the end of data collection. Compute intensive and not required to just replay an episode.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Dataset identifier. By convention it should match '{hf_username}\/{dataset_name}' (e.g. `lerobot\/test`).",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Display all cameras on screen (set to 1 to display or 0).",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="List of arms to calibrate (e.g. `--arms left_follower right_follower left_leader`)",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Number of seconds before starting data collection. It allows the robot devices to warmup and synchronize.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Number of seconds for data recording for each episode.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Number of seconds for resetting the environment after each episode.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Path to robot yaml file used to instantiate the robot using `make_robot` factory function.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Resume recording on an existing dataset.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Root directory where the dataset will be stored (e.g. 'dataset\/path').",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Upload dataset to Hugging Face hub.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help="Use local files only. By default, this script will try to fetch the dataset from the hub if it exists.",$/;"	v
+help	lerobot/scripts/control_robot.py	/^        help=($/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="A description of the task preformed during recording that can be used as a language instruction.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Add tags to your dataset on the hub.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="By default, run the computation of the data statistics at the end of data collection. Compute intensive and not required to just replay an episode.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Dataset identifier. By convention it should match '{hf_username}\/{dataset_name}' (e.g. `lerobot\/test`).",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Number of seconds for data recording for each episode.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Path to a yaml config you want to use for initializing a sim environment based on gym ",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Path to robot yaml file used to instantiate the robot using `make_robot` factory function.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Resume recording on an existing dataset.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Root directory where the dataset will be stored locally (e.g. 'data\/hf_username\/dataset_name'). By default, stored in cache folder.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Root directory where the dataset will be stored locally at '{root}\/{repo_id}' (e.g. 'data\/hf_username\/dataset_name').",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Upload dataset to Hugging Face hub.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help="Visualize image observations with opencv.",$/;"	v
+help	lerobot/scripts/control_sim_robot.py	/^        help=($/;"	v
+help	lerobot/scripts/eval.py	/^        help=($/;"	v
+hf_dataset_factory	tests/fixtures/dataset_factories.py	/^def hf_dataset_factory(features_factory, tasks_factory, episodes_factory, img_array_factory):$/;"	f
+hf_datasets_version	lerobot/scripts/display_sys_info.py	/^hf_datasets_version = datasets.__version__ if HAS_HF_DATASETS else "N\/A"$/;"	v
+hf_features	lerobot/common/datasets/lerobot_dataset.py	/^    def hf_features(self) -> datasets.Features:$/;"	m	class:LeRobotDataset
+hf_hub_version	lerobot/scripts/display_sys_info.py	/^hf_hub_version = huggingface_hub.__version__ if HAS_HF_HUB else "N\/A"$/;"	v
+hf_transform_to_torch	lerobot/common/datasets/utils.py	/^def hf_transform_to_torch(items_dict: dict[torch.Tensor | None]):$/;"	f
+hommepage	lerobot/scripts/visualize_dataset_html.py	/^    def hommepage(dataset=dataset):$/;"	f	function:run_server
+hub_api	examples/1_load_lerobot_dataset.py	/^hub_api = HfApi()$/;"	v
+identity	lerobot/common/policies/vqbet/vqbet_utils.py	/^def identity(t):$/;"	f
+image	examples/2_evaluate_pretrained_policy.py	/^    image = image.permute(2, 0, 1)$/;"	v
+image	examples/2_evaluate_pretrained_policy.py	/^    image = image.to(device, non_blocking=True)$/;"	v
+image	examples/2_evaluate_pretrained_policy.py	/^    image = image.to(torch.float32) \/ 255$/;"	v
+image	examples/2_evaluate_pretrained_policy.py	/^    image = image.unsqueeze(0)$/;"	v
+image	examples/2_evaluate_pretrained_policy.py	/^    image = torch.from_numpy(numpy_observation["pixels"])$/;"	v
+image	lerobot/common/robot_devices/cameras/intelrealsense.py	/^                    image = camera.read() if fps is None else camera.async_read()$/;"	v
+image	lerobot/common/robot_devices/cameras/opencv.py	/^                image = camera.read() if fps is None else camera.async_read()$/;"	v
+image_array_to_image	lerobot/common/datasets/image_writer.py	/^def image_array_to_image(image_array: np.ndarray) -> PIL.Image.Image:$/;"	f
+image_keys	lerobot/common/datasets/lerobot_dataset.py	/^    def image_keys(self) -> list[str]:$/;"	m	class:LeRobotDatasetMetadata
+image_keys	lerobot/common/robot_devices/control_utils.py	/^            image_keys = [key for key in observation if "image" in key]$/;"	v
+images_dir	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    images_dir = Path(images_dir)$/;"	v
+images_dir	lerobot/common/robot_devices/cameras/opencv.py	/^    images_dir = Path(images_dir)$/;"	v
+img_array_factory	tests/fixtures/dataset_factories.py	/^def img_array_factory():$/;"	f
+img_factory	tests/fixtures/dataset_factories.py	/^def img_factory(img_array_factory):$/;"	f
+img_tensor_factory	tests/fixtures/dataset_factories.py	/^def img_tensor_factory():$/;"	f
+in_between_move_elbow_flex_hook	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    def in_between_move_elbow_flex_hook():$/;"	f	function:run_arm_auto_calibration_moss
+in_between_move_hook	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    def in_between_move_hook():$/;"	f	function:run_arm_auto_calibration_so100
+in_between_move_shoulder_lift_hook	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    def in_between_move_shoulder_lift_hook():$/;"	f	function:run_arm_auto_calibration_moss
+ind	lerobot/common/policies/vqbet/vqbet_utils.py	/^    ind = sampling_logits.argmax(dim=dim)$/;"	v
+info	lerobot/scripts/train.py	/^    info = {$/;"	v
+info_factory	tests/fixtures/dataset_factories.py	/^def info_factory(features_factory):$/;"	f
+info_path	tests/fixtures/files.py	/^def info_path(info_factory):$/;"	f
+init_embed_	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def init_embed_(self, data, mask=None):$/;"	m	class:EuclideanCodebook
+init_from_name	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def init_from_name(cls, name: str, config: IntelRealSenseCameraConfig | None = None, **kwargs):$/;"	m	class:IntelRealSenseCamera
+init_hydra_config	lerobot/common/utils/utils.py	/^def init_hydra_config(config_path: str, overrides: list[str] | None = None) -> DictConfig:$/;"	f
+init_keyboard_listener	lerobot/common/robot_devices/control_utils.py	/^def init_keyboard_listener():$/;"	f
+init_logging	lerobot/common/utils/utils.py	/^def init_logging():$/;"	f
+init_policy	lerobot/common/robot_devices/control_utils.py	/^def init_policy(pretrained_policy_name_or_path, policy_overrides):$/;"	f
+init_sim_calibration	lerobot/scripts/control_sim_robot.py	/^def init_sim_calibration(robot, cfg):$/;"	f
+initial_pos	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    initial_pos = arm.read("Present_Position", motor_name)$/;"	v
+inside_slurm	lerobot/common/utils/utils.py	/^def inside_slurm():$/;"	f
+invalid_delta_timestamps_factory	tests/test_delta_timestamps.py	/^def invalid_delta_timestamps_factory(valid_delta_timestamps_factory):$/;"	f
+isOpened	tests/mock_cv2.py	/^    def isOpened(self):  # noqa: N802$/;"	m	class:VideoCapture
+is_camera_available	tests/conftest.py	/^def is_camera_available(camera_type):$/;"	f
+is_headless	lerobot/common/robot_devices/control_utils.py	/^def is_headless():$/;"	f
+is_motor_available	tests/conftest.py	/^def is_motor_available(motor_type):$/;"	f
+is_package_available	lerobot/common/utils/import_utils.py	/^def is_package_available(pkg_name: str, return_version: bool = False) -> tuple[bool, str] | bool:$/;"	f
+is_robot_available	tests/conftest.py	/^def is_robot_available(robot_type):$/;"	f
+is_valid_unix_path	lerobot/common/robot_devices/cameras/opencv.py	/^def is_valid_unix_path(path: str) -> bool:$/;"	f
+items	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def items(self):$/;"	m	class:ReplayBuffer
+items	lerobot/common/datasets/utils.py	/^    def items(self):$/;"	m	class:IterableNamespace
+keys	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def keys(self):$/;"	m	class:ReplayBuffer
+keys	lerobot/common/datasets/utils.py	/^    def keys(self):$/;"	m	class:IterableNamespace
+kmeans	lerobot/common/policies/vqbet/vqbet_utils.py	/^def kmeans($/;"	f
+kwargs	lerobot/scripts/control_robot.py	/^    kwargs = vars(args)$/;"	v
+kwargs	lerobot/scripts/control_sim_robot.py	/^    kwargs = vars(args)$/;"	v
+laplace_smoothing	lerobot/common/policies/vqbet/vqbet_utils.py	/^def laplace_smoothing(x, n_categories, eps=1e-5, dim=-1):$/;"	f
+latent_dynamics	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def latent_dynamics(self, z: Tensor, a: Tensor) -> Tensor:$/;"	m	class:TDMPCTOLD
+latent_dynamics_and_reward	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def latent_dynamics_and_reward(self, z: Tensor, a: Tensor) -> tuple[Tensor, Tensor]:$/;"	m	class:TDMPCTOLD
+lerobot_dataset_factory	tests/fixtures/dataset_factories.py	/^def lerobot_dataset_factory($/;"	f
+lerobot_dataset_metadata_factory	tests/fixtures/dataset_factories.py	/^def lerobot_dataset_metadata_factory($/;"	f
+lerobot_version	lerobot/scripts/display_sys_info.py	/^lerobot_version = lerobot.__version__ if HAS_LEROBOT else "N\/A"$/;"	v
+list_to_tuple	lerobot/common/policies/factory.py	/^    def list_to_tuple(item):$/;"	f	function:_policy_cfg_from_hydra_cfg
+load_and_compare	tests/test_datasets.py	/^    def load_and_compare(i):$/;"	f	function:test_backward_compatibility
+load_episodes	lerobot/common/datasets/utils.py	/^def load_episodes(local_dir: Path) -> dict:$/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/aloha_hdf5_format.py	/^def load_from_raw($/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/cam_png_format.py	/^def load_from_raw(raw_dir: Path, fps: int, episodes: list[int] | None = None):$/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/dora_parquet_format.py	/^def load_from_raw(raw_dir: Path, videos_dir: Path, fps: int, video: bool, episodes: list[int] | None = None):$/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/openx_rlds_format.py	/^def load_from_raw($/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/pusht_zarr_format.py	/^def load_from_raw($/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/umi_zarr_format.py	/^def load_from_raw($/;"	f
+load_from_raw	lerobot/common/datasets/push_dataset_to_hub/xarm_pkl_format.py	/^def load_from_raw($/;"	f
+load_hf_dataset	lerobot/common/datasets/lerobot_dataset.py	/^    def load_hf_dataset(self) -> datasets.Dataset:$/;"	m	class:LeRobotDataset
+load_image_as_numpy	lerobot/common/datasets/utils.py	/^def load_image_as_numpy(fpath: str | Path, dtype="float32", channel_first: bool = True) -> np.ndarray:$/;"	f
+load_info	lerobot/common/datasets/utils.py	/^def load_info(local_dir: Path) -> dict:$/;"	f
+load_json	lerobot/common/datasets/utils.py	/^def load_json(fpath: Path) -> Any:$/;"	f
+load_jsonlines	lerobot/common/datasets/utils.py	/^def load_jsonlines(fpath: Path) -> list[Any]:$/;"	f
+load_last_training_state	lerobot/common/logger.py	/^    def load_last_training_state(self, optimizer: Optimizer, scheduler: LRScheduler | None) -> int:$/;"	m	class:Logger
+load_or_run_calibration_	lerobot/common/robot_devices/robots/manipulator.py	/^        def load_or_run_calibration_(name, arm, arm_type):$/;"	f	function:ManipulatorRobot.activate_calibration
+load_original_frames	benchmarks/video/run_video_benchmark.py	/^def load_original_frames(imgs_dir: Path, timestamps: list[float], fps: int) -> torch.Tensor:$/;"	f
+load_raw_dataset	examples/port_datasets/pusht_zarr.py	/^def load_raw_dataset(zarr_path: Path):$/;"	f
+load_stats	lerobot/common/datasets/utils.py	/^def load_stats(local_dir: Path) -> dict:$/;"	f
+load_tasks	lerobot/common/datasets/utils.py	/^def load_tasks(local_dir: Path) -> dict:$/;"	f
+log	lerobot/common/policies/vqbet/vqbet_utils.py	/^def log(t, eps=1e-20):$/;"	f
+log_control_info	lerobot/common/robot_devices/control_utils.py	/^def log_control_info(robot: Robot, dt_s, episode_index=None, frame_index=None, fps=None):$/;"	f
+log_dict	lerobot/common/logger.py	/^    def log_dict(self, d, step, mode="train"):$/;"	m	class:Logger
+log_dt	lerobot/common/robot_devices/control_utils.py	/^    def log_dt(shortname, dt_val_s):$/;"	f	function:log_control_info
+log_eval_info	lerobot/scripts/train.py	/^def log_eval_info(logger, info, step, cfg, dataset, is_online):$/;"	f
+log_freq	examples/3_train_policy.py	/^log_freq = 250$/;"	v
+log_output_dir	lerobot/common/logger.py	/^def log_output_dir(out_dir):$/;"	f
+log_say	lerobot/common/utils/utils.py	/^def log_say(text, play_sounds, blocking=False):$/;"	f
+log_train_info	lerobot/scripts/train.py	/^def log_train_info(logger: Logger, info, step, cfg, dataset, is_online):$/;"	f
+log_video	lerobot/common/logger.py	/^    def log_video(self, video_path: str, step: int, mode: str = "train"):$/;"	m	class:Logger
+log_warning	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^def log_warning(msg, *args, **kwargs):$/;"	f
+loss	examples/3_train_policy.py	/^        loss = output_dict["loss"]$/;"	v
+loss	lerobot/scripts/train.py	/^        loss = output_dict["loss"]$/;"	v
+loss_cumsum	examples/advanced/2_calculate_validation_loss.py	/^loss_cumsum = 0$/;"	v
+loss_fn	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def loss_fn(self, pred, target, **kwargs):$/;"	m	class:VQBeTHead
+lr_lambda	lerobot/common/policies/vqbet/modeling_vqbet.py	/^        def lr_lambda(current_step):$/;"	f	function:VQBeTScheduler.__init__
+main	benchmarks/video/run_video_benchmark.py	/^def main($/;"	f
+main	examples/port_datasets/pusht_zarr.py	/^def main(raw_dir: Path, repo_id: str, mode: str = "video", push_to_hub: bool = True):$/;"	f
+main	lerobot/common/datasets/push_dataset_to_hub/_download_raw.py	/^def main():$/;"	f
+main	lerobot/common/datasets/push_dataset_to_hub/_encode_datasets.py	/^def main():$/;"	f
+main	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def main():$/;"	f
+main	lerobot/scripts/eval.py	/^def main($/;"	f
+main	lerobot/scripts/push_dataset_to_hub.py	/^def main():$/;"	f
+main	lerobot/scripts/visualize_dataset.py	/^def main():$/;"	f
+main	lerobot/scripts/visualize_dataset_html.py	/^def main():$/;"	f
+main	tests/scripts/save_image_transforms_to_safetensors.py	/^def main():$/;"	f
+make_camera	tests/utils.py	/^def make_camera(camera_type, **kwargs) -> Camera:$/;"	f
+make_dataset	lerobot/common/datasets/factory.py	/^def make_dataset(cfg, split: str = "train") -> LeRobotDataset | MultiLeRobotDataset:$/;"	f
+make_env	lerobot/common/envs/factory.py	/^def make_env(cfg: DictConfig, n_envs: int | None = None) -> gym.vector.VectorEnv | None:$/;"	f
+make_motors_bus	tests/utils.py	/^def make_motors_bus(motor_type: str, **kwargs) -> MotorsBus:$/;"	f
+make_new_buffer	tests/test_online_buffer.py	/^def make_new_buffer($/;"	f
+make_optimizer_and_scheduler	lerobot/scripts/train.py	/^def make_optimizer_and_scheduler(cfg, policy):$/;"	f
+make_policy	lerobot/common/policies/factory.py	/^def make_policy($/;"	f
+make_robot	lerobot/common/robot_devices/robots/factory.py	/^def make_robot(cfg: DictConfig) -> Robot:$/;"	f
+make_robot	tests/utils.py	/^def make_robot(robot_type: str, overrides: list[str] | None = None, mock=False) -> Robot:$/;"	f
+make_spoof_data_frames	tests/test_online_buffer.py	/^def make_spoof_data_frames(n_episodes: int, n_frames_per_episode: int) -> dict[str, np.ndarray]:$/;"	f
+max_episode_steps	examples/2_evaluate_pretrained_policy.py	/^    max_episode_steps=300,$/;"	v
+maybe_add_pos_embed	lerobot/common/policies/act/modeling_act.py	/^    def maybe_add_pos_embed(self, tensor: Tensor, pos_embed: Tensor | None) -> Tensor:$/;"	m	class:ACTDecoderLayer
+means	lerobot/common/policies/vqbet/vqbet_utils.py	/^        means = torch.where(rearrange(zero_mask, "... -> ... 1"), means, new_means)$/;"	v
+means	lerobot/common/policies/vqbet/vqbet_utils.py	/^    means = sample_fn(samples, num_clusters)$/;"	v
+meta	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def meta(self):$/;"	m	class:ReplayBuffer
+mock_calibration_dir	tests/utils.py	/^def mock_calibration_dir(calibration_dir):$/;"	f
+mock_snapshot_download_factory	tests/fixtures/hub.py	/^def mock_snapshot_download_factory($/;"	f
+modes	examples/port_datasets/pusht_zarr.py	/^    modes = ["video", "image", "keypoints"]$/;"	v
+motor_features	lerobot/common/robot_devices/robots/manipulator.py	/^    def motor_features(self) -> dict:$/;"	m	class:ManipulatorRobot
+motor_indices	lerobot/common/robot_devices/motors/dynamixel.py	/^    def motor_indices(self) -> list[int]:$/;"	m	class:DynamixelMotorsBus
+motor_indices	lerobot/common/robot_devices/motors/feetech.py	/^    def motor_indices(self) -> list[int]:$/;"	m	class:FeetechMotorsBus
+motor_models	lerobot/common/robot_devices/motors/dynamixel.py	/^    def motor_models(self) -> list[str]:$/;"	m	class:DynamixelMotorsBus
+motor_models	lerobot/common/robot_devices/motors/feetech.py	/^    def motor_models(self) -> list[str]:$/;"	m	class:FeetechMotorsBus
+motor_names	lerobot/common/robot_devices/motors/dynamixel.py	/^    def motor_names(self) -> list[str]:$/;"	m	class:DynamixelMotorsBus
+motor_names	lerobot/common/robot_devices/motors/feetech.py	/^    def motor_names(self) -> list[str]:$/;"	m	class:FeetechMotorsBus
+motor_names	lerobot/common/robot_devices/motors/utils.py	/^    def motor_names(self): ...$/;"	m	class:MotorsBus
+move_to_calibrate	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def move_to_calibrate($/;"	f
+move_until_block	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def move_until_block(arm, motor_name, positive_direction=True, while_move_hook=None):$/;"	f
+move_videos	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def move_videos($/;"	f
+multi_episode_parquet_path	tests/fixtures/files.py	/^def multi_episode_parquet_path(hf_dataset_factory, info_factory):$/;"	f
+n_episodes	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def n_episodes(self):$/;"	m	class:ReplayBuffer
+n_examples_evaluated	examples/advanced/2_calculate_validation_loss.py	/^n_examples_evaluated = 0$/;"	v
+n_present_pos	lerobot/common/robot_devices/robots/feetech_calibration.py	/^        n_present_pos = move_until_block($/;"	v
+n_steps	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def n_steps(self):$/;"	m	class:ReplayBuffer
+name	lerobot/common/policies/act/modeling_act.py	/^    name = "act"$/;"	v	class:ACTPolicy
+name	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    name = "diffusion"$/;"	v	class:DiffusionPolicy
+name	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    name = "tdmpc"$/;"	v	class:TDMPCPolicy
+name	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    name = "vqbet"$/;"	v	class:VQBeTPolicy
+name	tests/mock_pyrealsense2.py	/^    name = "Intel RealSense D435I"$/;"	v	class:camera_info
+names	lerobot/common/datasets/lerobot_dataset.py	/^    def names(self) -> dict[str, list | dict]:$/;"	m	class:LeRobotDatasetMetadata
+nargs	benchmarks/video/run_video_benchmark.py	/^        nargs="*",$/;"	v
+nargs	lerobot/scripts/control_robot.py	/^        nargs="*",$/;"	v
+nargs	lerobot/scripts/control_sim_robot.py	/^        nargs="*",$/;"	v
+nargs	lerobot/scripts/eval.py	/^        nargs="*",$/;"	v
+new_means	lerobot/common/policies/vqbet/vqbet_utils.py	/^        new_means = buckets.new_zeros(num_codebooks, num_clusters, dim, dtype=dtype)$/;"	v
+new_means	lerobot/common/policies/vqbet/vqbet_utils.py	/^        new_means = new_means \/ rearrange(bins_min_clamped, "... -> ... 1")$/;"	v
+none_or_int	lerobot/common/utils/utils.py	/^def none_or_int(value):$/;"	f
+none_or_int	lerobot/scripts/control_sim_robot.py	/^def none_or_int(value):$/;"	f
+noop	lerobot/common/policies/vqbet/vqbet_utils.py	/^def noop(*args, **kwargs):$/;"	f
+now	lerobot/common/robot_devices/cameras/intelrealsense.py	/^                now = time.perf_counter()$/;"	v
+now	lerobot/common/robot_devices/cameras/opencv.py	/^            now = time.perf_counter()$/;"	v
+np_version	lerobot/scripts/display_sys_info.py	/^np_version = np.__version__ if HAS_NP else "N\/A"$/;"	v
+num_cameras	lerobot/common/robot_devices/robots/manipulator.py	/^    def num_cameras(self):$/;"	m	class:ManipulatorRobot
+num_episodes	lerobot/common/datasets/lerobot_dataset.py	/^    def num_episodes(self) -> int:$/;"	m	class:LeRobotDataset
+num_episodes	lerobot/common/datasets/lerobot_dataset.py	/^    def num_episodes(self) -> int:$/;"	m	class:MultiLeRobotDataset
+num_episodes	lerobot/common/datasets/online_buffer.py	/^    def num_episodes(self) -> int:$/;"	m	class:OnlineBuffer
+num_frames	lerobot/common/datasets/lerobot_dataset.py	/^    def num_frames(self) -> int:$/;"	m	class:LeRobotDataset
+num_frames	lerobot/common/datasets/lerobot_dataset.py	/^    def num_frames(self) -> int:$/;"	m	class:MultiLeRobotDataset
+num_frames	lerobot/common/datasets/online_buffer.py	/^    def num_frames(self) -> int:$/;"	m	class:OnlineBuffer
+num_train_episodes	examples/advanced/2_calculate_validation_loss.py	/^num_train_episodes = math.floor(total_episodes * 90 \/ 100)$/;"	v
+num_workers	examples/1_load_lerobot_dataset.py	/^    num_workers=0,$/;"	v
+num_workers	examples/3_train_policy.py	/^    num_workers=4,$/;"	v
+num_workers	examples/advanced/2_calculate_validation_loss.py	/^    num_workers=4,$/;"	v
+numpy_action	examples/2_evaluate_pretrained_policy.py	/^    numpy_action = action.squeeze(0).to("cpu").numpy()$/;"	v
+obs_type	examples/2_evaluate_pretrained_policy.py	/^    obs_type="pixels_agent_pos",$/;"	v
+observation	examples/2_evaluate_pretrained_policy.py	/^    observation = {$/;"	v
+observation	lerobot/common/robot_devices/control_utils.py	/^            observation = robot.capture_observation()$/;"	v
+olicy	Makefile	/^		policy=created_by_Makefile.yaml \\$/;"	m
+on_press	lerobot/common/robot_devices/control_utils.py	/^    def on_press(key):$/;"	f	function:init_keyboard_listener
+one_hot	lerobot/common/policies/vqbet/vqbet_utils.py	/^        one_hot = one_hot + π1 - π1.detach()$/;"	v
+one_hot	lerobot/common/policies/vqbet/vqbet_utils.py	/^        one_hot = π2 - π2.detach() + one_hot$/;"	v
+one_hot	lerobot/common/policies/vqbet/vqbet_utils.py	/^    one_hot = F.one_hot(ind, size).type(dtype)$/;"	v
+openPort	tests/mock_dynamixel_sdk.py	/^    def openPort(self):  # noqa: N802$/;"	m	class:PortHandler
+openPort	tests/mock_scservo_sdk.py	/^    def openPort(self):  # noqa: N802$/;"	m	class:PortHandler
+optimizer	examples/3_train_policy.py	/^optimizer = torch.optim.Adam(policy.parameters(), lr=1e-4)$/;"	v
+orthogonal_loss_fn	lerobot/common/policies/vqbet/vqbet_utils.py	/^def orthogonal_loss_fn(t):$/;"	f
+out_dir	lerobot/scripts/eval.py	/^            out_dir=args.out_dir,$/;"	v
+output_dict	examples/3_train_policy.py	/^        output_dict = policy.forward(batch)$/;"	v
+output_dict	examples/advanced/2_calculate_validation_loss.py	/^    output_dict = policy.forward(batch)$/;"	v
+output_dict	lerobot/scripts/train.py	/^        output_dict = policy.forward(batch)$/;"	v
+output_dir	examples/6_add_image_transforms.py	/^output_dir = Path("outputs\/image_transforms")$/;"	v
+output_directory	examples/2_evaluate_pretrained_policy.py	/^output_directory = Path("outputs\/eval\/example_pusht_diffusion")$/;"	v
+output_directory	examples/3_train_policy.py	/^output_directory = Path("outputs\/train\/example_pusht_diffusion")$/;"	v
+p_present_pos	lerobot/common/robot_devices/robots/feetech_calibration.py	/^        p_present_pos = move_until_block($/;"	v
+pack_one	lerobot/common/policies/vqbet/vqbet_utils.py	/^def pack_one(t, pattern):$/;"	f
+pad_shape	lerobot/common/policies/vqbet/vqbet_utils.py	/^def pad_shape(shape, size, dim=0):$/;"	f
+parse_int_or_none	benchmarks/video/run_video_benchmark.py	/^def parse_int_or_none(value) -> int | None:$/;"	f
+parse_robot_config	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def parse_robot_config(config_path: Path, config_overrides: list[str] | None = None) -> tuple[str, dict]:$/;"	f
+parser	benchmarks/video/capture_camera_feed.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	benchmarks/video/run_video_benchmark.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	lerobot/common/robot_devices/cameras/opencv.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	lerobot/scripts/configure_motor.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	lerobot/scripts/control_robot.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	lerobot/scripts/control_sim_robot.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	lerobot/scripts/eval.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser_calib	lerobot/scripts/control_robot.py	/^    parser_calib = subparsers.add_parser("calibrate", parents=[base_parser])$/;"	v
+parser_record	lerobot/scripts/control_robot.py	/^    parser_record = subparsers.add_parser("record", parents=[base_parser])$/;"	v
+parser_record	lerobot/scripts/control_sim_robot.py	/^    parser_record = subparsers.add_parser("record", parents=[base_parser])$/;"	v
+parser_record	lerobot/scripts/control_sim_robot.py	/^    parser_record = subparsers.add_parser("teleoperate", parents=[base_parser])$/;"	v
+parser_replay	lerobot/scripts/control_robot.py	/^    parser_replay = subparsers.add_parser("replay", parents=[base_parser])$/;"	v
+parser_replay	lerobot/scripts/control_sim_robot.py	/^    parser_replay = subparsers.add_parser("replay", parents=[base_parser])$/;"	v
+parser_teleop	lerobot/scripts/control_robot.py	/^    parser_teleop = subparsers.add_parser("teleoperate", parents=[base_parser])$/;"	v
+patch_builtins_input	tests/conftest.py	/^def patch_builtins_input(monkeypatch):$/;"	f
+pi	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def pi(self, z: Tensor, std: float = 0.0) -> Tensor:$/;"	m	class:TDMPCTOLD
+pipeline	tests/mock_pyrealsense2.py	/^class pipeline:  # noqa: N801$/;"	c
+plan	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def plan(self, z: Tensor) -> Tensor:$/;"	m	class:TDMPCPolicy
+policy	examples/2_evaluate_pretrained_policy.py	/^policy = DiffusionPolicy.from_pretrained(pretrained_policy_path)$/;"	v
+policy	examples/3_train_policy.py	/^policy = DiffusionPolicy(cfg, dataset_stats=dataset.meta.stats)$/;"	v
+policy	examples/advanced/2_calculate_validation_loss.py	/^policy = DiffusionPolicy.from_pretrained(pretrained_policy_path)$/;"	v
+pop_episode	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def pop_episode(self):$/;"	m	class:ReplayBuffer
+populate_queues	lerobot/common/policies/utils.py	/^def populate_queues(queues, batch):$/;"	f
+pred_action	lerobot/common/robot_devices/control_utils.py	/^                pred_action = predict_action(observation, policy, device, use_amp)$/;"	v
+predict_action	lerobot/common/robot_devices/control_utils.py	/^def predict_action(observation, policy, device, use_amp):$/;"	f
+preprocess_observation	lerobot/common/envs/utils.py	/^def preprocess_observation(observations: dict[str, np.ndarray]) -> dict[str, Tensor]:$/;"	f
+pretrained_model_dir_name	lerobot/common/logger.py	/^    pretrained_model_dir_name = "pretrained_model"$/;"	v	class:Logger
+pretrained_policy_path	examples/2_evaluate_pretrained_policy.py	/^pretrained_policy_path = Path(snapshot_download("lerobot\/diffusion_pusht"))$/;"	v
+pretrained_policy_path	examples/advanced/2_calculate_validation_loss.py	/^pretrained_policy_path = Path(snapshot_download("lerobot\/diffusion_pusht"))$/;"	v
+pretrained_policy_path	lerobot/scripts/eval.py	/^            pretrained_policy_path=pretrained_policy_path,$/;"	v
+pretrained_policy_path	lerobot/scripts/eval.py	/^        pretrained_policy_path = get_pretrained_policy_path($/;"	v
+print_cuda_memory_usage	lerobot/common/utils/utils.py	/^def print_cuda_memory_usage():$/;"	f
+print_logs	lerobot/common/robot_devices/robots/manipulator.py	/^    def print_logs(self):$/;"	m	class:ManipulatorRobot
+print_logs	lerobot/common/robot_devices/robots/stretch.py	/^    def print_logs(self) -> None:$/;"	m	class:StretchRobot
+print_text	tests/conftest.py	/^    def print_text(text=None):$/;"	f	function:patch_builtins_input
+process_leader_actions_fn	lerobot/scripts/control_sim_robot.py	/^        def process_leader_actions_fn(action):$/;"	f	function:.env_constructor
+process_leader_actions_fn	lerobot/scripts/control_sim_robot.py	/^    process_leader_actions_fn = None$/;"	v
+process_sample	benchmarks/video/run_video_benchmark.py	/^    def process_sample(sample: int):$/;"	f	function:benchmark_decoding
+protective_squeeze	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^def protective_squeeze(x: numpy.ndarray):$/;"	f
+pull_from_repo	lerobot/common/datasets/lerobot_dataset.py	/^    def pull_from_repo($/;"	m	class:LeRobotDataset
+pull_from_repo	lerobot/common/datasets/lerobot_dataset.py	/^    def pull_from_repo($/;"	m	class:LeRobotDatasetMetadata
+push_dataset_card_to_hub	lerobot/scripts/push_dataset_to_hub.py	/^def push_dataset_card_to_hub($/;"	f
+push_dataset_to_hub	lerobot/scripts/push_dataset_to_hub.py	/^def push_dataset_to_hub($/;"	f
+push_meta_data_to_hub	lerobot/scripts/push_dataset_to_hub.py	/^def push_meta_data_to_hub(repo_id: str, meta_data_dir: str | Path, revision: str | None):$/;"	f
+push_to_hub	lerobot/common/datasets/lerobot_dataset.py	/^    def push_to_hub($/;"	m	class:LeRobotDataset
+push_videos_to_hub	lerobot/scripts/push_dataset_to_hub.py	/^def push_videos_to_hub(repo_id: str, videos_dir: str | Path, revision: str | None):$/;"	f
+pytest_collection_finish	tests/conftest.py	/^def pytest_collection_finish():$/;"	f
+pytest_plugins	tests/conftest.py	/^pytest_plugins = [$/;"	v
+query_devices	tests/mock_pyrealsense2.py	/^    def query_devices(self):$/;"	m	class:context
+rand_fns	tests/test_utils.py	/^rand_fns = [$/;"	v
+random_shifts_aug	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^def random_shifts_aug(x: Tensor, max_random_shift_ratio: float) -> Tensor:$/;"	f
+raw_dir	examples/port_datasets/pusht_zarr.py	/^    raw_dir = Path("data\/lerobot-raw\/pusht_raw")$/;"	v
+read	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def read(self, temporary_color: str | None = None) -> np.ndarray | tuple[np.ndarray, np.ndarray]:$/;"	m	class:IntelRealSenseCamera
+read	lerobot/common/robot_devices/cameras/opencv.py	/^    def read(self, temporary_color_mode: str | None = None) -> np.ndarray:$/;"	m	class:OpenCVCamera
+read	lerobot/common/robot_devices/cameras/utils.py	/^    def read(self, temporary_color: str | None = None) -> np.ndarray: ...$/;"	m	class:Camera
+read	lerobot/common/robot_devices/motors/dynamixel.py	/^    def read(self, data_name, motor_names: str | list[str] | None = None):$/;"	m	class:DynamixelMotorsBus
+read	lerobot/common/robot_devices/motors/feetech.py	/^    def read(self, data_name, motor_names: str | list[str] | None = None):$/;"	m	class:FeetechMotorsBus
+read	lerobot/common/robot_devices/motors/utils.py	/^    def read(self): ...$/;"	m	class:MotorsBus
+read	tests/mock_cv2.py	/^    def read(self):$/;"	m	class:VideoCapture
+read_loop	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    def read_loop(self):$/;"	m	class:IntelRealSenseCamera
+read_loop	lerobot/common/robot_devices/cameras/opencv.py	/^    def read_loop(self):$/;"	m	class:OpenCVCamera
+read_with_motor_ids	lerobot/common/robot_devices/motors/dynamixel.py	/^    def read_with_motor_ids(self, motor_models, motor_ids, data_name, num_retry=NUM_READ_RETRY):$/;"	m	class:DynamixelMotorsBus
+read_with_motor_ids	lerobot/common/robot_devices/motors/feetech.py	/^    def read_with_motor_ids(self, motor_models, motor_ids, data_name, num_retry=NUM_READ_RETRY):$/;"	m	class:FeetechMotorsBus
+real_positions_to_sim	lerobot/scripts/control_sim_robot.py	/^def real_positions_to_sim(real_positions, axis_directions, start_pos, offsets):$/;"	f
+rechunk_recompress_array	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^def rechunk_recompress_array(group, name, chunks=None, chunk_length=None, compressor=None, tmp_key="_temp"):$/;"	f
+reconnect	lerobot/common/robot_devices/motors/dynamixel.py	/^    def reconnect(self):$/;"	m	class:DynamixelMotorsBus
+reconnect	lerobot/common/robot_devices/motors/feetech.py	/^    def reconnect(self):$/;"	m	class:FeetechMotorsBus
+record	lerobot/scripts/control_robot.py	/^def record($/;"	f
+record	lerobot/scripts/control_sim_robot.py	/^def record($/;"	f
+record_episode	lerobot/common/robot_devices/control_utils.py	/^def record_episode($/;"	f
+register_codecs	lerobot/common/datasets/push_dataset_to_hub/_umi_imagecodecs_numcodecs.py	/^def register_codecs(codecs=None, force=False, verbose=True):$/;"	f
+release	tests/mock_cv2.py	/^    def release(self):$/;"	m	class:VideoCapture
+render_frame	lerobot/scripts/eval.py	/^    def render_frame(env: gym.vector.VectorEnv):$/;"	f	function:eval_policy
+replace	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def replace(self, batch_samples, batch_mask):$/;"	m	class:EuclideanCodebook
+replay	lerobot/scripts/control_robot.py	/^def replay($/;"	f
+replay	lerobot/scripts/control_sim_robot.py	/^def replay($/;"	f
+repo_id	examples/1_load_lerobot_dataset.py	/^repo_id = "lerobot\/aloha_mobile_cabinet"$/;"	v
+repo_id	examples/port_datasets/pusht_zarr.py	/^    repo_id = "lerobot\/pusht"$/;"	v
+repo_id_to_index	lerobot/common/datasets/lerobot_dataset.py	/^    def repo_id_to_index(self):$/;"	m	class:MultiLeRobotDataset
+repo_ids	examples/1_load_lerobot_dataset.py	/^repo_ids = [info.id for info in hub_api.list_datasets(task_categories="robotics", tags=["LeRobot"])]$/;"	v
+repo_index_to_id	lerobot/common/datasets/lerobot_dataset.py	/^    def repo_index_to_id(self):$/;"	m	class:MultiLeRobotDataset
+require_camera	tests/utils.py	/^def require_camera(func):$/;"	f
+require_cpu	tests/utils.py	/^def require_cpu(func):$/;"	f
+require_cuda	tests/utils.py	/^def require_cuda(func):$/;"	f
+require_env	tests/utils.py	/^def require_env(func):$/;"	f
+require_motor	tests/utils.py	/^def require_motor(func):$/;"	f
+require_package	tests/utils.py	/^def require_package(package_name):$/;"	f
+require_package_arg	tests/utils.py	/^def require_package_arg(func):$/;"	f
+require_robot	tests/utils.py	/^def require_robot(func):$/;"	f
+require_x86_64_kernel	tests/utils.py	/^def require_x86_64_kernel(func):$/;"	f
+required	lerobot/scripts/control_sim_robot.py	/^        required=True,$/;"	v
+reset	lerobot/common/policies/act/modeling_act.py	/^    def reset(self):$/;"	m	class:ACTPolicy
+reset	lerobot/common/policies/act/modeling_act.py	/^    def reset(self):$/;"	m	class:ACTTemporalEnsembler
+reset	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def reset(self):$/;"	m	class:DiffusionPolicy
+reset	lerobot/common/policies/policy_protocol.py	/^    def reset(self):$/;"	m	class:Policy
+reset	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def reset(self):$/;"	m	class:TDMPCPolicy
+reset	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def reset(self):$/;"	m	class:VQBeTPolicy
+reset_environment	lerobot/common/robot_devices/control_utils.py	/^def reset_environment(robot, events, reset_time_s):$/;"	f
+resolve_compressor	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def resolve_compressor(compressor="default"):$/;"	m	class:ReplayBuffer
+resolve_delta_timestamps	lerobot/common/datasets/factory.py	/^def resolve_delta_timestamps(cfg):$/;"	f
+result	lerobot/common/utils/benchmark.py	/^    def result(self):$/;"	m	class:TimeBenchmark
+result_ms	lerobot/common/utils/benchmark.py	/^    def result_ms(self):$/;"	m	class:TimeBenchmark
+revert_calibration	lerobot/common/robot_devices/motors/dynamixel.py	/^    def revert_calibration(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:DynamixelMotorsBus
+revert_calibration	lerobot/common/robot_devices/motors/feetech.py	/^    def revert_calibration(self, values: np.ndarray | list, motor_names: list[str] | None):$/;"	m	class:FeetechMotorsBus
+revert_calibration	lerobot/common/robot_devices/motors/utils.py	/^    def revert_calibration(self): ...$/;"	m	class:MotorsBus
+rewards	examples/2_evaluate_pretrained_policy.py	/^rewards = []$/;"	v
+rgb8	tests/mock_pyrealsense2.py	/^    rgb8 = 0$/;"	v	class:format
+robot	lerobot/scripts/control_robot.py	/^    robot = make_robot(robot_cfg)$/;"	v
+robot	lerobot/scripts/control_sim_robot.py	/^    robot = None$/;"	v
+robot_cfg	lerobot/scripts/control_robot.py	/^    robot_cfg = init_hydra_config(robot_path, robot_overrides)$/;"	v
+robot_overrides	lerobot/scripts/control_robot.py	/^    robot_overrides = args.robot_overrides$/;"	v
+robot_path	lerobot/scripts/control_robot.py	/^    robot_path = args.robot_path$/;"	v
+robot_path	lerobot/scripts/control_sim_robot.py	/^    robot_path = args.robot_path$/;"	v
+robot_type	lerobot/common/datasets/lerobot_dataset.py	/^    def robot_type(self) -> str | None:$/;"	m	class:LeRobotDatasetMetadata
+rollout	lerobot/scripts/eval.py	/^def rollout($/;"	f
+rotate	tests/mock_cv2.py	/^def rotate(color_image, rotation):$/;"	f
+run_arm_auto_calibration	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def run_arm_auto_calibration(arm: MotorsBus, robot_type: str, arm_name: str, arm_type: str):$/;"	f
+run_arm_auto_calibration_moss	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def run_arm_auto_calibration_moss(arm: MotorsBus, robot_type: str, arm_name: str, arm_type: str):$/;"	f
+run_arm_auto_calibration_so100	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def run_arm_auto_calibration_so100(arm: MotorsBus, robot_type: str, arm_name: str, arm_type: str):$/;"	f
+run_arm_calibration	lerobot/common/robot_devices/robots/dynamixel_calibration.py	/^def run_arm_calibration(arm: MotorsBus, robot_type: str, arm_name: str, arm_type: str):$/;"	f
+run_arm_manual_calibration	lerobot/common/robot_devices/robots/feetech_calibration.py	/^def run_arm_manual_calibration(arm: MotorsBus, robot_type: str, arm_name: str, arm_type: str):$/;"	f
+run_calibration	lerobot/common/robot_devices/robots/stretch.py	/^    def run_calibration(self) -> None:$/;"	m	class:StretchRobot
+run_calibration	lerobot/common/robot_devices/robots/utils.py	/^    def run_calibration(self): ...$/;"	m	class:Robot
+run_server	lerobot/scripts/visualize_dataset_html.py	/^def run_server($/;"	f
+safe_disconnect	lerobot/common/robot_devices/utils.py	/^def safe_disconnect(func):$/;"	f
+safe_stop_image_writer	lerobot/common/datasets/image_writer.py	/^def safe_stop_image_writer(func):$/;"	f
+sample_multinomial	lerobot/common/policies/vqbet/vqbet_utils.py	/^def sample_multinomial(total_count, probs):$/;"	f
+sample_timestamps	benchmarks/video/run_video_benchmark.py	/^def sample_timestamps(timestamps_mode: str, ep_num_images: int, fps: int) -> list[float]:$/;"	f
+sample_trajectory_and_update_buffer	lerobot/scripts/train.py	/^        def sample_trajectory_and_update_buffer():$/;"	f	function:train.evaluate_and_checkpoint_if_needed
+sample_vectors	lerobot/common/policies/vqbet/vqbet_utils.py	/^def sample_vectors(samples, num):$/;"	f
+sample_vectors_distributed	lerobot/common/policies/vqbet/vqbet_utils.py	/^def sample_vectors_distributed(local_samples, num):$/;"	f
+sampling_logits	lerobot/common/policies/vqbet/vqbet_utils.py	/^        sampling_logits = (logits \/ temperature) + gumbel_noise(logits)$/;"	v
+sampling_logits	lerobot/common/policies/vqbet/vqbet_utils.py	/^        sampling_logits = logits$/;"	v
+sanity_check_dataset_name	lerobot/common/robot_devices/control_utils.py	/^def sanity_check_dataset_name(repo_id, policy):$/;"	f
+sanity_check_dataset_robot_compatibility	lerobot/common/robot_devices/control_utils.py	/^def sanity_check_dataset_robot_compatibility($/;"	f
+save_checkpoint	lerobot/common/logger.py	/^    def save_checkpoint($/;"	m	class:Logger
+save_config_all_transforms	lerobot/scripts/visualize_image_transforms.py	/^def save_config_all_transforms(cfg, original_frame, output_dir, n_examples):$/;"	f
+save_config_single_transforms	lerobot/scripts/visualize_image_transforms.py	/^def save_config_single_transforms(cfg, original_frame, output_dir, n_examples):$/;"	f
+save_dataset_to_safetensors	tests/scripts/save_dataset_to_safetensors.py	/^def save_dataset_to_safetensors(output_dir, repo_id="lerobot\/pusht"):$/;"	f
+save_decoded_frames	benchmarks/video/run_video_benchmark.py	/^def save_decoded_frames($/;"	f
+save_default_config_transform	tests/scripts/save_image_transforms_to_safetensors.py	/^def save_default_config_transform(original_frame: torch.Tensor, output_dir: Path):$/;"	f
+save_episode	lerobot/common/datasets/lerobot_dataset.py	/^    def save_episode(self, episode_index: int, episode_length: int, task: str, task_index: int) -> None:$/;"	m	class:LeRobotDatasetMetadata
+save_episode	lerobot/common/datasets/lerobot_dataset.py	/^    def save_episode(self, task: str, encode_videos: bool = True, episode_data: dict | None = None) -> None:$/;"	m	class:LeRobotDataset
+save_first_episode	benchmarks/video/run_video_benchmark.py	/^def save_first_episode(imgs_dir: Path, dataset: LeRobotDataset) -> None:$/;"	f
+save_image	lerobot/common/datasets/image_writer.py	/^    def save_image(self, image: torch.Tensor | np.ndarray | PIL.Image.Image, fpath: Path):$/;"	m	class:AsyncImageWriter
+save_image	lerobot/common/datasets/push_dataset_to_hub/utils.py	/^    def save_image(img_array, i, out_dir):$/;"	f	function:save_images_concurrently
+save_image	lerobot/common/robot_devices/cameras/intelrealsense.py	/^def save_image(img_array, serial_number, frame_index, images_dir):$/;"	f
+save_image	lerobot/common/robot_devices/cameras/opencv.py	/^def save_image(img_array, camera_index, frame_index, images_dir):$/;"	f
+save_images_concurrently	lerobot/common/datasets/push_dataset_to_hub/utils.py	/^def save_images_concurrently(imgs_array: numpy.array, out_dir: Path, max_workers: int = 4):$/;"	f
+save_images_from_cameras	lerobot/common/robot_devices/cameras/intelrealsense.py	/^def save_images_from_cameras($/;"	f
+save_images_from_cameras	lerobot/common/robot_devices/cameras/opencv.py	/^def save_images_from_cameras($/;"	f
+save_meta_data	lerobot/scripts/push_dataset_to_hub.py	/^def save_meta_data($/;"	f
+save_model	lerobot/common/logger.py	/^    def save_model(self, save_dir: Path, policy: Policy, wandb_artifact_name: str | None = None):$/;"	m	class:Logger
+save_policy_to_safetensors	tests/scripts/save_policy_to_safetensors.py	/^def save_policy_to_safetensors(output_dir, env_name, policy_name, extra_overrides, file_name_extra):$/;"	f
+save_single_transforms	tests/scripts/save_image_transforms_to_safetensors.py	/^def save_single_transforms(original_frame: torch.Tensor, output_dir: Path):$/;"	f
+save_to_path	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def save_to_path($/;"	m	class:ReplayBuffer
+save_to_store	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def save_to_store($/;"	m	class:ReplayBuffer
+save_training_state	lerobot/common/logger.py	/^    def save_training_state($/;"	m	class:Logger
+say	lerobot/common/utils/utils.py	/^def say(text, blocking=False):$/;"	f
+seeded_context	lerobot/common/utils/utils.py	/^def seeded_context(seed: int) -> Generator[None, None, None]:$/;"	f
+select_action	lerobot/common/policies/act/modeling_act.py	/^    def select_action(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:ACTPolicy
+select_action	lerobot/common/policies/diffusion/modeling_diffusion.py	/^    def select_action(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:DiffusionPolicy
+select_action	lerobot/common/policies/policy_protocol.py	/^    def select_action(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:Policy
+select_action	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def select_action(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:TDMPCPolicy
+select_action	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def select_action(self, batch: dict[str, Tensor]) -> Tensor:$/;"	m	class:VQBeTPolicy
+send_action	lerobot/common/robot_devices/robots/manipulator.py	/^    def send_action(self, action: torch.Tensor) -> torch.Tensor:$/;"	m	class:ManipulatorRobot
+send_action	lerobot/common/robot_devices/robots/stretch.py	/^    def send_action(self, action: torch.Tensor) -> torch.Tensor:$/;"	m	class:StretchRobot
+send_action	lerobot/common/robot_devices/robots/utils.py	/^    def send_action(self, action): ...$/;"	m	class:Robot
+serial_numbers	lerobot/common/robot_devices/cameras/intelrealsense.py	/^        serial_numbers = [cam["serial_number"] for cam in camera_infos]$/;"	v
+serialize_dict	lerobot/common/datasets/utils.py	/^def serialize_dict(stats: dict[str, torch.Tensor | np.ndarray | dict]) -> dict:$/;"	f
+set	tests/mock_cv2.py	/^    def set(self, propId: int, value: float) -> bool:  # noqa: N803$/;"	m	class:VideoCapture
+setBaudRate	tests/mock_dynamixel_sdk.py	/^    def setBaudRate(self, baudrate):  # noqa: N802$/;"	m	class:PortHandler
+setBaudRate	tests/mock_scservo_sdk.py	/^    def setBaudRate(self, baudrate):  # noqa: N802$/;"	m	class:PortHandler
+setPacketTimeoutMillis	tests/mock_dynamixel_sdk.py	/^    def setPacketTimeoutMillis(self, timeout_ms):  # noqa: N802$/;"	m	class:PortHandler
+setPacketTimeoutMillis	tests/mock_scservo_sdk.py	/^    def setPacketTimeoutMillis(self, timeout_ms):  # noqa: N802$/;"	m	class:PortHandler
+set_aloha_robot_preset	lerobot/common/robot_devices/robots/manipulator.py	/^    def set_aloha_robot_preset(self):$/;"	m	class:ManipulatorRobot
+set_bus_baudrate	lerobot/common/robot_devices/motors/dynamixel.py	/^    def set_bus_baudrate(self, baudrate):$/;"	m	class:DynamixelMotorsBus
+set_bus_baudrate	lerobot/common/robot_devices/motors/feetech.py	/^    def set_bus_baudrate(self, baudrate):$/;"	m	class:FeetechMotorsBus
+set_calibration	lerobot/common/robot_devices/motors/dynamixel.py	/^    def set_calibration(self, calibration: dict[str, list]):$/;"	m	class:DynamixelMotorsBus
+set_calibration	lerobot/common/robot_devices/motors/feetech.py	/^    def set_calibration(self, calibration: dict[str, list]):$/;"	m	class:FeetechMotorsBus
+set_calibration	lerobot/common/robot_devices/motors/utils.py	/^    def set_calibration(self): ...$/;"	m	class:MotorsBus
+set_chunks	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def set_chunks(self, chunks: dict):$/;"	m	class:ReplayBuffer
+set_compressors	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def set_compressors(self, compressors: dict):$/;"	m	class:ReplayBuffer
+set_delta_timestamps	lerobot/common/datasets/online_buffer.py	/^    def set_delta_timestamps(self, value: dict[str, list[float]] | None):$/;"	m	class:OnlineBuffer
+set_global_random_state	lerobot/common/utils/utils.py	/^def set_global_random_state(random_state_dict: dict[str, Any]):$/;"	f
+set_global_seed	lerobot/common/utils/utils.py	/^def set_global_seed(seed):$/;"	f
+set_koch_robot_preset	lerobot/common/robot_devices/robots/manipulator.py	/^    def set_koch_robot_preset(self):$/;"	m	class:ManipulatorRobot
+set_operating_mode_	lerobot/common/robot_devices/robots/manipulator.py	/^        def set_operating_mode_(arm):$/;"	f	function:ManipulatorRobot.set_koch_robot_preset
+set_shadow_	lerobot/common/robot_devices/robots/manipulator.py	/^        def set_shadow_(arm):$/;"	f	function:ManipulatorRobot.set_aloha_robot_preset
+set_so100_robot_preset	lerobot/common/robot_devices/robots/manipulator.py	/^    def set_so100_robot_preset(self):$/;"	m	class:ManipulatorRobot
+shapes	lerobot/common/datasets/lerobot_dataset.py	/^    def shapes(self) -> dict:$/;"	m	class:LeRobotDatasetMetadata
+show_episode	lerobot/scripts/visualize_dataset_html.py	/^    def show_episode(dataset_namespace, dataset_name, episode_id, dataset=dataset, episodes=episodes):$/;"	f	function:run_server
+show_first_episode	lerobot/scripts/visualize_dataset_html.py	/^    def show_first_episode(dataset_namespace, dataset_name):$/;"	f	function:run_server
+shuffle	examples/1_load_lerobot_dataset.py	/^    shuffle=True,$/;"	v
+shuffle	examples/3_train_policy.py	/^    shuffle=True,$/;"	v
+shuffle	examples/advanced/2_calculate_validation_loss.py	/^    shuffle=False,$/;"	v
+single_episode_parquet_path	tests/fixtures/files.py	/^def single_episode_parquet_path(hf_dataset_factory, info_factory):$/;"	f
+single_transforms	tests/test_image_transforms.py	/^def single_transforms():$/;"	f
+slightly_off_delta_timestamps_factory	tests/test_delta_timestamps.py	/^def slightly_off_delta_timestamps_factory(valid_delta_timestamps_factory):$/;"	f
+slightly_off_hf_dataset_factory	tests/test_delta_timestamps.py	/^def slightly_off_hf_dataset_factory(synced_hf_dataset_factory):$/;"	f
+split_parquet_by_episodes	lerobot/common/datasets/v2/convert_dataset_v1_to_v2.py	/^def split_parquet_by_episodes($/;"	f
+start	tests/mock_pyrealsense2.py	/^    def start(self, config):$/;"	m	class:pipeline
+start_episode_t	lerobot/common/robot_devices/control_utils.py	/^    start_episode_t = time.perf_counter()$/;"	v
+start_image_writer	lerobot/common/datasets/lerobot_dataset.py	/^    def start_image_writer(self, num_processes: int = 0, num_threads: int = 4) -> None:$/;"	m	class:LeRobotDataset
+start_loop_t	lerobot/common/robot_devices/control_utils.py	/^        start_loop_t = time.perf_counter()$/;"	v
+start_time	lerobot/common/robot_devices/cameras/intelrealsense.py	/^    start_time = time.perf_counter()$/;"	v
+start_time	lerobot/common/robot_devices/cameras/opencv.py	/^    start_time = time.perf_counter()$/;"	v
+start_time	lerobot/scripts/train.py	/^    start_time = time.perf_counter()$/;"	v
+state	examples/2_evaluate_pretrained_policy.py	/^    state = state.to(device, non_blocking=True)$/;"	v
+state	examples/2_evaluate_pretrained_policy.py	/^    state = state.to(torch.float32)$/;"	v
+state	examples/2_evaluate_pretrained_policy.py	/^    state = state.unsqueeze(0)$/;"	v
+state	examples/2_evaluate_pretrained_policy.py	/^    state = torch.from_numpy(numpy_observation["agent_pos"])$/;"	v
+stats_factory	tests/fixtures/dataset_factories.py	/^def stats_factory():$/;"	f
+stats_path	tests/fixtures/files.py	/^def stats_path(stats_factory):$/;"	f
+step	examples/2_evaluate_pretrained_policy.py	/^step = 0$/;"	v
+step	examples/3_train_policy.py	/^step = 0$/;"	v
+step	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def step(self):$/;"	m	class:VQBeTScheduler
+stop	lerobot/common/datasets/image_writer.py	/^    def stop(self):$/;"	m	class:AsyncImageWriter
+stop	tests/mock_pyrealsense2.py	/^    def stop(self):$/;"	m	class:pipeline
+stop_image_writer	lerobot/common/datasets/lerobot_dataset.py	/^    def stop_image_writer(self) -> None:$/;"	m	class:LeRobotDataset
+stop_recording	lerobot/common/robot_devices/control_utils.py	/^def stop_recording(robot, listener, display_cameras):$/;"	f
+stream	tests/mock_pyrealsense2.py	/^class stream(enum.Enum):  # noqa: N801$/;"	c
+subparsers	lerobot/scripts/control_robot.py	/^    subparsers = parser.add_subparsers(dest="mode", required=True)$/;"	v
+subparsers	lerobot/scripts/control_sim_robot.py	/^    subparsers = parser.add_subparsers(dest="mode", required=True)$/;"	v
+synced_hf_dataset_factory	tests/test_delta_timestamps.py	/^def synced_hf_dataset_factory(hf_dataset_factory):$/;"	f
+task_args	lerobot/scripts/control_robot.py	/^    task_args = parser_record.add_mutually_exclusive_group(required=True)$/;"	v
+task_to_task_index	lerobot/common/datasets/lerobot_dataset.py	/^    def task_to_task_index(self) -> dict:$/;"	m	class:LeRobotDatasetMetadata
+tasks_factory	tests/fixtures/dataset_factories.py	/^def tasks_factory():$/;"	f
+tasks_path	tests/fixtures/files.py	/^def tasks_path(tasks_factory):$/;"	f
+teleop_safety_stop	lerobot/common/robot_devices/robots/stretch.py	/^    def teleop_safety_stop(self) -> None:$/;"	m	class:StretchRobot
+teleop_step	lerobot/common/robot_devices/robots/manipulator.py	/^    def teleop_step($/;"	m	class:ManipulatorRobot
+teleop_step	lerobot/common/robot_devices/robots/stretch.py	/^    def teleop_step($/;"	m	class:StretchRobot
+teleop_step	lerobot/common/robot_devices/robots/utils.py	/^    def teleop_step(self, record_data=False): ...$/;"	m	class:Robot
+teleoperate	lerobot/scripts/control_robot.py	/^def teleoperate($/;"	f
+teleoperate	lerobot/scripts/control_sim_robot.py	/^def teleoperate(env, robot: Robot, process_action_fn, teleop_time_s=None):$/;"	f
+test_act_backbone_lr	tests/test_policies.py	/^def test_act_backbone_lr():$/;"	f
+test_act_temporal_ensembler	tests/test_policies.py	/^def test_act_temporal_ensembler():$/;"	f
+test_aggregate_stats	tests/test_datasets.py	/^def test_aggregate_stats():$/;"	f
+test_available_env_task	tests/test_available.py	/^def test_available_env_task(env_name: str, task_name: list):$/;"	f
+test_available_policies	tests/test_available.py	/^def test_available_policies():$/;"	f
+test_backward_compatibility	tests/test_datasets.py	/^def test_backward_compatibility(repo_id):$/;"	f
+test_backward_compatibility	tests/test_policies.py	/^def test_backward_compatibility(env_name, policy_name, extra_overrides, file_name_extra):$/;"	f
+test_backward_compatibility_default_config	tests/test_image_transforms.py	/^def test_backward_compatibility_default_config(img_tensor_factory, default_transforms):$/;"	f
+test_backward_compatibility_torchvision	tests/test_image_transforms.py	/^def test_backward_compatibility_torchvision(img_tensor_factory, transform, min_max_values, single_transforms):$/;"	f
+test_calculate_episode_data_index	tests/test_utils.py	/^def test_calculate_episode_data_index():$/;"	f
+test_calibrate	tests/test_control_robot.py	/^def test_calibrate(tmpdir, request, robot_type, mock):$/;"	f
+test_camera	tests/test_cameras.py	/^def test_camera(request, camera_type, mock):$/;"	f
+test_check_delta_timestamps_empty	tests/test_delta_timestamps.py	/^def test_check_delta_timestamps_empty():$/;"	f
+test_check_delta_timestamps_invalid	tests/test_delta_timestamps.py	/^def test_check_delta_timestamps_invalid(invalid_delta_timestamps_factory):$/;"	f
+test_check_delta_timestamps_invalid_no_exception	tests/test_delta_timestamps.py	/^def test_check_delta_timestamps_invalid_no_exception(invalid_delta_timestamps_factory):$/;"	f
+test_check_delta_timestamps_slightly_off	tests/test_delta_timestamps.py	/^def test_check_delta_timestamps_slightly_off(slightly_off_delta_timestamps_factory):$/;"	f
+test_check_delta_timestamps_valid	tests/test_delta_timestamps.py	/^def test_check_delta_timestamps_valid(valid_delta_timestamps_factory):$/;"	f
+test_check_timestamps_sync_empty_dataset	tests/test_delta_timestamps.py	/^def test_check_timestamps_sync_empty_dataset():$/;"	f
+test_check_timestamps_sync_single_timestamp	tests/test_delta_timestamps.py	/^def test_check_timestamps_sync_single_timestamp():$/;"	f
+test_check_timestamps_sync_slightly_off	tests/test_delta_timestamps.py	/^def test_check_timestamps_sync_slightly_off(slightly_off_hf_dataset_factory):$/;"	f
+test_check_timestamps_sync_synced	tests/test_delta_timestamps.py	/^def test_check_timestamps_sync_synced(synced_hf_dataset_factory):$/;"	f
+test_check_timestamps_sync_unsynced	tests/test_delta_timestamps.py	/^def test_check_timestamps_sync_unsynced(unsynced_hf_dataset_factory):$/;"	f
+test_check_timestamps_sync_unsynced_no_exception	tests/test_delta_timestamps.py	/^def test_check_timestamps_sync_unsynced_no_exception(unsynced_hf_dataset_factory):$/;"	f
+test_compute_sampler_weights_drop_n_last_frames	tests/test_online_buffer.py	/^def test_compute_sampler_weights_drop_n_last_frames(lerobot_dataset_factory, tmp_path):$/;"	f
+test_compute_sampler_weights_nontrivial_ratio	tests/test_online_buffer.py	/^def test_compute_sampler_weights_nontrivial_ratio(lerobot_dataset_factory, tmp_path):$/;"	f
+test_compute_sampler_weights_nontrivial_ratio_and_drop_last_n	tests/test_online_buffer.py	/^def test_compute_sampler_weights_nontrivial_ratio_and_drop_last_n(lerobot_dataset_factory, tmp_path):$/;"	f
+test_compute_sampler_weights_trivial	tests/test_online_buffer.py	/^def test_compute_sampler_weights_trivial($/;"	f
+test_compute_stats_on_xarm	tests/test_datasets.py	/^def test_compute_stats_on_xarm():$/;"	f
+test_configure_motors_all_ids_1	tests/test_motors.py	/^def test_configure_motors_all_ids_1(request, motor_type, mock):$/;"	f
+test_create_branch	tests/test_datasets.py	/^def test_create_branch():$/;"	f
+test_dataset_initialization	tests/test_datasets.py	/^def test_dataset_initialization(lerobot_dataset_factory, tmp_path):$/;"	f
+test_delta_indices	tests/test_delta_timestamps.py	/^def test_delta_indices(valid_delta_timestamps_factory, delta_indices):$/;"	f
+test_delta_timestamps_outside_tolerance_inside_episode_range	tests/test_online_buffer.py	/^def test_delta_timestamps_outside_tolerance_inside_episode_range():$/;"	f
+test_delta_timestamps_outside_tolerance_outside_episode_range	tests/test_online_buffer.py	/^def test_delta_timestamps_outside_tolerance_outside_episode_range():$/;"	f
+test_delta_timestamps_within_tolerance	tests/test_online_buffer.py	/^def test_delta_timestamps_within_tolerance():$/;"	f
+test_drop_n_first_frames	tests/test_sampler.py	/^def test_drop_n_first_frames():$/;"	f
+test_drop_n_last_frames	tests/test_sampler.py	/^def test_drop_n_last_frames():$/;"	f
+test_env	tests/test_envs.py	/^def test_env(env_name, env_task, obs_type):$/;"	f
+test_episode_indices_to_use	tests/test_sampler.py	/^def test_episode_indices_to_use():$/;"	f
+test_example_1	tests/test_examples.py	/^def test_example_1(tmp_path, lerobot_dataset_factory):$/;"	f
+test_examples_basic2_basic3_advanced1	tests/test_examples.py	/^def test_examples_basic2_basic3_advanced1():$/;"	f
+test_exception_handling	tests/test_image_writer.py	/^def test_exception_handling(tmp_path, img_array_factory):$/;"	f
+test_factory	tests/test_datasets.py	/^def test_factory(env_name, repo_id, policy_name):$/;"	f
+test_factory	tests/test_envs.py	/^def test_factory(env_name):$/;"	f
+test_fifo	tests/test_online_buffer.py	/^def test_fifo():$/;"	f
+test_find_port	tests/test_motors.py	/^def test_find_port(request, motor_type, mock):$/;"	f
+test_flatten_unflatten_dict	tests/test_datasets.py	/^def test_flatten_unflatten_dict():$/;"	f
+test_get_image_transforms_brightness	tests/test_image_transforms.py	/^def test_get_image_transforms_brightness(img_tensor_factory, min_max):$/;"	f
+test_get_image_transforms_contrast	tests/test_image_transforms.py	/^def test_get_image_transforms_contrast(img_tensor_factory, min_max):$/;"	f
+test_get_image_transforms_hue	tests/test_image_transforms.py	/^def test_get_image_transforms_hue(img_tensor_factory, min_max):$/;"	f
+test_get_image_transforms_max_num_transforms	tests/test_image_transforms.py	/^def test_get_image_transforms_max_num_transforms(img_tensor_factory):$/;"	f
+test_get_image_transforms_no_transform	tests/test_image_transforms.py	/^def test_get_image_transforms_no_transform(img_tensor_factory):$/;"	f
+test_get_image_transforms_random_order	tests/test_image_transforms.py	/^def test_get_image_transforms_random_order(img_tensor_factory):$/;"	f
+test_get_image_transforms_saturation	tests/test_image_transforms.py	/^def test_get_image_transforms_saturation(img_tensor_factory, min_max):$/;"	f
+test_get_image_transforms_sharpness	tests/test_image_transforms.py	/^def test_get_image_transforms_sharpness(img_tensor_factory, min_max):$/;"	f
+test_get_policy_and_config_classes	tests/test_policies.py	/^def test_get_policy_and_config_classes(policy_name: str):$/;"	f
+test_get_set_random_state	tests/test_utils.py	/^def test_get_set_random_state():$/;"	f
+test_image_array_to_image_float_array	tests/test_image_writer.py	/^def test_image_array_to_image_float_array(img_array_factory):$/;"	f
+test_image_array_to_image_out_of_bounds_float	tests/test_image_writer.py	/^def test_image_array_to_image_out_of_bounds_float():$/;"	f
+test_image_array_to_image_pytorch_format	tests/test_image_writer.py	/^def test_image_array_to_image_pytorch_format(img_array_factory):$/;"	f
+test_image_array_to_image_rgb	tests/test_image_writer.py	/^def test_image_array_to_image_rgb(img_array_factory):$/;"	f
+test_image_array_to_image_single_channel	tests/test_image_writer.py	/^def test_image_array_to_image_single_channel(img_array_factory):$/;"	f
+test_index_error_no_data	tests/test_online_buffer.py	/^def test_index_error_no_data():$/;"	f
+test_index_error_with_data	tests/test_online_buffer.py	/^def test_index_error_with_data():$/;"	f
+test_init_hydra_config_empty	tests/test_utils.py	/^def test_init_hydra_config_empty():$/;"	f
+test_init_multiprocessing	tests/test_image_writer.py	/^def test_init_multiprocessing():$/;"	f
+test_init_threading	tests/test_image_writer.py	/^def test_init_threading():$/;"	f
+test_main_process_time	tests/test_image_writer.py	/^def test_main_process_time(tmp_path, img_tensor_factory):$/;"	f
+test_motors_bus	tests/test_motors.py	/^def test_motors_bus(request, motor_type, mock):$/;"	f
+test_multilerobotdataset_frames	tests/test_datasets.py	/^def test_multilerobotdataset_frames():$/;"	f
+test_multiple_stops	tests/test_image_writer.py	/^def test_multiple_stops():$/;"	f
+test_multiple_stops_multiprocessing	tests/test_image_writer.py	/^def test_multiple_stops_multiprocessing():$/;"	f
+test_non_mutate	tests/test_online_buffer.py	/^def test_non_mutate():$/;"	f
+test_normalize	tests/test_policies.py	/^def test_normalize(insert_temporal_dim):$/;"	f
+test_policy	tests/test_policies.py	/^def test_policy(env_name, policy_name, extra_overrides):$/;"	f
+test_policy_defaults	tests/test_policies.py	/^def test_policy_defaults(policy_name: str):$/;"	f
+test_print	tests/test_available.py	/^def test_print():$/;"	f
+test_push_dataset_to_hub_format	tests/test_push_dataset_to_hub.py	/^def test_push_dataset_to_hub_format(required_packages, tmpdir, raw_format, repo_id, make_test_data):$/;"	f
+test_push_dataset_to_hub_invalid_repo_id	tests/test_push_dataset_to_hub.py	/^def test_push_dataset_to_hub_invalid_repo_id(tmpdir):$/;"	f
+test_push_dataset_to_hub_out_dir_force_override_false	tests/test_push_dataset_to_hub.py	/^def test_push_dataset_to_hub_out_dir_force_override_false(tmpdir):$/;"	f
+test_push_dataset_to_hub_pusht_backward_compatibility	tests/test_push_dataset_to_hub.py	/^def test_push_dataset_to_hub_pusht_backward_compatibility(tmpdir, raw_format, repo_id):$/;"	f
+test_random_subset_apply_invalid_n_subset	tests/test_image_transforms.py	/^def test_random_subset_apply_invalid_n_subset(color_jitters, n_subset):$/;"	f
+test_random_subset_apply_probability_length_mismatch	tests/test_image_transforms.py	/^def test_random_subset_apply_probability_length_mismatch(color_jitters):$/;"	f
+test_random_subset_apply_random_order	tests/test_image_transforms.py	/^def test_random_subset_apply_random_order(img_tensor_factory):$/;"	f
+test_random_subset_apply_single_choice	tests/test_image_transforms.py	/^def test_random_subset_apply_single_choice(img_tensor_factory, p):$/;"	f
+test_random_subset_apply_valid_transforms	tests/test_image_transforms.py	/^def test_random_subset_apply_valid_transforms(img_tensor_factory, color_jitters):$/;"	f
+test_read_data_key	tests/test_online_buffer.py	/^def test_read_data_key():$/;"	f
+test_record_and_replay_and_policy	tests/test_control_robot.py	/^def test_record_and_replay_and_policy(tmpdir, request, robot_type, mock):$/;"	f
+test_record_with_event_exit_early	tests/test_control_robot.py	/^def test_record_with_event_exit_early(tmpdir, request, robot_type, mock):$/;"	f
+test_record_with_event_rerecord_episode	tests/test_control_robot.py	/^def test_record_with_event_rerecord_episode(tmpdir, request, robot_type, mock):$/;"	f
+test_record_with_event_stop_recording	tests/test_control_robot.py	/^def test_record_with_event_stop_recording(tmpdir, request, robot_type, mock, num_image_writer_processes):$/;"	f
+test_record_without_cameras	tests/test_control_robot.py	/^def test_record_without_cameras(tmpdir, request, robot_type, mock):$/;"	f
+test_resume_record	tests/test_control_robot.py	/^def test_resume_record(tmpdir, request, robot_type, mock):$/;"	f
+test_robot	tests/test_robots.py	/^def test_robot(tmpdir, request, robot_type, mock):$/;"	f
+test_safe_stop_image_writer_decorator	tests/test_image_writer.py	/^def test_safe_stop_image_writer_decorator():$/;"	f
+test_same_attributes_defined	tests/test_datasets.py	/^def test_same_attributes_defined(lerobot_dataset_factory, tmp_path):$/;"	f
+test_save_and_load_pretrained	tests/test_policies.py	/^def test_save_and_load_pretrained(policy_name: str):$/;"	f
+test_save_image_after_stop	tests/test_image_writer.py	/^def test_save_image_after_stop(tmp_path, img_array_factory):$/;"	f
+test_save_image_invalid_data	tests/test_image_writer.py	/^def test_save_image_invalid_data(tmp_path):$/;"	f
+test_save_image_numpy	tests/test_image_writer.py	/^def test_save_image_numpy(tmp_path, img_array_factory):$/;"	f
+test_save_image_numpy_multiprocessing	tests/test_image_writer.py	/^def test_save_image_numpy_multiprocessing(tmp_path, img_array_factory):$/;"	f
+test_save_image_pil	tests/test_image_writer.py	/^def test_save_image_pil(tmp_path, img_factory):$/;"	f
+test_save_image_pil_multiprocessing	tests/test_image_writer.py	/^def test_save_image_pil_multiprocessing(tmp_path, img_factory):$/;"	f
+test_save_image_torch	tests/test_image_writer.py	/^def test_save_image_torch(tmp_path, img_tensor_factory):$/;"	f
+test_save_image_torch_multiprocessing	tests/test_image_writer.py	/^def test_save_image_torch_multiprocessing(tmp_path, img_tensor_factory):$/;"	f
+test_save_images_from_cameras	tests/test_cameras.py	/^def test_save_images_from_cameras(tmpdir, request, camera_type, mock):$/;"	f
+test_seeding	tests/test_utils.py	/^def test_seeding(rand_fn: Callable[[], int]):$/;"	f
+test_sharpness_jitter_invalid_range_max_smaller	tests/test_image_transforms.py	/^def test_sharpness_jitter_invalid_range_max_smaller():$/;"	f
+test_sharpness_jitter_invalid_range_min_negative	tests/test_image_transforms.py	/^def test_sharpness_jitter_invalid_range_min_negative():$/;"	f
+test_sharpness_jitter_valid_range_float	tests/test_image_transforms.py	/^def test_sharpness_jitter_valid_range_float(img_tensor_factory):$/;"	f
+test_sharpness_jitter_valid_range_tuple	tests/test_image_transforms.py	/^def test_sharpness_jitter_valid_range_tuple(img_tensor_factory):$/;"	f
+test_shuffle	tests/test_sampler.py	/^def test_shuffle():$/;"	f
+test_stop	tests/test_image_writer.py	/^def test_stop():$/;"	f
+test_stop_multiprocessing	tests/test_image_writer.py	/^def test_stop_multiprocessing():$/;"	f
+test_teleoperate	tests/test_control_robot.py	/^def test_teleoperate(tmpdir, request, robot_type, mock):$/;"	f
+test_visualize_image_transforms	tests/test_image_transforms.py	/^def test_visualize_image_transforms(repo_id, n_examples):$/;"	f
+test_visualize_local_dataset	tests/test_visualize_dataset.py	/^def test_visualize_local_dataset(tmp_path, lerobot_dataset_factory):$/;"	f
+test_wait_until_done	tests/test_image_writer.py	/^def test_wait_until_done(tmp_path, img_array_factory):$/;"	f
+test_wait_until_done_multiprocessing	tests/test_image_writer.py	/^def test_wait_until_done_multiprocessing(tmp_path, img_array_factory):$/;"	f
+test_with_different_image_formats	tests/test_image_writer.py	/^def test_with_different_image_formats(tmp_path, img_array_factory):$/;"	f
+test_write_image_exception	tests/test_image_writer.py	/^def test_write_image_exception(tmp_path):$/;"	f
+test_write_image_image	tests/test_image_writer.py	/^def test_write_image_image(tmp_path, img_factory):$/;"	f
+test_write_image_numpy	tests/test_image_writer.py	/^def test_write_image_numpy(tmp_path, img_array_factory):$/;"	f
+test_write_read	tests/test_online_buffer.py	/^def test_write_read(do_reload: bool):$/;"	f
+test_yaml_matches_dataclass	tests/test_policies.py	/^def test_yaml_matches_dataclass(env_name: str, policy_name: str):$/;"	f
+test_zero_threads	tests/test_image_writer.py	/^def test_zero_threads():$/;"	f
+tf_img_convert	lerobot/common/datasets/push_dataset_to_hub/openx_rlds_format.py	/^def tf_img_convert(img):$/;"	f
+tf_to_torch	lerobot/common/datasets/push_dataset_to_hub/openx_rlds_format.py	/^def tf_to_torch(data):$/;"	f
+timestamp	lerobot/common/robot_devices/control_utils.py	/^        timestamp = time.perf_counter() - start_episode_t$/;"	v
+timestamp	lerobot/common/robot_devices/control_utils.py	/^    timestamp = 0$/;"	v
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/aloha_hdf5_format.py	/^def to_hf_dataset(data_dict, video) -> Dataset:$/;"	f
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/cam_png_format.py	/^def to_hf_dataset(data_dict, video) -> Dataset:$/;"	f
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/dora_parquet_format.py	/^def to_hf_dataset(data_dict, video) -> Dataset:$/;"	f
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/openx_rlds_format.py	/^def to_hf_dataset(data_dict, video) -> Dataset:$/;"	f
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/pusht_zarr_format.py	/^def to_hf_dataset(data_dict, video, keypoints_instead_of_image: bool = False):$/;"	f
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/umi_zarr_format.py	/^def to_hf_dataset(data_dict, video):$/;"	f
+to_hf_dataset	lerobot/common/datasets/push_dataset_to_hub/xarm_pkl_format.py	/^def to_hf_dataset(data_dict, video):$/;"	f
+to_hwc_uint8_numpy	lerobot/scripts/visualize_dataset.py	/^def to_hwc_uint8_numpy(chw_float32_torch: torch.Tensor) -> np.ndarray:$/;"	f
+to_idx	examples/1_load_lerobot_dataset.py	/^to_idx = dataset.episode_data_index["to"][episode_index].item()$/;"	v
+to_pil	examples/6_add_image_transforms.py	/^to_pil = ToPILImage()$/;"	v
+to_pil	lerobot/scripts/visualize_image_transforms.py	/^to_pil = ToPILImage()$/;"	v
+tolerance_s	lerobot/common/datasets/lerobot_dataset.py	/^    def tolerance_s(self) -> float:$/;"	m	class:MultiLeRobotDataset
+torch_cuda_available	lerobot/scripts/display_sys_info.py	/^torch_cuda_available = torch.cuda.is_available() if HAS_TORCH else "N\/A"$/;"	v
+torch_version	lerobot/scripts/display_sys_info.py	/^torch_version = torch.__version__ if HAS_TORCH else "N\/A"$/;"	v
+total_chunks	lerobot/common/datasets/lerobot_dataset.py	/^    def total_chunks(self) -> int:$/;"	m	class:LeRobotDatasetMetadata
+total_episodes	examples/advanced/2_calculate_validation_loss.py	/^total_episodes = dataset_metadata.total_episodes$/;"	v
+total_episodes	lerobot/common/datasets/lerobot_dataset.py	/^    def total_episodes(self) -> int:$/;"	m	class:LeRobotDatasetMetadata
+total_frames	lerobot/common/datasets/lerobot_dataset.py	/^    def total_frames(self) -> int:$/;"	m	class:LeRobotDatasetMetadata
+total_tasks	lerobot/common/datasets/lerobot_dataset.py	/^    def total_tasks(self) -> int:$/;"	m	class:LeRobotDatasetMetadata
+train	lerobot/scripts/train.py	/^def train(cfg: DictConfig, out_dir: str | None = None, job_name: str | None = None):$/;"	f
+train_cli	lerobot/scripts/train.py	/^def train_cli(cfg: dict):$/;"	f
+train_dataset	examples/advanced/2_calculate_validation_loss.py	/^train_dataset = LeRobotDataset("lerobot\/pusht", episodes=train_episodes, delta_timestamps=delta_timestamps)$/;"	v
+train_episodes	examples/advanced/2_calculate_validation_loss.py	/^train_episodes = episodes[:num_train_episodes]$/;"	v
+train_notebook	lerobot/scripts/train.py	/^def train_notebook(out_dir=None, job_name=None, config_name="default", config_path="..\/configs"):$/;"	f
+training_state_file_name	lerobot/common/logger.py	/^    training_state_file_name = "training_state.pth"$/;"	v	class:Logger
+training_steps	examples/3_train_policy.py	/^training_steps = 5000$/;"	v
+transformed_dataset	examples/6_add_image_transforms.py	/^transformed_dataset = LeRobotDataset(dataset_repo_id, episodes=[0], image_transforms=transforms)$/;"	v
+transformed_frame	examples/6_add_image_transforms.py	/^transformed_frame = transformed_dataset[first_idx][transformed_dataset.meta.camera_keys[0]]$/;"	v
+transforms	examples/6_add_image_transforms.py	/^transforms = v2.Compose($/;"	v
+txPacket	tests/mock_dynamixel_sdk.py	/^    def txPacket(self):  # noqa: N802$/;"	m	class:GroupSyncWrite
+txPacket	tests/mock_scservo_sdk.py	/^    def txPacket(self):  # noqa: N802$/;"	m	class:GroupSyncWrite
+txRxPacket	tests/mock_dynamixel_sdk.py	/^    def txRxPacket(self):  # noqa: N802$/;"	m	class:GroupSyncRead
+txRxPacket	tests/mock_scservo_sdk.py	/^    def txRxPacket(self):  # noqa: N802$/;"	m	class:GroupSyncRead
+type	benchmarks/video/capture_camera_feed.py	/^        type=Path,$/;"	v
+type	benchmarks/video/capture_camera_feed.py	/^        type=int,$/;"	v
+type	benchmarks/video/run_video_benchmark.py	/^        type=Path,$/;"	v
+type	benchmarks/video/run_video_benchmark.py	/^        type=int,$/;"	v
+type	benchmarks/video/run_video_benchmark.py	/^        type=parse_int_or_none,$/;"	v
+type	benchmarks/video/run_video_benchmark.py	/^        type=str,$/;"	v
+type	lerobot/scripts/control_robot.py	/^        type=Path,$/;"	v
+type	lerobot/scripts/control_robot.py	/^        type=int,$/;"	v
+type	lerobot/scripts/control_robot.py	/^        type=str,$/;"	v
+type	lerobot/scripts/control_sim_robot.py	/^        type=Path,$/;"	v
+type	lerobot/scripts/control_sim_robot.py	/^        type=int,$/;"	v
+type	lerobot/scripts/control_sim_robot.py	/^        type=str,$/;"	v
+unflatten_dict	lerobot/common/datasets/utils.py	/^def unflatten_dict(d: dict, sep: str = "\/") -> dict:$/;"	f
+uniform_init	lerobot/common/policies/vqbet/vqbet_utils.py	/^def uniform_init(*shape):$/;"	f
+unpack_one	lerobot/common/policies/vqbet/vqbet_utils.py	/^def unpack_one(t, ps, pattern):$/;"	f
+unsynced_hf_dataset_factory	tests/test_delta_timestamps.py	/^def unsynced_hf_dataset_factory(synced_hf_dataset_factory):$/;"	f
+update	lerobot/common/policies/act/modeling_act.py	/^    def update(self, actions: Tensor) -> Tensor:$/;"	m	class:ACTTemporalEnsembler
+update	lerobot/common/policies/policy_protocol.py	/^    def update(self):$/;"	m	class:PolicyWithUpdate
+update	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^    def update(self):$/;"	m	class:TDMPCPolicy
+update_affine	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def update_affine(self, data, embed, mask=None):$/;"	m	class:EuclideanCodebook
+update_ema_parameters	lerobot/common/policies/tdmpc/modeling_tdmpc.py	/^def update_ema_parameters(ema_net: nn.Module, net: nn.Module, alpha: float):$/;"	f
+update_meta	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def update_meta(self, data):$/;"	m	class:ReplayBuffer
+update_policy	lerobot/scripts/train.py	/^def update_policy($/;"	f
+update_with_decay	lerobot/common/policies/vqbet/vqbet_utils.py	/^    def update_with_decay(self, buffer_name, new_value, decay):$/;"	m	class:EuclideanCodebook
+val_dataloader	examples/advanced/2_calculate_validation_loss.py	/^val_dataloader = torch.utils.data.DataLoader($/;"	v
+val_dataset	examples/advanced/2_calculate_validation_loss.py	/^val_dataset = LeRobotDataset("lerobot\/pusht", episodes=val_episodes, delta_timestamps=delta_timestamps)$/;"	v
+val_episodes	examples/advanced/2_calculate_validation_loss.py	/^val_episodes = episodes[num_train_episodes:]$/;"	v
+valid_delta_timestamps_factory	tests/test_delta_timestamps.py	/^def valid_delta_timestamps_factory():$/;"	f
+values	lerobot/common/datasets/push_dataset_to_hub/_diffusion_policy_replay_buffer.py	/^    def values(self):$/;"	m	class:ReplayBuffer
+values	lerobot/common/datasets/utils.py	/^    def values(self):$/;"	m	class:IterableNamespace
+video	lerobot/common/datasets/lerobot_dataset.py	/^    def video(self) -> bool:$/;"	m	class:MultiLeRobotDataset
+video_frame_keys	lerobot/common/datasets/lerobot_dataset.py	/^    def video_frame_keys(self) -> list[str]:$/;"	m	class:MultiLeRobotDataset
+video_keys	lerobot/common/datasets/lerobot_dataset.py	/^    def video_keys(self) -> list[str]:$/;"	m	class:LeRobotDatasetMetadata
+video_path	examples/2_evaluate_pretrained_policy.py	/^video_path = output_directory \/ "rollout.mp4"$/;"	v
+video_path	lerobot/common/datasets/lerobot_dataset.py	/^    def video_path(self) -> str | None:$/;"	m	class:LeRobotDatasetMetadata
+visualize_dataset	lerobot/scripts/visualize_dataset.py	/^def visualize_dataset($/;"	f
+visualize_dataset_html	lerobot/scripts/visualize_dataset_html.py	/^def visualize_dataset_html($/;"	f
+visualize_transforms	lerobot/scripts/visualize_image_transforms.py	/^def visualize_transforms(cfg, output_dir: Path, n_examples: int = 5):$/;"	f
+visualize_transforms_cli	lerobot/scripts/visualize_image_transforms.py	/^def visualize_transforms_cli(cfg):$/;"	f
+vqvae_forward	lerobot/common/policies/vqbet/modeling_vqbet.py	/^    def vqvae_forward(self, state):$/;"	m	class:VqVae
+wait_for_frames	tests/mock_pyrealsense2.py	/^    def wait_for_frames(self, timeout_ms=50000):$/;"	m	class:pipeline
+wait_until_done	lerobot/common/datasets/image_writer.py	/^    def wait_until_done(self):$/;"	m	class:AsyncImageWriter
+warmup_record	lerobot/common/robot_devices/control_utils.py	/^def warmup_record($/;"	f
+while_move_hook	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    def while_move_hook():$/;"	f	function:run_arm_auto_calibration_so100
+width	tests/mock_pyrealsense2.py	/^    def width(self):$/;"	m	class:RSColorProfile
+worker_process	lerobot/common/datasets/image_writer.py	/^def worker_process(queue: queue.Queue, num_threads: int):$/;"	f
+worker_thread_loop	lerobot/common/datasets/image_writer.py	/^def worker_thread_loop(queue: queue.Queue):$/;"	f
+wrapper	lerobot/common/datasets/image_writer.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:safe_stop_image_writer
+wrapper	lerobot/common/robot_devices/utils.py	/^    def wrapper(robot, *args, **kwargs):$/;"	f	function:safe_disconnect
+wrapper	tests/utils.py	/^        def wrapper(*args, **kwargs):$/;"	f	function:require_package.decorator
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_camera
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_cpu
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_cuda
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_env
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_motor
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_package_arg
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_robot
+wrapper	tests/utils.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:require_x86_64_kernel
+write	lerobot/common/robot_devices/motors/dynamixel.py	/^    def write(self, data_name, values: int | float | np.ndarray, motor_names: str | list[str] | None = None):$/;"	m	class:DynamixelMotorsBus
+write	lerobot/common/robot_devices/motors/feetech.py	/^    def write(self, data_name, values: int | float | np.ndarray, motor_names: str | list[str] | None = None):$/;"	m	class:FeetechMotorsBus
+write	lerobot/common/robot_devices/motors/utils.py	/^    def write(self): ...$/;"	m	class:MotorsBus
+write_image	lerobot/common/datasets/image_writer.py	/^def write_image(image: np.ndarray | PIL.Image.Image, fpath: Path):$/;"	f
+write_json	lerobot/common/datasets/utils.py	/^def write_json(data: dict, fpath: Path) -> None:$/;"	f
+write_jsonlines	lerobot/common/datasets/utils.py	/^def write_jsonlines(data: dict, fpath: Path) -> None:$/;"	f
+write_parquet	lerobot/common/datasets/utils.py	/^def write_parquet(dataset: datasets.Dataset, fpath: Path) -> None:$/;"	f
+write_parquet	tests/test_push_dataset_to_hub.py	/^    def write_parquet(key, timestamps, values):$/;"	f	function:_mock_download_raw_dora
+write_video	lerobot/common/utils/io_utils.py	/^def write_video(video_path, stacked_frames, fps):$/;"	f
+write_video_info	lerobot/common/datasets/lerobot_dataset.py	/^    def write_video_info(self) -> None:$/;"	m	class:LeRobotDatasetMetadata
+write_with_motor_ids	lerobot/common/robot_devices/motors/dynamixel.py	/^    def write_with_motor_ids(self, motor_models, motor_ids, data_name, values, num_retry=NUM_WRITE_RETRY):$/;"	m	class:DynamixelMotorsBus
+write_with_motor_ids	lerobot/common/robot_devices/motors/feetech.py	/^    def write_with_motor_ids(self, motor_models, motor_ids, data_name, values, num_retry=NUM_WRITE_RETRY):$/;"	m	class:FeetechMotorsBus
+z16	tests/mock_pyrealsense2.py	/^    z16 = 1$/;"	v	class:format
+zero_pos	lerobot/common/robot_devices/robots/feetech_calibration.py	/^    zero_pos = (n_present_pos + p_present_pos) \/ 2$/;"	v
